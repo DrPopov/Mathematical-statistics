@@ -79,26 +79,52 @@
 
 \vspace{\baselineskip}
 
-Ссылка на  таблицу: \url{https://clck.ru/JdRWD}
-
-	\vspace{\baselineskip}
-{\large Сначала проделаем всё домашнее задание для непрерывного распределения}
-
 \vspace{13mm}%Задача 2
 \textit{\textbf{Задание 1.2} Описание основных характеристик распределения}
-\vspace{13mm}
 \\
-	Будем искать мат.ожидание и дисперсию через метод моментов.
+
+\text{\large{\textbf {1.2.1 Экспоненциальное распределение}}}\\
+\vspace{5mm}
+
+	Пусть случайная величина задается законом распределения:
+	$$
+	f(x) = \lambda \exp(-\lambda x), x \in R, x > 0
+	$$
+	
+	\vspace{5mm}
+	\large{\textbf{Математическое ожидание}}
+	\vspace{5mm}
+	
+	\normalsize{\textbf{Определение 1}} \textit{ Математическое ожидание} абсолютно непрерывной случайной величины $\xi$, распределение которой задаётся плотностью $f_x(x)$, равно
+	$$
+	E\xi = \int\limits_{-\infty}^{\infty} x f_x(x)dx
+	$$
+	
+	Будем искать мат.ожидание через метод моментов.
 	
 	\vspace{\baselineskip}
-	1)Найдем первый момент:
+	Найдем первый момент:
 	$$
-	E(X) = M\xi = \int_0^\infty x f(x) dx = \int_0^\infty x \lambda \exp(-\lambda x)dx = [- x \exp(- \lambda x)]_0^\infty + \int_0^\infty \exp(-\lambda x) dx = \frac{1}{\lambda}
+	M\xi = \int_0^\infty x f(x) dx = \int_0^\infty x \lambda \exp(-\lambda x)dx = [- x \exp(- \lambda x)]_0^\infty + \int_0^\infty \exp(-\lambda x) dx = \frac{1}{\lambda}
 	$$
-	Первый момент == мат. ожиданию, следовательно математическое ожидание мы нашли
+	Первый момент равен математическому  ожиданию, следовательно 
+	$$
+	 E\xi = \frac{1}{\lambda}
+	$$	
+	
+	\vspace{5mm}
+	\large{\textbf{Дисперсия}}
+	\vspace{5mm}
+	
+	\normalsize{\textbf{Определение 2}} \textit{ Дисперсией } случайной величины называют математическое ожидание квадрата отклонения случайной величины от её математического ожидания
+	$$
+	D\xi = E(\xi - E(\xi))^2
+	$$
 	
 	\vspace{\baselineskip}
-	2)Найдем второй момент:
+	Будем искать дисперсию также через метод моментов.
+	
+	Найдем второй момент:
 	
 	$$
 	M^2\xi = \int_0^\infty x^2 \lambda \exp(-\lambda x) dx = [-x^2 \exp(-\lambda x)]_0^\infty +\int_0^\infty 2 x \exp(-\lambda x)dx =
@@ -108,22 +134,41 @@
 	= 0 + [-\frac{2}{\lambda} x \exp(-\lambda x)]_0^\infty + \int_0^\infty \exp(-\lambda x)dx = \frac{2}{\lambda}
 	$$
 	
-	По определению $D(X) = E(X^2) - E(X)^2$
+	\vspace{\baselineskip}
+	Определение можно записать по-другому:$D(X) = E(\xi^2) - E(\xi)^2$\\
+	
 	
 	Соответственно, $D(X) = \frac{2}{\lambda} - \frac{1}{\lambda} = \frac{1}{\lambda}$ 
+	\vspace{\baselineskip}
+	
+	Дисперсия равна:
+	$$
+	D\xi =  \frac{1}{\lambda}
+	$$
+	
+	
+	\vspace{5mm}
+	\large{\textbf{Производящая функция моментов}}
+	\vspace{5mm}
+	
+	\normalsize{\textbf{Определение 3}} Если случайная величина $X$ абсолютно непрерывна, то есть она имеет плотность $f_x(x))$, то \textit{ Производящая функция моментов } равна
+		
+	$$
+	M_x(t) =  \int_{-\infty}^{+\infty} \exp(tx) f_x(x)dx
+	$$
 	
 	\vspace{\baselineskip}
-	3)Найдем производящую функцию моментов:
+	Найдем производящую функцию моментов:
 	
 	$$
 	\begin{array}{rcl}
 	M_x(t) &=& E[\exp(tX)] \\
 	\\
-	&=& \int_{-\infty}^{+\infty} \exp(tx) f_x(x)dx \\
+	&=& \int\limits_{-\infty}^{+\infty} \exp(tx) f_x(x)dx \\
 	\\
-	&=& \int_0^\infty \exp(tx) \lambda \exp(-\lambda x)dx\\
+	&=& \int\limits_0^\infty \exp(tx) \lambda \exp(-\lambda x)dx\\
 	\\
-	&=& \lambda \int_0^\infty \exp((t-\lambda) x)dx\\
+	&=& \lambda \int\limits_0^\infty \exp((t-\lambda) x)dx\\
 	\\
 	&=&\lambda[\frac{1}{t-\lambda} \exp((t-\lambda) x)]_0^\infty\\
 	\\
@@ -131,42 +176,55 @@
 	\end{array}
 	$$
 	\\
-	Производящая функция моментов: $M_x(t) = \frac{\lambda}{\lambda-t}$
+	Производящая функция моментов:
+	$$
+	M_x(t) = \frac{\lambda}{\lambda-t}
+	$$
+	 
+	 
+	\vspace{5mm}
+	\large{\textbf{{Характеристическая функция}}}
+	\vspace{5mm}
 	
+	\normalsize{\textbf{Определение 4}}\textit{ Характеристической функцией } случайной величины $\xi$ , принимающей действительные значения, называется функция 
+	$$
+	\varphi_x(t) = E[\exp(it\xi)],   \quad    -\infty <t < +\infty
+	$$
+	 
 	\vspace{\baselineskip}
-	4)Найдем характеристическую функцию:
+	Найдем характеристическую функцию:
 	
 	$$
 	\begin{array}{rcl}
 	\varphi_x(t) &=& E[\exp(itX)]\\
 	\\
-	&=&\int_{-\infty}^{+\infty} \exp(itx) f_x(x)dx\\
+	&=&\int\limits_{-\infty}^{+\infty} \exp(itx) f_x(x)dx\\
 	\\
-	&=&\int_0^\infty \exp(itx) \lambda \exp(-\lambda x)dx\\
+	&=&\int\limits_0^\infty \exp(itx) \lambda \exp(-\lambda x)dx\\
 	\\
-	&=&\lambda \int_0^\infty \cos(tx)\exp(-\lambda x)dx + i\lambda \int_0^\infty \sin(tx)\exp(-\lambda x)dx
+	&=&\lambda \int\limits_0^\infty \cos(tx)\exp(-\lambda x)dx + i\lambda \int\limits_0^\infty \sin(tx)\exp(-\lambda x)dx
 	\end{array}
 	$$
 	Отдельно посчитаем каждый интеграл:
 	$$
 	\begin{array}{rcl}
-	\int_0^\infty \cos(tx)\exp(-\lambda x)dx \\
+	\int\limits_0^\infty \cos(tx)\exp(-\lambda x)dx \\
 	\\
-	&=&[\frac{1}{t} \sin(tx) \exp(-\lambda x)]_0^\infty - \int_0^\infty \frac{1}{t} \sin(tx)(-\lambda \exp(-\lambda x))dx\\
+	&=&[\frac{1}{t} \sin(tx) \exp(-\lambda x)]_0^\infty - \int\limits_0^\infty \frac{1}{t} \sin(tx)(-\lambda \exp(-\lambda x))dx\\
 	\\
-	&=&\frac{\lambda}{t} \int_0^\infty \sin(tx) \exp(-\lambda x)dx\\
+	&=&\frac{\lambda}{t} \int\limits_0^\infty \sin(tx) \exp(-\lambda x)dx\\
 	\\
-	&=&\frac{\lambda}{t}\{[-\frac{1}{t} \cos(tx) \exp(-\lambda x)]_0^\infty - \int_0^\infty (-\frac{1}{t} \cos(tx))(-\lambda \exp(-\lambda x))dx\}\\
+	&=&\frac{\lambda}{t}\{[-\frac{1}{t} \cos(tx) \exp(-\lambda x)]_0^\infty - \int\limits_0^\infty (-\frac{1}{t} \cos(tx))(-\lambda \exp(-\lambda x))dx\}\\
 	\\
-	&=&\frac{\lambda}{t}\left(\frac{1}{t} - \frac{\lambda}{t} \int_0^\infty \cos(tx) \exp(-\lambda x)dx\right)\\
+	&=&\frac{\lambda}{t}\left(\frac{1}{t} - \frac{\lambda}{t} \int\limits_0^\infty \cos(tx) \exp(-\lambda x)dx\right)\\
 	\\
-	&=&\frac{\lambda}{t^2} - \frac{\lambda ^2}{t^2} \int_{0}^{\infty} \cos(tx) \exp(-\lambda x)dx
+	&=&\frac{\lambda}{t^2} - \frac{\lambda ^2}{t^2} \int\limits_{0}^{\infty} \cos(tx) \exp(-\lambda x)dx
 	\end{array}
 	$$
 	
 	Получаем:
 	$$
-	\int_0^\infty \cos(tx)\exp(-\lambda x)dx = \frac{\lambda}{t^2} - \frac{\lambda ^2}{t^2} \int_{0}^{\infty} \cos(tx) \exp(-\lambda x)dx
+	\int\limits_0^\infty \cos(tx)\exp(-\lambda x)dx = \frac{\lambda}{t^2} - \frac{\lambda ^2}{t^2} \int\limits_{0}^{\infty} \cos(tx) \exp(-\lambda x)dx
 	$$
 	
 	$$
@@ -174,21 +232,21 @@
 	$$
 	
 	$$
-	\int_0^\infty \cos(tx)\exp(-\lambda x)dx = \frac{\lambda}{(t^2 + \lambda^2)}
+	\int\limits_0^\infty \cos(tx)\exp(-\lambda x)dx = \frac{\lambda}{(t^2 + \lambda^2)}
 	$$
 	
 	Теперь считаем второй интеграл:
 	$$
 	\begin{array}{rcl}
-	 \int_0^\infty \sin(tx)\exp(-\lambda x)dx\\
+	 \int\limits_0^\infty \sin(tx)\exp(-\lambda x)dx\\
 	 \\
-	 &=&[-\frac{1}{t} \cos(tx) \exp(-\lambda x)]_0^\infty- \int_{0}^{\infty}(-\frac{1}{t} \cos(tx))(-\lambda \exp(-\lambda x))dx\\
+	 &=&[-\frac{1}{t} \cos(tx) \exp(-\lambda x)]_0^\infty- \int\limits_{0}^{\infty}(-\frac{1}{t} \cos(tx))(-\lambda \exp(-\lambda x))dx\\
 	 \\
-	 &=&\frac{1}{t} - \frac{\lambda}{t}\{ [\frac{1}{t} \sin(tx)\exp(-\lambda x)]_0^\infty - \int_{0}^{\infty} \frac{1}{t} \sin(tx) (-\lambda \exp(-\lambda x ))dx  \}\\
+	 &=&\frac{1}{t} - \frac{\lambda}{t}\{ [\frac{1}{t} \sin(tx)\exp(-\lambda x)]_0^\infty - \int\limits_{0}^{\infty} \frac{1}{t} \sin(tx) (-\lambda \exp(-\lambda x ))dx  \}\\
 	 \\
-	 &=&\frac{1}{t} - \frac{\lambda}{t} (\frac{\lambda}{t} \int_0^\infty \sin(tx) \exp(-\lambda x)dx)\\
+	 &=&\frac{1}{t} - \frac{\lambda}{t} (\frac{\lambda}{t} \int\limits_0^\infty \sin(tx) \exp(-\lambda x)dx)\\
 	 \\
-	  &=&\frac{1}{t} - \frac{\lambda ^2}{t^2} \int_{0}^{\infty} \sin(tx) \exp(-\lambda x)dx
+	  &=&\frac{1}{t} - \frac{\lambda ^2}{t^2} \int\limits_{0}^{\infty} \sin(tx) \exp(-\lambda x)dx
 	 \end{array}
 	$$
 	
@@ -210,7 +268,7 @@
 	
 	$$
 	\begin{array}{rcl}
-	\varphi_x(t) &=& \int_0^\infty \cos(tx)\exp(-\lambda x)dx +  i \lambda \int_0^\infty \sin(tx)\exp(-\lambda x)dx\\
+	\varphi_x(t) &=& \int\limits_0^\infty \cos(tx)\exp(-\lambda x)dx +  i \lambda \int\limits_0^\infty \sin(tx)\exp(-\lambda x)dx\\
 	\\
 	&=&\frac{\lambda^2}{(t^2 + \lambda^2)} + \frac{i\lambda t}{t^2 + \lambda^2}\\
 	\\
@@ -219,11 +277,24 @@
 	$$
 	
 	\vspace{\baselineskip}
-	Характеристическая функция: $\varphi_x(t) = \frac{\lambda}{\lambda - i t}$
+	Характеристическая функция:
+	$$
+	\varphi_x(t) = \frac{\lambda}{\lambda - i t}
+	$$
 	
-
+	
+	\vspace{5mm}
+	\large{\textbf{{Функция распределения}}}
+	\vspace{5mm}
+	
+	\normalsize{\textbf{Определение 5} Если случайная  величина $\xi$ , принимает действительные значения, то ее распределение удобно описывать  \textit{ функцией распределения }
+	$$
+		F_k(x) = P(k \le x), \quad -\infty < x < \infty
+	$$
+	
+	
 	\vspace{\baselineskip}
-	5)Найдем функцию распределения:
+	Найдем функцию распределения:
 	
 	Если $x < 0$:(Потому что $x$ не может принимать отрицательные значения)
 	$$
@@ -235,9 +306,9 @@
 	\begin{array}{rcl}
 	F_x(x) &=& P(X \le x)\\
 	\\
-	&=& \int_{-\infty}^{x}f_x(t)dt\\
+	&=& \int\limits_{-\infty}^{x}f_x(t)dt\\
 	\\
-	&=& \int_{0}^{x} \lambda\exp(-\lambda t)dt\\
+	&=& \int\limits_{0}^{x} \lambda\exp(-\lambda t)dt\\
 	\\
 	&=&[-\exp(-\lambda t)]_0^x\\
 	\\
@@ -256,26 +327,282 @@
 		\end{cases}
 	\end{equation*}
 	
-	\vspace{\baselineskip}
-	Перейдем к графикам:
-	\vspace{\baselineskip}\\	
+
+	\vspace{5mm}
+	\large{\textbf{{Графики}}}
+	\vspace{5mm}	
+			
 	1)График плотности вероятности:
 
 	\begin{minipage}[h]{0.55\linewidth}
-		\center{\includegraphics[width=2\linewidth]{1_1.jpg} \\ Рис.1.2.1}
+		\center{\includegraphics[width=1.5\linewidth]{graph_1.jpg} \\ Рис.1.2.1.1}
 	\end{minipage}
 	\\
 	\vspace{\baselineskip}\\
 	
-	2)График функции распределения(при $\lambda = 1$):\\
+	2)График функции распределения:\\
 	\begin{minipage}[h]{0.55\linewidth}	
-		\center{\includegraphics[width=2\linewidth]{1,2,2.jpg} \\ Рис.1.2.2}
+		\center{\includegraphics[width=1.5\linewidth]{graph_2.jpg} \\ Рис.1.2.1.2}
 	\end{minipage}
 	
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage	
+\text{\large{\textbf {1.2.2 Геометрическое  распределение}}}\\
+\vspace{5mm}
+
+
+Пусть случайная величина задается законом распределения:
+$$
+p(x) =p (1 - p)^x, x \in N \bigcup \{0\}, 0 < p < 1
+$$
+
+\vspace{5mm}
+\large{\textbf{Математическое ожидание}}
+\vspace{5mm}
+
+\normalsize{\textbf{Определение 6}} \textit{ Математическим ожиданием } неотрицательной дискретной случайной величины $\xi$ называется величина 
+$$
+E\xi = \sum\limits_{i=1}^\infty x_i p_i
+$$
+
+Будем искать мат.ожидание через метод моментов.
+
+
+\vspace{\baselineskip}
+Найдем первый момент:
+$$
+\begin{array}{rcl}
+E[X] &=& \sum\limits_{x=0}^{\infty} (1-p)^x px \\
+\\
+&=&(1-p)p \sum\limits_{x=0}^{\infty} (1-p)^{x-1} x\\
+\\
+&=&-(1-p)p \sum\limits_{0}^{\infty} \frac{d}{dp} (1-p)^x\\
+\\
+&=&-(1-p)p \frac{d}{dp} \sum\limits_{0}^{\infty} (1-p)^x\\
+\\
+&=&-(1-p)p\frac{d}{dp} \frac{1}{1-(1-p)}\\
+\\
+&=&-(1-p)p\frac{d}{dp} \frac{1}{p}\\
+\\
+&=&-(1-p)p(-p^{-2})\\
+\\
+&=&(p-p^2)p^{-2}\\
+\\
+&=&\frac{1}{p} - 1\\
+\\
+&=& \frac{1-p}{p}
+\end{array}
+$$
+
+Математическое ожидание:
+$$
+E[X] = \frac{1-p}{p}
+$$
+
+
+
+\vspace{5mm}
+\large{\textbf{Дисперсия}}
+\vspace{5mm}
+
+\normalsize{\textbf{Определение 7}} \textit{ Дисперсией } случайной величины называют математическое ожидание квадрата отклонения случайной величины от её математического ожидания
+$$
+D\xi = E(\xi - E(\xi))^2
+$$
+
+Будем искать дисперсию также через метод моментов
+
+Найдем второй момент:
+$$
+\begin{array}{rcl}
+E[X^2] &=& \sum\limits_{0}^{\infty} (1 - p)^x px^2\\
+\\
+&=&(1-p)^2 p \sum\limits_{x=0}^{\infty} (1-p)^{x-2}x^2\\
+\\
+&=&(1-p)^2 p \sum\limits_{x=0}^{\infty} (1-p)^{x-2}x (x + 1 -1)\\
+\\
+&=&(1-p)^2 p \sum\limits_{x=0}^{\infty} (1-p)^{x-2}x (x -1) + \sum\limits_{x=0}^{\infty} (1-p)^{x}x \\
+\\
+&=&(1-p)^2 p  \sum\limits_{x=0}^{\infty} \frac{d^2}{dp^2}(1-p)^x + E[X]\\
+\\
+&=& (1-p)^2 p \frac{d^2}{dp^2} \sum\limits_{x=0}^{\infty} (1-p)^x + \frac{1-p}{p}\\
+\\
+&=&(1-p)^2 p \frac{d^2}{dp^2} \frac{1}{1-(1-p)} + \frac{1-p}{p}\\
+\\
+&=& (1-p)^2 p \frac{d^2}{dp^2} \frac{1}{p} + \frac{1-p}{p}\\
+\\
+&=& 2(1-p)^2 p\cdot p^{-3} + \frac{1-p}{p}\\
+\\
+&=&2(1-2p+p^2)p^{-2} + \frac{1-p}{p}\\
+\\
+&=&\frac{2 - 3p + p^2}{p^2}
+\end{array}
+$$
+
+\vspace{\baselineskip}
+Определение можно записать по-другому:$D(X) = E(\xi^2) - E(\xi)^2$\\
+
+Соответственно,
+$$
+\begin{array}{rcl}
+D(X) &=&\frac{2 - 3p+p^2}{p^2} - ({1-p}{p})^2\\
+\\
+&=&\frac{2-3p+p^2 -(1-2p + p^2)}{p^2}\\
+\\
+&=&\frac{1-p}{p^2}
+\end{array}
+$$
+
+Итого, дисперсия равна 
+$$
+D(X) = \frac{1-p}{p^2}
+$$
+
+
+
+\vspace{5mm}
+\large{\textbf{Производящая функция моментов}}
+\vspace{5mm}
+
+\normalsize{\textbf{Определение 8}} Если случайная величина $x$ дискретна, то есть она имеет плотность $P(X = x_i) = p_i$, то \textit{ Производящая функция моментов } равна
+
+$$
+M_x(t) =  \sum\limits_{i=1}^{\infty} \exp(tx_i) p_i
+$$
+
+
+Найдем производящую функцию моментов:
+
+$$
+\begin{array}{rcl}
+M_x(t) &=& E[\exp(tX)] \\
+\\
+&=&\sum\limits_{0}^{\infty} (1 - p)^x p \exp(tx)\\
+\\
+&=& p \sum\limits_{0}^{\infty} [(1 - p)  \exp(t)]^x\\
+\\
+&=& \frac{p}{1-(1-p)\exp|(t)}
+\end{array}
+$$
+
+\vspace{5mm}
+Но у нас есть условие на t :
+\vspace{3mm}
+
+$(1 - p)  \exp(t) < 1 $
+\vspace{3mm}
+
+$\exp(t) < \frac{1}{1-p}$
+\vspace{3mm}
+
+$t < -\ln(1-p)$
+
+\vspace{5mm}
+Итого, производящая функция моментов геометрического распределения определена для $t < -\ln(1-p)$ и равна:
+$$
+M_x(t) = \frac{p}{1-(1-p)\exp|(t)}
+$$
+
+
+\vspace{5mm}
+\large{\textbf{{Характеристическая функция}}}
+\vspace{5mm}
+
+\normalsize{\textbf{Определение 9  }}Если случайная величина $x$ дискретна, то есть она имеет плотность $P(X = x_i) = p_i$, то \textit{ характеристическая функция } равна
+$$
+\varphi_x(t) =  \sum\limits_{i=1}^{\infty} \exp(tx_i) p_i
+$$
+
+Найдем характеристическую функцию:
+$$
+\begin{array}{rcl}
+\varphi_x(t) &=& E[\exp(itX)]\\
+\\
+&=&\sum\limits_{0}^{\infty} (1-p)^x p \exp(itx)\\
+\\
+&=&p \sum\limits_{0}^{\infty} [(1-p)\exp(it)]^x\\
+\\
+&=&\frac{p}{1-(1-p)\exp(it)}
+\end{array}
+$$
+
+Итого, характеристическая функция равна:
+$$
+\varphi_x(t) = \frac{p}{1-(1-p)\exp(it)}
+$$
+
+
+\normalsize{\textbf{Определение 10} Если случайная  величина $\xi$ , принимает действительные значения, то ее распределение удобно описывать  \textit{ функцией распределения }
+$$
+F_k(x) = P(k \le x), \quad -\infty < x < \infty
+$$
+
+\vspace{\baselineskip}
+Найдем функцию распределения:
+
+При $x < 0 : F_x(x) = 0$
+При  $x > 0: $\\
+$$
+\begin{array}{rcl}
+F_x(x) &=& P(X < x)\\
+\\
+&=&\sum\limits_{y=0}^x (1 - p)^y p\\
+\\
+&=&p \sum\limits_{y=0}^x (1 - p)^y\\
+\\
+&=&p \frac{1 - (1 - p)^{x + 1}}{1 - (1 - p)}\\
+\\
+&=& 1 - (1 - p)^{x + 1}
+\end{array}
+$$
+
+Итого, функция распределения равна:
+\begin{equation*}
+F_x(x) = 
+\begin{cases}
+0 \text{	,    $x < 0$}\\
+1 - (1 - p)^{x + 1} \text{		,      $x \ge 0$}
+\end{cases}
+\end{equation*}
+
+
+\vspace{5mm}
+\large{\textbf{{Графики}}}
+\vspace{5mm}
 	
-	
-	
-\vspace{13mm}%Задача 3
+1)Гистограмма вероятностей($p = 1/6$):
+
+\begin{minipage}[h]{0.55\linewidth}
+	\center{\includegraphics[width=1.5\linewidth]{graph_3.jpg} \\ Рис.1.2.3}
+\end{minipage}
+\\
+\vspace{\baselineskip}\\
+
+2)График функции распределения:\\
+\begin{minipage}[h]{0.55\linewidth}	
+	\center{\includegraphics[width=1.5\linewidth]{graph_4.jpg} \\ Рис.1.2.4}
+\end{minipage}
+
+
+
+
+
+
+
+
+
+\newpage
 \textit{\textbf{Задание 1.3} Поиск примеров событий, которые могут быть описаны выбранными случайными величинами}
 \vspace{13mm}
 
@@ -329,173 +656,6 @@
 \textit{\textbf{Задание 1.2} Описание основных характеристик распределения}
 \vspace{13mm}
 
-
-Будем искать мат.ожидание и дисперсию через метод моментов.
-
-\vspace{\baselineskip}
-1)Найдем первый момент:
-$$
-\begin{array}{rcl}
-E[X] &=& \sum\limits_{x=0}^{\infty} (1-p)^x px \\
-\\
-&=&(1-p)p \sum\limits_{x=0}^{\infty} (1-p)^{x-1} x\\
-\\
-&=&-(1-p)p \sum\limits_{0}^{\infty} \frac{d}{dp} (1-p)^x\\
-\\
-&=&-(1-p)p \frac{d}{dp} \sum\limits_{0}^{\infty} (1-p)^x\\
-\\
-&=&-(1-p)p\frac{d}{dp} \frac{1}{1-(1-p)}\\
-\\
-&=&-(1-p)p\frac{d}{dp} \frac{1}{p}\\
-\\
-&=&-(1-p)p(-p^{-2})\\
-\\
-&=&(p-p^2)p^{-2}\\
-\\
-&=&\frac{1}{p} - 1\\
-\\
-&=& \frac{1-p}{p}
-\end{array}
-$$
-
-Математическое ожидание: $E[X] = \frac{1-p}{p} $
-
-
-2) Найдем второй момент:
-$$
-\begin{array}{rcl}
-E[X^2] &=& \sum\limits_{0}^{\infty} (1 - p)^x px^2\\
-\\
-&=&(1-p)^2 p \sum\limits_{x=0}^{\infty} (1-p)^{x-2}x^2\\
-\\
-&=&(1-p)^2 p \sum\limits_{x=0}^{\infty} (1-p)^{x-2}x (x + 1 -1)\\
-\\
-&=&(1-p)^2 p \sum\limits_{x=0}^{\infty} (1-p)^{x-2}x (x -1) + \sum\limits_{x=0}^{\infty} (1-p)^{x}x \\
-\\
-&=&(1-p)^2 p  \sum\limits_{x=0}^{\infty} \frac{d^2}{dp^2}(1-p)^x + E[X]\\
-\\
-&=& (1-p)^2 p \frac{d^2}{dp^2} \sum\limits_{x=0}^{\infty} (1-p)^x + \frac{1-p}{p}\\
-\\
-&=&(1-p)^2 p \frac{d^2}{dp^2} \frac{1}{1-(1-p)} + \frac{1-p}{p}\\
-\\
-&=& (1-p)^2 p \frac{d^2}{dp^2} \frac{1}{p} + \frac{1-p}{p}\\
-\\
-&=& 2(1-p)^2 p\cdot p^{-3} + \frac{1-p}{p}\\
-\\
-&=&2(1-2p+p^2)p^{-2} + \frac{1-p}{p}\\
-\\
-&=&\frac{2 - 3p + p^2}{p^2}
-\end{array}
-$$
-
-По определению $D(X) = E(X^2) - E(X)^2$
-
-Соответственно,
-$$
-\begin{array}{rcl}
-D(X) &=&\frac{2 - 3p+p^2}{p^2} - ({1-p}{p})^2\\
-\\
-&=&\frac{2-3p+p^2 -(1-2p + p^2)}{p^2}\\
-\\
-&=&\frac{1-p}{p^2}
-\end{array}
-$$
-
-Итого, $D(X) = \frac{1-p}{p^2} $
-
-
-
-3)Найдем производящую функцию моментов:
-
-$$
-\begin{array}{rcl}
-M_x(t) &=& E[\exp(tX)] \\
-\\
-&=&\sum\limits_{0}^{\infty} (1 - p)^x p \exp(tx)\\
-\\
-&=& p \sum\limits_{0}^{\infty} [(1 - p)  \exp(t)]^x\\
-\\
-&=& \frac{p}{1-(1-p)\exp|(t)}
-\end{array}
-$$
-
-Но у нас есть условие на t :\\
-\vspace{\baselineskip}
-$(1 - p)  \exp(t) < 1 $
-\vspace{\baselineskip}
-$\exp(t) < \frac{1}{1-p}$
-\vspace{\baselineskip}
-$t < -\ln(1-p)$
-
-
-Итого, производящая функция моментов геометрического распределения определена для $t < -\ln(1-p)$ и равна:
-$$
-M_x(t) = \frac{p}{1-(1-p)\exp|(t)}
-$$
-
-
-\vspace{\baselineskip}
-4)Найдем характеристическую функцию:
-$$
-\begin{array}{rcl}
-\varphi_x(t) &=& E[\exp(itX)]\\
-\\
-&=&\sum\limits_{0}^{\infty} (1-p)^x p \exp(itx)\\
-\\
-&=&p \sum\limits_{0}^{\infty} [(1-p)\exp(it)]^x\\
-\\
-&=&\frac{p}{1-(1-p)\exp(it)}
-\end{array}
-$$
-
-Итого, характеристическая функция равна:
-$$
-\varphi_x(t) = \frac{p}{1-(1-p)\exp(it)}
-$$
-
-\vspace{\baselineskip}
-5)Найдем функцию распределения:
-
-При $x < 0 : F_x(x) = 0$
-При  $x > 0: $\\
-$$
-\begin{array}{rcl}
-F_x(x) &=& P(X < x)\\
-\\
-&=&\sum\limits_{y=0}^x (1 - p)^y p\\
-\\
-&=&p \sum\limits_{y=0}^x (1 - p)^y\\
-\\
-&=&p \frac{1 - (1 - p)^{x + 1}}{1 - (1 - p)}\\
-\\
-&=& 1 - (1 - p)^{x + 1}
-\end{array}
-$$
-
-Итого, функция распределения равна:
-\begin{equation*}
-F_x(x) = 
-\begin{cases}
-0 \text{	,    $x < 0$}\\
-1 - (1 - p)^{x + 1} \text{		,      $x \ge 0$}
-\end{cases}
-\end{equation*}
-
-\vspace{\baselineskip}
-Перейдем к графикам:
-\vspace{\baselineskip}\\	
-1)Гистограмма вероятностей($p = 1/6$):
-
-\begin{minipage}[h]{0.55\linewidth}
-	\center{\includegraphics[width=1\linewidth]{1,4.jpg} \\ Рис.1.2.3}
-\end{minipage}
-\\
-\vspace{\baselineskip}\\
-
-2)График функции распределения:\\
-\begin{minipage}[h]{0.55\linewidth}	
-	\center{\includegraphics[width=2\linewidth]{1,3,1.jpg} \\ Рис.1.2.4}
-\end{minipage}
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.14)  27 OCT 2019 18:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.14)  27 OCT 2019 21:51
 entering extended mode
 **./Popov_Yury_SKB_172_DZ_0.tex
 (Popov_Yury_SKB_172_DZ_0.tex
@@ -1251,108 +1251,135 @@ LaTeX Font Info:    Try loading font information for U+wasy on input line 55.
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 Package xypdf Info: Line width: 0.47998pt on input line 55.
-LaTeX Font Info:    Try loading font information for T2A+fer on input line 82.
 
-(C:\Users\drpop\Programms\MiKTeX\tex/latex/pscyr\t2afer.fd
-File: t2afer.fd 2004/09/21 Fontinst v1.914 font definitions for T2A/fer.
-) [1
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
-{C:/Users/drpop/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
-<1_1.jpg, id=39, 492.03825pt x 253.54726pt>
-File: 1_1.jpg Graphic file (type jpg)
-<use 1_1.jpg>
-Package pdftex.def Info: 1_1.jpg  used on input line 265.
-(pdftex.def)             Requested size: 532.06946pt x 274.19447pt.
+ []
 
-Overfull \hbox (266.03473pt too wide) in paragraph at lines 265--265
+[1
+
+{C:/Users/drpop/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+[2] [3] [4] [5]
+<graph_1.jpg, id=45, 345.08925pt x 185.493pt>
+File: graph_1.jpg Graphic file (type jpg)
+<use graph_1.jpg>
+Package pdftex.def Info: graph_1.jpg  used on input line 338.
+(pdftex.def)             Requested size: 399.0521pt x 214.51253pt.
+
+Overfull \hbox (133.01736pt too wide) in paragraph at lines 338--338
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--269
+Underfull \hbox (badness 10000) in paragraph at lines 337--342
 
  []
 
-<1,2,2.jpg, id=40, 593.21625pt x 375.20175pt>
-File: 1,2,2.jpg Graphic file (type jpg)
-<use 1,2,2.jpg>
-Package pdftex.def Info: 1,2,2.jpg  used on input line 272.
-(pdftex.def)             Requested size: 532.06946pt x 336.53914pt.
+<graph_2.jpg, id=46, 458.31226pt x 207.77625pt>
+File: graph_2.jpg Graphic file (type jpg)
+<use graph_2.jpg>
+Package pdftex.def Info: graph_2.jpg  used on input line 345.
+(pdftex.def)             Requested size: 399.0521pt x 180.92238pt.
 
-Overfull \hbox (266.03473pt too wide) in paragraph at lines 272--272
+Overfull \hbox (133.01736pt too wide) in paragraph at lines 345--345
  [] 
  []
 
-[4 <./1_1.jpg>] [5 <./1,2,2.jpg>] [6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 459--461
+[6 <./graph_1.jpg>] [7 <./graph_2.jpg>] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
 
  []
 
-[9]
-<1,4.jpg, id=68, 262.581pt x 166.221pt>
-File: 1,4.jpg Graphic file (type jpg)
-<use 1,4.jpg>
-Package pdftex.def Info: 1,4.jpg  used on input line 490.
-(pdftex.def)             Requested size: 266.03473pt x 168.41702pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 489--494
+[9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 554--556
 
  []
 
-<1,3,1.jpg, id=69, 541.42274pt x 244.5135pt>
-File: 1,3,1.jpg Graphic file (type jpg)
-<use 1,3,1.jpg>
-Package pdftex.def Info: 1,3,1.jpg  used on input line 497.
-(pdftex.def)             Requested size: 532.06946pt x 240.30807pt.
+[11]
+<graph_3.jpg, id=74, 357.13425pt x 177.0615pt>
+File: graph_3.jpg Graphic file (type jpg)
+<use graph_3.jpg>
+Package pdftex.def Info: graph_3.jpg  used on input line 587.
+(pdftex.def)             Requested size: 399.0521pt x 197.84819pt.
 
-Overfull \hbox (266.03473pt too wide) in paragraph at lines 497--497
+Overfull \hbox (133.01736pt too wide) in paragraph at lines 587--587
  [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--591
+
+ []
+
+<graph_4.jpg, id=75, 356.532pt x 200.54926pt>
+File: graph_4.jpg Graphic file (type jpg)
+<use graph_4.jpg>
+Package pdftex.def Info: graph_4.jpg  used on input line 594.
+(pdftex.def)             Requested size: 399.0521pt x 224.48509pt.
+
+Overfull \hbox (133.01736pt too wide) in paragraph at lines 594--594
+ [] 
+ []
+
+[12 <./graph_3.jpg> <./graph_4.jpg>] [13]
+Overfull \hbox (76.5272pt too wide) in paragraph at lines 637--639
+\T2A/faq/m/n/14.4 по-нен-ци-аль-но рас-пре-де-лен-ные пе-ре-мен-ные. Об-щая дли
+-на про-цес-са(последовательность
  []
 
 
 AED: lastpage setting LastPage
-[10 <./1,4.jpg>] [11 <./1,3,1.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 514.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 514.
+[14]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 674.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 674.
  (Popov_Yury_SKB_172_DZ_0.aux
 LaTeX Font Info:    Try loading font information for OT1+faq on input line 20.
 
 (C:\Users\drpop\Programms\MiKTeX\tex/latex/pscyr\ot1faq.fd
 File: ot1faq.fd 2001/12/09 Fontinst v1.914 font definitions for OT1/faq.
 ))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 514.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 514.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 674.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 674.
 Package rerunfilecheck Info: File `Popov_Yury_SKB_172_DZ_0.out' has not changed
 .
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 514.
- ) 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 674.
+ )
+(\end occurred inside a group at level 2)
+
+### simple group (level 2) entered at line 546 ({)
+### simple group (level 1) entered at line 290 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 34350 strings out of 492946
- 745091 string characters out of 3133793
- 947068 words of memory out of 10000000
- 37595 multiletter control sequences out of 15000+200000
- 27061 words of font info for 64 fonts, out of 3000000 for 9000
+ 34363 strings out of 492946
+ 745303 string characters out of 3133793
+ 946068 words of memory out of 10000000
+ 37594 multiletter control sequences out of 15000+200000
+ 34000 words of font info for 83 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,96p,3251b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/drpop/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/t2/t2a.enc}<C:/Use
-rs/drpop/Programms/MiKTeX/fonts/type1/public/pscyr/antiq4.pfb><C:/Users/drpop/P
-rogramms/MiKTeX/fonts/type1/public/pscyr/antiq5.pfb><C:/Users/drpop/Programms/M
-iKTeX/fonts/type1/public/pscyr/antiq6.pfb><C:/Users/drpop/Programms/MiKTeX/font
-s/type1/public/pscyr/antiq7.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmex10.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmmi12.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi6.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmmi8.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mr12.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.p
-fb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
-/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
-rs/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/dr
-pop/Programms/MiKTeX/fonts/type1/public/pscyr/ercour.pfb><C:/Users/drpop/AppDat
-a/Roaming/MiKTeX/2.9/fonts/type1/public/wasy/wasy10.pfb>
-Output written on Popov_Yury_SKB_172_DZ_0.pdf (11 pages, 287646 bytes).
+{C:/Users/drpop/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/t2/t
+2a.enc}<C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/pscyr/antiq4.pfb><C:
+/Users/drpop/Programms/MiKTeX/fonts/type1/public/pscyr/antiq5.pfb><C:/Users/drp
+op/Programms/MiKTeX/fonts/type1/public/pscyr/antiq6.pfb><C:/Users/drpop/Program
+ms/MiKTeX/fonts/type1/public/pscyr/antiq7.pfb><C:/Users/drpop/Programms/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/drpop/Programms/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmmi6.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmmi8.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr12.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr6.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+r8.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C
+:/Users/drpop/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/wasy/wasy10.pfb>
+Output written on Popov_Yury_SKB_172_DZ_0.pdf (14 pages, 266356 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
+ 144 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
