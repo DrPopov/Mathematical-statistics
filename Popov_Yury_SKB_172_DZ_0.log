@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.14)  28 OCT 2019 04:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.14)  28 OCT 2019 05:41
 entering extended mode
 **./Popov_Yury_SKB_172_DZ_0.tex
 (Popov_Yury_SKB_172_DZ_0.tex
@@ -1341,7 +1341,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--208
  []
 
 [3] [4] [5] [6]
-<graph_1.jpg, id=112, 345.08925pt x 185.493pt>
+<graph_1.jpg, id=121, 345.08925pt x 185.493pt>
 File: graph_1.jpg Graphic file (type jpg)
 <use graph_1.jpg>
 Package pdftex.def Info: graph_1.jpg  used on input line 407.
@@ -1357,7 +1357,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 406--411
  []
 
 [7]
-<graph_2.jpg, id=117, 458.31226pt x 207.77625pt>
+<graph_2.jpg, id=126, 458.31226pt x 207.77625pt>
 File: graph_2.jpg Graphic file (type jpg)
 <use graph_2.jpg>
 Package pdftex.def Info: graph_2.jpg  used on input line 414.
@@ -1378,7 +1378,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 624--626
  []
 
 [12]
-<graph_3.jpg, id=141, 357.13425pt x 177.0615pt>
+<graph_3.jpg, id=150, 357.13425pt x 177.0615pt>
 File: graph_3.jpg Graphic file (type jpg)
 <use graph_3.jpg>
 Package pdftex.def Info: graph_3.jpg  used on input line 657.
@@ -1393,7 +1393,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 656--661
 
  []
 
-<graph_4.jpg, id=142, 356.532pt x 200.54926pt>
+<graph_4.jpg, id=151, 356.532pt x 200.54926pt>
 File: graph_4.jpg Graphic file (type jpg)
 <use graph_4.jpg>
 Package pdftex.def Info: graph_4.jpg  used on input line 664.
@@ -1433,18 +1433,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 830--831
 
  []
 
-[18] 
+[18]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 845.
+
+
 AED: lastpage setting LastPage
 [19]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 853.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 853.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 876.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 876.
  (Popov_Yury_SKB_172_DZ_0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 853.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 853.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 876.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 876.
 Package rerunfilecheck Info: File `Popov_Yury_SKB_172_DZ_0.out' has not changed
 .
-(rerunfilecheck)             Checksum: ED566A36637F528F4D16FE1C564BAAFD;4261.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 853.
+(rerunfilecheck)             Checksum: 586D00AB22EFEC6E1C9BD40996DFBF8B;4903.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 876.
  )
 (\end occurred inside a group at level 2)
 
@@ -1452,10 +1457,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 853.
 ### simple group (level 1) entered at line 359 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 34995 strings out of 492946
- 754222 string characters out of 3133793
- 959637 words of memory out of 10000000
- 38195 multiletter control sequences out of 15000+200000
+ 34997 strings out of 492946
+ 754244 string characters out of 3133793
+ 959640 words of memory out of 10000000
+ 38196 multiletter control sequences out of 15000+200000
  38929 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,96p,3251b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1476,9 +1481,9 @@ b><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
 :/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Use
 rs/drpop/Programms/MiKTeX/fonts/type1/public/pscyr/textb19.pfb><C:/Users/drpop/
 AppData/Roaming/MiKTeX/2.9/fonts/type1/public/wasy/wasy10.pfb>
-Output written on Popov_Yury_SKB_172_DZ_0.pdf (20 pages, 307047 bytes).
+Output written on Popov_Yury_SKB_172_DZ_0.pdf (20 pages, 310319 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 244 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
