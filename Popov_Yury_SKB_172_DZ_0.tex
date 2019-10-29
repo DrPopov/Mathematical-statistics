@@ -50,6 +50,8 @@
 \def\Int{\int\limits}
 \def\IInt{\iint\limits}
 \def\IIInt{\iiint\limits}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
 
 % Оглавление 
 \usepackage{setspace}
@@ -58,7 +60,7 @@
 
 %\setcounter{tocdepth}{1} % отменяет вывод в оглавление subsection and subsubsection
 %\setcounter{secnumdepth}{1} %отменяет номерацию секций в тексте и оглавлении.
-%\usepackage{tocloft} %регулировка расположения TableOfContent (Оглавления) на странице
+\usepackage{tocloft} %регулировка расположения TableOfContent (Оглавления) на странице
 
 \renewcommand{\cfttoctitlefont}{\hspace{0.38\textwidth} \bfseries\MakeUppercase} %уменьшаем размер шрифта и ровняем по центру
 
@@ -100,6 +102,7 @@
 \titlespacing*{\section}{\parindent}{*4}{*4}
 \titlespacing*{\subsection}{\parindent}{*4}{*4}
 
+
 \begin{document} % начало документа	
 \pagestyle{plain}
 
@@ -124,13 +127,15 @@
 \end{spacing}
 
 \newpage
+Все графики, которые в дальнейшем будут вставлены в эту работу, были сконструированы с помощью библиотеки matplotlib в Jupyter Notebook, который будет приложен вместе с работой (Mathematical statistics $DZO$.ipynb)
 
+\vspace{5mm}
+
+Все определения были взяты из книги Зубкова А.М. "Учебное пособие по теории вероятностей и теории случайных процессов"
 
 
 \vspace{13mm}%Задача 1
-\textit{\textbf{Задание 1.1} Выбор одного дискретного распределения
-	и одного непрерывного распределения}
-
+\textit{\textbf{Задание 1.1} Выбор одного дискретного распределения и одного непрерывного распределения}
 \addcontentsline{toc}{chapter}{Задание 1.1 Выбор распределений}
 
 
@@ -704,7 +709,10 @@ F_x(x) =
 \addcontentsline{toc}{subsection}{1.3.1.2 Нетипичные интерпретации}
 \vspace{5mm}
 
-Экспоненциальное распределение активно используется в теории  надежности.
+Экспоненциальное распределение активно используется в теории 
+
+надежности.\cite{rt5}
+
 
 Теория надёжности изучает методы обеспечения стабильности работы объектов (конструкций, изделий, устройств, систем и т. п.) в процессе проектирования, производства, приёмки, транспортировки, эксплуатации и хранения.
 
@@ -799,7 +807,7 @@ $$
 \addcontentsline{toc}{subsection}{1.3.2.2 Нетипичные интерпретации}
 \vspace{5mm}
 
-Нетипичной интерпретацией использования геометрического распределения является использования его в генетике.
+Нетипичной интерпретацией использования геометрического распределения является использования его в генетике.\cite{rt4}
 
 Предположим, мы анализируем последовательности ДНК ряда генов у некоторых видов. Возможно, нас  заинтересует химия, лежащая в основе этих генов, и мы захотим изучить конкретные последовательности нуклеотидов, которые имеют тенденцию происходить. В частности, предположим, что всякий раз, когда в гене присутствует Т-нуклеотид, нам хотелось бы разработать модель относительно количества нуклеотидов до следующего T. Рассмотрим следующую часть последовательности ДНК: 
 $$
@@ -845,37 +853,239 @@ $$
 \addcontentsline{toc}{section}{1.4.1 Экспоненциальное распределение}
 \vspace{5mm}
 
+
+Составим программу моделирования случайной величины X.
+
+Функция распределения имеет вид:
+$$
+F(x) = 1 - \exp(-\lambda x)
+$$
+
+Согласно методу обратных функций:\cite{rt1}
+$$
+F(x) = 1 - \exp(- \lambda x) = r
+$$
+
+Получим:
+$$
+\exp(- \lambda x) = 1 - r
+$$
+
+Таким образом:
+$$
+- \lambda x = \ln(1 - r)
+$$
+
+И
+
+$$
+x = -\frac{1}{\lambda} \ln(1 - r)
+$$
+
+Так как случайная величина $(1 - k)$ имеет такое же распределение, что и $R$, то при нахождение значений случайной величины X пользуемся формулой:
+$$
+x = - \frac{1}{\lambda} \ln r
+$$
+
+Соответственно, составляем программу для моделирования случайной величины.
+
+Получаем такие результаты:
+
+\begin{figure}[h]
+	\begin{center}
+		\begin{minipage}[h]{0.4\linewidth}
+			\includegraphics[width=1\linewidth]{ex_1_1000.jpg}
+			\caption{n = 1000} %% подпись к рисунку
+			\label{ris:experimoriginal} %% метка рисунка для ссылки на него
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.4\linewidth}
+			\includegraphics[width=1\linewidth]{ex_1_5000.jpg}
+			\caption{n = 5000}
+			\label{ris:experimcoded}
+		\end{minipage}
+	\end{center}
+\end{figure} 
+
+\begin{center}
+	\begin{minipage}[h]{0.4\linewidth}
+		\center{\includegraphics[width=1\linewidth]{ex_1_16.jpg} \\ Рис.3 n = 1000000}
+	\end{minipage}
+\end{center}
+
+
+\vspace{5mm}
+{\large{\bf Оценка времени}}
+\vspace{5mm}
+
+Ниже будет приведен код, который с помощью magic commands в Jupyter Notebook вычисляет работу отдельного куска кода. 
+
+В первой ячейке идет расчет времени собственного способа моделирования. А во второй встроенной функции numpy
+
+\vspace{5mm}
+\begin{minipage}[h]{0.4\linewidth}
+	\center{\includegraphics[width=2.5\linewidth]{ex_time_1.jpg} \\ }
+\end{minipage}
+\vspace{5mm}
+
+\vspace{5mm}
+\begin{minipage}[h]{0.4\linewidth}
+	\center{\includegraphics[width=2.5\linewidth]{ex_time_2.jpg} \\ }
+\end{minipage}
+\vspace{5mm}
+
+
+По результат время моделирования приблизительно оказалось равно
+
+\vspace{5mm}
 \text{\Large{\textbf {1.4.2 Геометрическое  распределение}}}\\
 \addcontentsline{toc}{section}{1.4.2 Геометрическое распределение}
 \vspace{5mm}
 
 
-Исходя из смысла случайной величины с геометрическим распределением, можно использовать следующий алгоритм генерации такой случайной величины.
+Геометрическое распределение $Geom(p)$  с параметром $p \in (0,1)$ описывается с помощью бесконечной таблицы распределения:
+$$
+P: \left(
+\begin{array}{cccccc}
+0 & 1 & 2& 3 &\ldots & k\\
+p_0 & p_1 & p_2 & p_3 & \ldots &  p_k
+\end{array}
+\right)
+$$
 
+где $p_k = p(1 - p)^k$
+
+Есть два способа способа моделирования геометрического распределения.
+
+Первый - моделирование испытаний Бернулли с вероятностью успеха  p до первого успеха с подсчетом числа неудач.
+
+Второй - последовательный метод обратных функций, основанный на пересчете $p_n = (1 - p)p_{n-1}$ c $p_0 = p$
+
+Смоделируем первый вариант:
+
+\begin{figure}[h]
+	\begin{center}
+		\begin{minipage}[h]{0.4\linewidth}
+			\includegraphics[width=1\linewidth]{py_1_1000.jpg}
+			\caption{n = 1000} %% подпись к рисунку
+			\label{ris:experimoriginal} %% метка рисунка для ссылки на него
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.4\linewidth}
+			\includegraphics[width=1\linewidth]{py_1_5000.jpg}
+			\caption{n = 5000}
+			\label{ris:experimcoded}
+		\end{minipage}
+	\end{center}
+\end{figure} 
+
+
+
+\begin{center}
+	\begin{minipage}[h]{0.4\linewidth}
+		\center{\includegraphics[width=1\linewidth]{py1_16.jpg} \\  n = 1000000}
+	\end{minipage}
+\end{center}
+
+
+\vspace{15mm}
+Теперь с помощью алгоритма метода обратных функций построим следующие распределения:
+
+\begin{figure}[h]
+	\begin{center}
+		\begin{minipage}[h]{0.4\linewidth}
+			\includegraphics[width=1\linewidth]{py_2_1000.jpg}
+			\caption{n = 1000} %% подпись к рисунку
+			\label{ris:experimoriginal} %% метка рисунка для ссылки на него
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.4\linewidth}
+			\includegraphics[width=1\linewidth]{py_2_5000.jpg}
+			\caption{n = 5000}
+			\label{ris:experimcoded}
+		\end{minipage}
+	\end{center}
+\end{figure} 
+
+
+\begin{center}
+	\begin{minipage}[h]{0.4\linewidth}
+		\center{\includegraphics[width=1\linewidth]{py_2_16.jpg} \\ n = 1000000}
+	\end{minipage}
+\end{center}
+
+
+\vspace{15mm}
+Первые два метода плохи при малых p. Существует однако такой способ реализации метода обратных функций, при котором трудоемкость по крайней мере формально не зависит от p
+Теперь с помощью модифицированного прямого метода обратных функций построим следующие распределения:
+
+\begin{figure}[h]
+	\begin{center}
+		\begin{minipage}[h]{0.4\linewidth}
+			\includegraphics[width=1\linewidth]{py_3_1000.jpg}
+			\caption{n = 1000} %% подпись к рисунку
+			\label{ris:experimoriginal} %% метка рисунка для ссылки на него
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.4\linewidth}
+			\includegraphics[width=1\linewidth]{py_3_5000.jpg}
+			\caption{n = 5000}
+			\label{ris:experimcoded}
+		\end{minipage}
+	\end{center}
+\end{figure} 
+
+
+\begin{center}
+	\begin{minipage}[h]{0.4\linewidth}
+		\center{\includegraphics[width=1\linewidth]{py_3_16.jpg} \\ n = 1000000}
+	\end{minipage}
+\end{center}
+
+
+
+Для моделирования геометрического распределения третьим методом  требуется одно обращение к генератору псевдослучайных чисел, два вычисления логарифма и одно — целой части числа. Если считать, что время вычисления значений функций $ \floor*{x}$ и  $\ln(z)$ ограничено при всех $x, z \in (0,1)$ одно	 и той же постоянной, то трудоемкость алгоритма имеет вид О(1) равномерно по p 
 
 \vspace{5mm}
-{\sf$\bullet$ Шаг 1 }
+{\large{\bf Оценка времени}}
 \vspace{5mm}
 
- $f_c = 0$
- 
-\vspace{5mm}
-{\sf$\bullet$ Шаг 2 }
-\vspace{5mm}
+Ниже будет приведен код, который с помощью magic commands в Jupyter Notebook вычисляет работу отдельного куска кода. 
 
-Генерируем У, имеющую распределение Бернулли с параметром р.
- 
+По порядку в четырёх ячейках представлены время работы каждого метода, а также время работы встроенной  функции.
+
 \vspace{5mm}
-{\sf$\bullet$ Шаг 3 }
+\begin{minipage}[h]{0.4\linewidth}
+	\center{\includegraphics[width=2.5\linewidth]{time_1.jpg} \\ }
+\end{minipage}
 \vspace{5mm}
 
-Если У = 0, то устанавливаем к = к + 1 и переходим к шагу 2. В противном случае возвращаем X = к
+\vspace{5mm}
+\begin{minipage}[h]{0.4\linewidth}
+	\center{\includegraphics[width=2.5\linewidth]{time_2.jpg} \\ }
+\end{minipage}
+\vspace{5mm}
+
+\vspace{5mm}
+\begin{minipage}[h]{0.4\linewidth}
+	\center{\includegraphics[width=2.5\linewidth]{time_3.jpg} \\ }
+\end{minipage}
+\vspace{5mm}
+
+\vspace{5mm}
+\begin{minipage}[h]{0.4\linewidth}
+	\center{\includegraphics[width=2.5\linewidth]{time_4.jpg} \\ }
+\end{minipage}
+\vspace{5mm}
 
 
+Как видно из рисунков, реализация библиотечной функции примерно в 400 раз быстрее первого метода.
+\begin{thebibliography}{99}
+	\bibitem{rt1} В.В Некруткин "Моделирование распределений"
+	\bibitem{rt2} Medium // \href{https://towardsdatascience.com/what-is-exponential-distribution-7bdd08590e2a}{ссылка1}
+	\bibitem{rt3} Statistics // \href{https://www.statisticshowto.datasciencecentral.com/exponential-distribution/}{ссылка2}
+	\bibitem{rt4} Paul Maiste Probablity and Statistics for Bioinformatics and Genetics // \href{http://www.ams.jhu.edu/~dan/550.435/notes/COURSENOTES435.pdf}{ссылка3}
+	\bibitem{rt5} Теория надежности // \href{http://www.obzh.ru/nad/4-3.html}{ссылка4}
+\end{thebibliography}
 
 \end{document}
-
-
-\href{https://www.statisticshowto.datasciencecentral.com/exponential-distribution/}{Источник1}\\
-\href{https://towardsdatascience.com/what-is-exponential-distribution-7bdd08590e2a}{Источник2}
-Не забыть про это !!!!

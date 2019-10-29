@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.14)  28 OCT 2019 05:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.14)  29 OCT 2019 06:10
 entering extended mode
 **./Popov_Yury_SKB_172_DZ_0.tex
 (Popov_Yury_SKB_172_DZ_0.tex
@@ -1207,36 +1207,54 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidthlast=\dimen288
 \titlewidthfirst=\dimen289
 )
-(Popov_Yury_SKB_172_DZ_0.aux)
+(Popov_Yury_SKB_172_DZ_0.aux
+
+LaTeX Warning: Label `ris:experimoriginal' multiply defined.
+
+
+LaTeX Warning: Label `ris:experimcoded' multiply defined.
+
+
+LaTeX Warning: Label `ris:experimoriginal' multiply defined.
+
+
+LaTeX Warning: Label `ris:experimcoded' multiply defined.
+
+
+LaTeX Warning: Label `ris:experimoriginal' multiply defined.
+
+
+LaTeX Warning: Label `ris:experimcoded' multiply defined.
+
+)
 \openout1 = `Popov_Yury_SKB_172_DZ_0.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Try loading font information for T2A+faq on input line 103.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Try loading font information for T2A+faq on input line 106.
 
-
-(C:\Users\drpop\Programms\MiKTeX\tex/latex/pscyr\t2afaq.fd
+ (C:\Users\drpop\Programms\MiKTeX\tex/latex/pscyr\t2afaq.fd
 File: t2afaq.fd 2004/09/23 Fontinst v1.914 font definitions for T2A/faq.
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 103.
+(lastpage)             ! on input line 106.
 
 (C:\Users\drpop\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1269,7 +1287,7 @@ Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.16} (current compat level: 1.9).
 
 \AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring ON on input line 103.
+Package hyperref Info: Link coloring ON on input line 106.
 (C:\Users\drpop\Programms\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1278,36 +1296,36 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count164
 )
-LaTeX Info: Redefining \ref on input line 103.
-LaTeX Info: Redefining \pageref on input line 103.
-LaTeX Info: Redefining \nameref on input line 103.
+LaTeX Info: Redefining \ref on input line 106.
+LaTeX Info: Redefining \pageref on input line 106.
+LaTeX Info: Redefining \nameref on input line 106.
 
 (Popov_Yury_SKB_172_DZ_0.out) (Popov_Yury_SKB_172_DZ_0.out)
 \@outlinefile=\write6
 \openout6 = `Popov_Yury_SKB_172_DZ_0.out'.
 
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 103.
+LaTeX Font Info:    Try loading font information for U+msa on input line 106.
 
 (C:\Users\drpop\Programms\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 103.
+LaTeX Font Info:    Try loading font information for U+msb on input line 106.
 
 (C:\Users\drpop\Programms\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 103.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 106.
 
 (C:\Users\drpop\Programms\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 103.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 106.
 
 (C:\Users\drpop\AppData\Roaming\MiKTeX\2.9\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-Package xypdf Info: Line width: 0.47998pt on input line 103.
+Package xypdf Info: Line width: 0.47998pt on input line 106.
  [1
 
 
@@ -1325,142 +1343,290 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.126 \newpage
+l.129 \newpage
                [1] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 147--150
+Underfull \hbox (badness 10000) in paragraph at lines 152--155
 
  []
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 152.
+(hyperref)                be the same. Added a new anchor on input line 157.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
 
 [3] [4] [5] [6]
-<graph_1.jpg, id=121, 345.08925pt x 185.493pt>
+<graph_1.jpg, id=122, 345.08925pt x 185.493pt>
 File: graph_1.jpg Graphic file (type jpg)
 <use graph_1.jpg>
-Package pdftex.def Info: graph_1.jpg  used on input line 407.
+Package pdftex.def Info: graph_1.jpg  used on input line 412.
 (pdftex.def)             Requested size: 399.0521pt x 214.51253pt.
 
-Overfull \hbox (133.01736pt too wide) in paragraph at lines 407--407
+Overfull \hbox (133.01736pt too wide) in paragraph at lines 412--412
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--411
+Underfull \hbox (badness 10000) in paragraph at lines 411--416
 
  []
 
 [7]
-<graph_2.jpg, id=126, 458.31226pt x 207.77625pt>
+<graph_2.jpg, id=127, 458.31226pt x 207.77625pt>
 File: graph_2.jpg Graphic file (type jpg)
 <use graph_2.jpg>
-Package pdftex.def Info: graph_2.jpg  used on input line 414.
+Package pdftex.def Info: graph_2.jpg  used on input line 419.
 (pdftex.def)             Requested size: 399.0521pt x 180.92238pt.
 
-Overfull \hbox (133.01736pt too wide) in paragraph at lines 414--414
+Overfull \hbox (133.01736pt too wide) in paragraph at lines 419--419
  [] 
  []
 
 [8 <./graph_1.jpg> <./graph_2.jpg>] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 524--525
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
 
  []
 
 [10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 624--626
+Underfull \hbox (badness 10000) in paragraph at lines 629--631
 
  []
 
 [12]
-<graph_3.jpg, id=150, 357.13425pt x 177.0615pt>
+<graph_3.jpg, id=151, 357.13425pt x 177.0615pt>
 File: graph_3.jpg Graphic file (type jpg)
 <use graph_3.jpg>
-Package pdftex.def Info: graph_3.jpg  used on input line 657.
+Package pdftex.def Info: graph_3.jpg  used on input line 662.
 (pdftex.def)             Requested size: 399.0521pt x 197.84819pt.
 
-Overfull \hbox (133.01736pt too wide) in paragraph at lines 657--657
+Overfull \hbox (133.01736pt too wide) in paragraph at lines 662--662
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 656--661
+Underfull \hbox (badness 10000) in paragraph at lines 661--666
 
  []
 
-<graph_4.jpg, id=151, 356.532pt x 200.54926pt>
+<graph_4.jpg, id=152, 356.532pt x 200.54926pt>
 File: graph_4.jpg Graphic file (type jpg)
 <use graph_4.jpg>
-Package pdftex.def Info: graph_4.jpg  used on input line 664.
+Package pdftex.def Info: graph_4.jpg  used on input line 669.
 (pdftex.def)             Requested size: 399.0521pt x 224.48509pt.
 
-Overfull \hbox (133.01736pt too wide) in paragraph at lines 664--664
+Overfull \hbox (133.01736pt too wide) in paragraph at lines 669--669
  [] 
  []
 
 [13 <./graph_3.jpg> <./graph_4.jpg>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 682.
+(hyperref)                be the same. Added a new anchor on input line 687.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--700
+Underfull \hbox (badness 10000) in paragraph at lines 703--705
 
  []
 
 [14]
-LaTeX Font Info:    Try loading font information for T2A+ftx on input line 727.
+LaTeX Font Info:    Try loading font information for T2A+ftx on input line 735.
 
  (C:\Users\drpop\Programms\MiKTeX\tex/latex/pscyr\t2aftx.fd
 File: t2aftx.fd 2004/09/23 Fontinst v1.914 font definitions for T2A/ftx.
 )
 
-LaTeX Warning: Command \CYRG invalid in math mode on input line 731.
+LaTeX Warning: Command \CYRG invalid in math mode on input line 739.
 
 Missing character: There is no Г in font cmr12!
 [15] [16]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 792.
+(hyperref)                be the same. Added a new anchor on input line 800.
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 830--831
+Underfull \hbox (badness 10000) in paragraph at lines 838--839
 
  []
 
 [18]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 845.
+(hyperref)                be the same. Added a new anchor on input line 853.
 
+<ex_1_1000.jpg, id=185, 293.898pt x 190.91325pt>
+File: ex_1_1000.jpg Graphic file (type jpg)
+<use ex_1_1000.jpg>
+Package pdftex.def Info: ex_1_1000.jpg  used on input line 897.
+(pdftex.def)             Requested size: 193.47577pt x 125.6827pt.
+<ex_1_5000.jpg, id=186, 292.6935pt x 191.5155pt>
+File: ex_1_5000.jpg Graphic file (type jpg)
+<use ex_1_5000.jpg>
+Package pdftex.def Info: ex_1_5000.jpg  used on input line 903.
+(pdftex.def)             Requested size: 193.47577pt x 126.59639pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<ex_1_16.jpg, id=187, 284.262pt x 189.1065pt>
+File: ex_1_16.jpg Graphic file (type jpg)
+<use ex_1_16.jpg>
+Package pdftex.def Info: ex_1_16.jpg  used on input line 912.
+(pdftex.def)             Requested size: 193.47577pt x 128.71478pt.
+[19]
+Overfull \hbox (2.83571pt too wide) in paragraph at lines 921--922
+[]\T2A/faq/m/n/14.4 Ниже бу-дет при-ве-ден код, ко-то-рый с по-мо-щью magic com
+mands в Jupyter
+ []
+
+<ex_time_1.jpg, id=193, 416.757pt x 65.64525pt>
+File: ex_time_1.jpg Graphic file (type jpg)
+<use ex_time_1.jpg>
+Package pdftex.def Info: ex_time_1.jpg  used on input line 927.
+(pdftex.def)             Requested size: 483.68942pt x 76.18857pt.
+
+Overfull \hbox (290.21365pt too wide) in paragraph at lines 927--927
+ [] 
+ []
+
+<ex_time_2.jpg, id=194, 422.17725pt x 68.6565pt>
+File: ex_time_2.jpg Graphic file (type jpg)
+<use ex_time_2.jpg>
+Package pdftex.def Info: ex_time_2.jpg  used on input line 933.
+(pdftex.def)             Requested size: 483.68942pt x 78.6631pt.
+
+Overfull \hbox (290.21365pt too wide) in paragraph at lines 933--933
+ [] 
+ []
+
+[20 <./ex_1_1000.jpg> <./ex_1_5000.jpg> <./ex_1_16.jpg> <./ex_time_1.jpg>]
+<py_1_1000.jpg, id=200, 233.07076pt x 157.7895pt>
+File: py_1_1000.jpg Graphic file (type jpg)
+<use py_1_1000.jpg>
+Package pdftex.def Info: py_1_1000.jpg  used on input line 969.
+(pdftex.def)             Requested size: 193.47577pt x 130.98691pt.
+<py_1_5000.jpg, id=201, 232.4685pt x 152.36925pt>
+File: py_1_5000.jpg Graphic file (type jpg)
+<use py_1_5000.jpg>
+Package pdftex.def Info: py_1_5000.jpg  used on input line 975.
+(pdftex.def)             Requested size: 193.47577pt x 126.81982pt.
+<py1_16.jpg, id=202, 233.673pt x 151.767pt>
+File: py1_16.jpg Graphic file (type jpg)
+<use py1_16.jpg>
+Package pdftex.def Info: py1_16.jpg  used on input line 986.
+(pdftex.def)             Requested size: 193.47577pt x 125.65857pt.
+
+[21 <./ex_time_2.jpg> <./py_1_1000.jpg> <./py_1_5000.jpg>]
+<py_2_1000.jpg, id=209, 231.86626pt x 151.16475pt>
+File: py_2_1000.jpg Graphic file (type jpg)
+<use py_2_1000.jpg>
+Package pdftex.def Info: py_2_1000.jpg  used on input line 997.
+(pdftex.def)             Requested size: 193.47577pt x 126.13791pt.
+<py_2_5000.jpg, id=210, 232.4685pt x 155.3805pt>
+File: py_2_5000.jpg Graphic file (type jpg)
+<use py_2_5000.jpg>
+Package pdftex.def Info: py_2_5000.jpg  used on input line 1003.
+(pdftex.def)             Requested size: 193.47577pt x 129.32614pt.
+<py_2_16.jpg, id=211, 234.27525pt x 152.9715pt>
+File: py_2_16.jpg Graphic file (type jpg)
+<use py_2_16.jpg>
+Package pdftex.def Info: py_2_16.jpg  used on input line 1013.
+(pdftex.def)             Requested size: 193.47577pt x 126.33606pt.
+ [22 <./py1_16.jpg> <./py_2_1000.jpg> <./py_2_5000.jpg> <./py_2_16.jpg>]
+<py_3_1000.jpg, id=218, 234.27525pt x 151.16475pt>
+File: py_3_1000.jpg Graphic file (type jpg)
+<use py_3_1000.jpg>
+Package pdftex.def Info: py_3_1000.jpg  used on input line 1025.
+(pdftex.def)             Requested size: 193.47577pt x 124.84392pt.
+<py_3_5000.jpg, id=219, 231.264pt x 153.57375pt>
+File: py_3_5000.jpg Graphic file (type jpg)
+<use py_3_5000.jpg>
+Package pdftex.def Info: py_3_5000.jpg  used on input line 1031.
+(pdftex.def)             Requested size: 193.47577pt x 128.48552pt.
+<py_3_16.jpg, id=220, 231.264pt x 149.358pt>
+File: py_3_16.jpg Graphic file (type jpg)
+<use py_3_16.jpg>
+Package pdftex.def Info: py_3_16.jpg  used on input line 1041.
+(pdftex.def)             Requested size: 193.47577pt x 124.95847pt.
+
+Overfull \hbox (2.83571pt too wide) in paragraph at lines 1053--1054
+[]\T2A/faq/m/n/14.4 Ниже бу-дет при-ве-ден код, ко-то-рый с по-мо-щью magic com
+mands в Jupyter
+ []
+
+<time_1.jpg, id=221, 396.2805pt x 51.19125pt>
+File: time_1.jpg Graphic file (type jpg)
+<use time_1.jpg>
+Package pdftex.def Info: time_1.jpg  used on input line 1059.
+(pdftex.def)             Requested size: 483.68942pt x 62.4868pt.
+
+Overfull \hbox (290.21365pt too wide) in paragraph at lines 1059--1059
+ [] 
+ []
+
+[23 <./py_3_1000.jpg> <./py_3_5000.jpg> <./py_3_16.jpg>]
+<time_2.jpg, id=228, 391.4625pt x 49.3845pt>
+File: time_2.jpg Graphic file (type jpg)
+<use time_2.jpg>
+Package pdftex.def Info: time_2.jpg  used on input line 1065.
+(pdftex.def)             Requested size: 483.68942pt x 61.02287pt.
+
+Overfull \hbox (290.21365pt too wide) in paragraph at lines 1065--1065
+ [] 
+ []
+
+<time_3.jpg, id=229, 404.712pt x 52.998pt>
+File: time_3.jpg Graphic file (type jpg)
+<use time_3.jpg>
+Package pdftex.def Info: time_3.jpg  used on input line 1071.
+(pdftex.def)             Requested size: 483.68942pt x 63.34334pt.
+
+Overfull \hbox (290.21365pt too wide) in paragraph at lines 1071--1071
+ [] 
+ []
+
+<time_4.jpg, id=230, 366.77025pt x 48.78226pt>
+File: time_4.jpg Graphic file (type jpg)
+<use time_4.jpg>
+Package pdftex.def Info: time_4.jpg  used on input line 1077.
+(pdftex.def)             Requested size: 483.68942pt x 64.33618pt.
+
+Overfull \hbox (290.21365pt too wide) in paragraph at lines 1077--1077
+ [] 
+ []
+
+[24 <./time_1.jpg> <./time_2.jpg> <./time_3.jpg> <./time_4.jpg>]
 
 AED: lastpage setting LastPage
-[19]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 876.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 876.
+[25
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1091.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1091.
  (Popov_Yury_SKB_172_DZ_0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 876.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 876.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1091.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1091.
+
 Package rerunfilecheck Info: File `Popov_Yury_SKB_172_DZ_0.out' has not changed
 .
-(rerunfilecheck)             Checksum: 586D00AB22EFEC6E1C9BD40996DFBF8B;4903.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 876.
+(rerunfilecheck)             Checksum: E8EEC99449838E8AC7602256789B51E4;4903.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1091.
  )
 (\end occurred inside a group at level 2)
 
-### simple group (level 2) entered at line 616 ({)
-### simple group (level 1) entered at line 359 ({)
+### simple group (level 2) entered at line 621 ({)
+### simple group (level 1) entered at line 364 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 34997 strings out of 492946
- 754244 string characters out of 3133793
- 959640 words of memory out of 10000000
- 38196 multiletter control sequences out of 15000+200000
+ 35133 strings out of 492946
+ 756225 string characters out of 3133793
+ 960220 words of memory out of 10000000
+ 38294 multiletter control sequences out of 15000+200000
  38929 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,96p,3251b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1481,9 +1647,9 @@ b><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
 :/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Use
 rs/drpop/Programms/MiKTeX/fonts/type1/public/pscyr/textb19.pfb><C:/Users/drpop/
 AppData/Roaming/MiKTeX/2.9/fonts/type1/public/wasy/wasy10.pfb>
-Output written on Popov_Yury_SKB_172_DZ_0.pdf (20 pages, 310319 bytes).
+Output written on Popov_Yury_SKB_172_DZ_0.pdf (26 pages, 678265 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
- 24 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 314 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 271 words of extra memory for PDF output out of 10000 (max. 10000000)
 
