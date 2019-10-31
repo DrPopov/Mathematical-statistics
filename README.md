@@ -1,5 +1,6 @@
 # Mathematical-statistics
 HSE 3 kurs
-Home task 2 
+
+Домашнее задание 2
 
 Основные понятия математической статистики
