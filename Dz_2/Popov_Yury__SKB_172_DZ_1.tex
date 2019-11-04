@@ -138,7 +138,7 @@
 \vspace{5mm}
 Все графики, которые в дальнейшем будут вставлены в эту работу, были сконструированы с помощью различных библиотек, основные которые - это matplotlib  и numpy в Jupyter Notebook
 
-К работе приложены 2 основных файла: $DZ-2-Geom$ и $DZ-2-Exp$, в которых указаны соотвественно тригонометрического экспоненциального распределения
+К работе приложены 2 основных файла: $DZ-2-Geom$ и $DZ-2-Exp$, в которых указаны расчеты  соотвественно геометрического и  экспоненциального распределения
 
 Также есть файл $get-quantile-geom$, в котором расписан процесс нахождения квантиля.
 \vspace{5mm}
@@ -311,6 +311,65 @@ $$
 \addcontentsline{toc}{section}{2.2.2 Экспоненциальное распределение}
 \vspace{5mm}
 
+Для каждой выборки построим эфр. На каждом графике приведены графики э.ф.р 5 реализаций одинакового объема, а также график функции распределения, помеченный синим цветом.  Для его построения использовался модуль scipy.stats \\
+\vspace{5mm}
+
+\begin{figure}[p]
+	\begin{center}
+		\begin{minipage}[h!]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{efr_exp_5.jpg}} a) \\
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h!]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{efr_exp_10.jpg}} \\b)
+		\end{minipage}
+		\vfill
+		\begin{minipage}[h!]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{efr_exp_100.jpg}} c) \\
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h!]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{efr_exp_1000.jpg}} d) \\
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h!]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{efr_exp_103.jpg}} e) \\
+		\end{minipage}
+	\end{center}
+\end{figure}
+
+
+Теперь найдем точную верхнюю границу разности каждой пары эмпирических функций распределения:
+
+Для этого выберет какое-то значение на оси x(например x = 4), и посмотри чему равно $f(x)$ э.ф.р для данного икса.
+
+Приведем результаты для выборок различного объема:
+\vspace{5mm}
+
+
+\begin{figure}[h!]
+	\begin{center}
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{up_exp_5.jpg}} n = 5 \\
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{up_exp_10.jpg}} n = 10 \\
+		\end{minipage}
+		\vfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{up_exp_100.jpg}} n = 100 \\
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{up_exp_1000.jpg}} n = 1000  \\
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{up_exp_103.jpg}} n = 100000 \\
+		\end{minipage}
+	\end{center}
+\end{figure}
 
 \newpage
 {\large\textit{\textbf{Задание 2.3} Построение вариационного ряда выборки}}
@@ -358,14 +417,13 @@ $$
 \begin{figure}[h!]
 	\begin{center}
 		\begin{minipage}[h]{0.4\linewidth}
-			\includegraphics[width=1.5\linewidth]{var_ser_5.jpg}
+			\includegraphics[width=1\linewidth]{var_ser_5.jpg}
 			\caption{n = 5} %% подпись к рисунку
 		\end{minipage}
-	
 		\hfill
-	
 		\begin{minipage}[h]{0.4\linewidth}
-			\includegraphics[width=1.5\linewidth]{var_ser_10.jpg}	
+			\includegraphics[width=1\linewidth]{var_ser_10.jpg}	
+			\caption{n = 10} %% подпись к рисунку
 		\end{minipage}
 
 	\end{center}
@@ -406,10 +464,30 @@ $$
 	\end{center}
 \end{figure}
 
+\newpage
 \vspace{5mm}
 \text{\large{\textbf {2.3.2 Экспоненциальное распределение}}}\\
 \addcontentsline{toc}{section}{2.3.2 Экспоненциальное распределение}
 \vspace{5mm}
+
+
+
+Для каждой выборки построим вариационный ряд. Вот, примеры вариационных рядов для выборок объема n = 5 и для n = 10:
+
+\begin{figure}[h!]
+	\begin{center}
+		\begin{minipage}[h]{0.4\linewidth}
+			\includegraphics[width=1\linewidth]{var_ser_exp_5.jpg}
+			\caption{n = 5} %% подпись к рисунку
+		\end{minipage}
+		\hfill	
+		\begin{minipage}[h]{0.4\linewidth}
+			\includegraphics[width=1\linewidth]{var_ser_exp_10.jpg}	
+			\caption{n = 10} %% подпись к рисунку/
+		\end{minipage}
+		
+	\end{center}
+\end{figure}
 
 
 \newpage
