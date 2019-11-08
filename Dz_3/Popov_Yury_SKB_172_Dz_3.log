@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.14)  7 NOV 2019 18:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.14)  8 NOV 2019 06:10
 entering extended mode
 **./Popov_Yury_SKB_172_Dz_3.tex
 (Popov_Yury_SKB_172_Dz_3.tex
@@ -1326,35 +1326,48 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.131 \newpage
-               [1] [2] 
+               [1] [2] [3] [4] [5] [6]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 188.
+
+[7] 
 AED: lastpage setting LastPage
-[3
+[8
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 154.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 154.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 206.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 206.
  (Popov_Yury_SKB_172_Dz_3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 206.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 206.
 Package rerunfilecheck Info: File `Popov_Yury_SKB_172_Dz_3.out' has not changed
 .
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 154.
+(rerunfilecheck)             Checksum: 74B9D57C4FD0816636BAAD4BE4E64544;3295.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 206.
  ) 
 Here is how much of TeX's memory you used:
- 34873 strings out of 492946
- 752705 string characters out of 3133793
- 952107 words of memory out of 10000000
- 38130 multiletter control sequences out of 15000+200000
- 20324 words of font info for 54 fonts, out of 3000000 for 9000
+ 34927 strings out of 492946
+ 753419 string characters out of 3133793
+ 955796 words of memory out of 10000000
+ 38157 multiletter control sequences out of 15000+200000
+ 30072 words of font info for 76 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,5n,96p,3251b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/drpop/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/t2/t2a.enc}<C:/Use
-rs/drpop/Programms/MiKTeX/fonts/type1/public/pscyr/antiq6.pfb><C:/Users/drpop/P
-rogramms/MiKTeX/fonts/type1/public/pscyr/antiq7.pfb>
-Output written on Popov_Yury_SKB_172_Dz_3.pdf (4 pages, 32215 bytes).
+rs/drpop/Programms/MiKTeX/fonts/type1/public/pscyr/antiq4.pfb><C:/Users/drpop/P
+rogramms/MiKTeX/fonts/type1/public/pscyr/antiq5.pfb><C:/Users/drpop/Programms/M
+iKTeX/fonts/type1/public/pscyr/antiq6.pfb><C:/Users/drpop/Programms/MiKTeX/font
+s/type1/public/pscyr/antiq7.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmex10.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi12.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr10.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr12.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb>
+Output written on Popov_Yury_SKB_172_Dz_3.pdf (9 pages, 119487 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 134 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
