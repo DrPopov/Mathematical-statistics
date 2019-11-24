@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.14)  14 NOV 2019 20:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.14)  20 NOV 2019 12:35
 entering extended mode
 **./Popov_Yury_SKB_172_Dz_3.tex
 (Popov_Yury_SKB_172_Dz_3.tex
@@ -902,7 +902,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip55
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 34.
+Package hyperref Info: Option `colorlinks' set `true' on input line 35.
 
 (C:\Users\drpop\Programms\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2018/12/01 v2.17b AMS math features
@@ -1210,25 +1210,25 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 (Popov_Yury_SKB_172_Dz_3.aux)
 \openout1 = `Popov_Yury_SKB_172_Dz_3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Try loading font information for T2A+faq on input line 107.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Try loading font information for T2A+faq on input line 108.
 
 
 (C:\Users\drpop\Programms\MiKTeX\tex/latex/pscyr\t2afaq.fd
@@ -1236,7 +1236,7 @@ File: t2afaq.fd 2004/09/23 Fontinst v1.914 font definitions for T2A/faq.
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 107.
+(lastpage)             ! on input line 108.
 
 (C:\Users\drpop\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1269,7 +1269,7 @@ Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.16} (current compat level: 1.9).
 
 \AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring ON on input line 107.
+Package hyperref Info: Link coloring ON on input line 108.
 (C:\Users\drpop\Programms\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1278,36 +1278,36 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count164
 )
-LaTeX Info: Redefining \ref on input line 107.
-LaTeX Info: Redefining \pageref on input line 107.
-LaTeX Info: Redefining \nameref on input line 107.
+LaTeX Info: Redefining \ref on input line 108.
+LaTeX Info: Redefining \pageref on input line 108.
+LaTeX Info: Redefining \nameref on input line 108.
 
 (Popov_Yury_SKB_172_Dz_3.out) (Popov_Yury_SKB_172_Dz_3.out)
 \@outlinefile=\write6
 \openout6 = `Popov_Yury_SKB_172_Dz_3.out'.
 
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 107.
+LaTeX Font Info:    Try loading font information for U+msa on input line 108.
 
 (C:\Users\drpop\Programms\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 107.
+LaTeX Font Info:    Try loading font information for U+msb on input line 108.
 
 (C:\Users\drpop\Programms\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 107.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 108.
 
 (C:\Users\drpop\Programms\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 107.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 108.
 
 (C:\Users\drpop\AppData\Roaming\MiKTeX\2.9\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-Package xypdf Info: Line width: 0.47998pt on input line 107.
+Package xypdf Info: Line width: 0.47998pt on input line 108.
  [1
 
 
@@ -1325,35 +1325,65 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.131 \newpage
-               [1] [2] [3] [4] [5] [6]
+l.132 \newpage
+               [1] [2]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 188.
+(hyperref)                be the same. Added a new anchor on input line 177.
 
-[7] 
+<fotos/geom_3,1_5.jpg, id=52, 227.04825pt x 419.166pt>
+File: fotos/geom_3,1_5.jpg Graphic file (type jpg)
+<use fotos/geom_3,1_5.jpg>
+Package pdftex.def Info: fotos/geom_3,1_5.jpg  used on input line 186.
+(pdftex.def)             Requested size: 227.3381pt x 419.70222pt.
+<fotos/geom_3,1_10.jpg, id=53, 230.66174pt x 418.56375pt>
+File: fotos/geom_3,1_10.jpg Graphic file (type jpg)
+<use fotos/geom_3,1_10.jpg>
+Package pdftex.def Info: fotos/geom_3,1_10.jpg  used on input line 190.
+(pdftex.def)             Requested size: 227.3381pt x 412.54pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3]
+LaTeX Font Info:    Try loading font information for T2A+ftx on input line 201.
+
+ (C:\Users\drpop\Programms\MiKTeX\tex/latex/pscyr\t2aftx.fd
+File: t2aftx.fd 2004/09/23 Fontinst v1.914 font definitions for T2A/ftx.
+) [4 <./fotos/geom_3,1_5.jpg> <./fotos/geom_3,1_10.jpg>] [5] [6] [7] [8]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 233.
+
+[9] 
 AED: lastpage setting LastPage
-[8
+[10
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 206.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 206.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
  (Popov_Yury_SKB_172_Dz_3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 206.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 206.
-Package rerunfilecheck Info: File `Popov_Yury_SKB_172_Dz_3.out' has not changed
-.
-(rerunfilecheck)             Checksum: 74B9D57C4FD0816636BAAD4BE4E64544;3295.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 206.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
+
+
+Package rerunfilecheck Warning: File `Popov_Yury_SKB_172_Dz_3.out' has changed.
+
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Popov_Yury_SKB_172_Dz_3.out':
+(rerunfilecheck)             Before: 74B9D57C4FD0816636BAAD4BE4E64544;3295
+(rerunfilecheck)             After:  6527FB567247096E4C8AF2B6FAD50ED5;3611.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 251.
  ) 
 Here is how much of TeX's memory you used:
- 34927 strings out of 492946
- 753419 string characters out of 3133793
- 955797 words of memory out of 10000000
- 38157 multiletter control sequences out of 15000+200000
- 30072 words of font info for 76 fonts, out of 3000000 for 9000
+ 34971 strings out of 492946
+ 754112 string characters out of 3133793
+ 956811 words of memory out of 10000000
+ 38189 multiletter control sequences out of 15000+200000
+ 30982 words of font info for 77 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,5n,96p,3251b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,8n,96p,3251b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/drpop/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/t2/t2a.enc}<C:/Use
 rs/drpop/Programms/MiKTeX/fonts/type1/public/pscyr/antiq4.pfb><C:/Users/drpop/P
 rogramms/MiKTeX/fonts/type1/public/pscyr/antiq5.pfb><C:/Users/drpop/Programms/M
@@ -1364,10 +1394,10 @@ blic/amsfonts/cm/cmex10.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public
 fonts/cm/cmmi12.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmr10.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmr12.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb>
-Output written on Popov_Yury_SKB_172_Dz_3.pdf (9 pages, 119487 bytes).
+0.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/pscyr/textb19.pfb>
+Output written on Popov_Yury_SKB_172_Dz_3.pdf (11 pages, 232907 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 150 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

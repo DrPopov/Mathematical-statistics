@@ -1,4 +1,3 @@
-
 \documentclass[a4paper,12pt, oneside]{book}
 
 %  Русский язык
@@ -24,6 +23,8 @@
 \usepackage{wrapfig}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.9}
+\graphicspath{{fotos/}}
+
 
 % Ссылки
 \usepackage{xcolor}
@@ -124,9 +125,9 @@
 	
 	
 	
-	\begin{spacing}{0.99}          
-		\tableofcontents %Оглавление. Корректно создается за два прогона tex файла.               
-	\end{spacing}
+\begin{spacing}{0.99}          
+	\tableofcontents %Оглавление. Корректно создается за два прогона tex файла.               
+\end{spacing}
 
 \newpage
 \begin{center}
@@ -143,6 +144,7 @@
 
 \newpage
 {\large\textit{\textbf{Задание 3.1} Нахождение выборочного среднего и выборочной дисперсии}}
+
 \addcontentsline{toc}{chapter}{Задание 3.1 Нахождение выборочного среднего и выборочной дисперсии}
 
 \vspace{5mm}
@@ -169,6 +171,49 @@ $$
 $$
 S^2 = \hat{\mu}_2 = \frac{1}{n} \sum\limits_{i = 1}^n  (X_i - \bar{X})^2
 $$
+
+\vspace{5mm}
+\text{\large{\textbf {3.1 Геометрическое распределение}}}\\
+\addcontentsline{toc}{section}{2.4.2 Геометрическое распределение}
+\vspace{5mm}
+
+
+Для каждой выборки из домашнего задания 2 объема 5 и 10 посчитаем выборочное среднее и выборочную дисперсию. Для наглядности выведем вариационный ряд и посчитанные оба параметра.
+
+\begin{figure}[h!]
+	\begin{center}
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom_3,1_5.jpg}} n = 5 \\
+		\end{minipage}
+		\hfill		
+		\begin{minipage}[h]{0.47\linewidth}
+ 			\center{\includegraphics[width=1\linewidth]{fotos/geom_3,1_10.jpg}} n = 10 \\
+		\end{minipage}
+	\end{center}
+\end{figure}
+
+
+\newpage
+\textbf{Свойства выборочного среднего}
+
+
+\vspace{5mm}
+{\sf$\bullet$ Выборочное среднее — несмещённая оценка теоретического среднего:}
+\vspace{5mm}
+
+\vspace{5mm}
+{\sf$\bullet$ Выборочное среднее — сильно состоятельная оценка теоретического среднего:}
+\vspace{5mm}
+
+\vspace{5mm}
+{\sf$\bullet$ Выборочное среднее — асимптотически нормальная оценка.}
+\vspace{5mm}
+
+\vspace{5mm}
+{\sf$\bullet$ Выборочное среднее из нормальной выборки — эффективная оценка её среднего.}
+\vspace{5mm}
+
+
 \newpage
 {\large\textit{\textbf{Задание 3.2} Построение доверительного интервала для выборочного среднего и выборочной дисперсии}}
 \addcontentsline{toc}{chapter}{Задание 3.2  Построение доверительного интервала для выборочного среднего и выборочной дисперсии}
