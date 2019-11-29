@@ -135,12 +135,13 @@
 	{\Huge{\bf{Предисловие}}}
 \end{center}
 
+%-------------------------------------Предисловие
 \vspace{5mm}
 Все графики, которые в дальнейшем будут вставлены в эту работу, были сконструированы с помощью различных библиотек, основные которые - это matplotlib  и numpy в Jupyter Notebook
 
-К работе приложены 2 основных файла: $DZ-2-Geom$ и $DZ-2-Exp$, в которых указаны расчеты  соотвественно геометрического и  экспоненциального распределения
+К работе приложены 2 основных файла: DZ\_2\_Geom и DZ\_2\_Exp, в которых указаны расчеты  соотвественно геометрического и  экспоненциального распределения
 
-Также есть файл $get-quantile-geom$, в котором расписан процесс нахождения квантиля.
+Также есть файл get\_quantile\_geom, в котором расписан процесс нахождения квантиля.
 \vspace{5mm}
 
 Большая часть определений, которые представлены в этой работы взять с лекций нашего курса. 
@@ -149,6 +150,7 @@
 Также некоторые определения взяты из источника   Г.И. Ивченко, Ю.И. Медведев \\
 "Ведение в математическую статистику"
 
+%-------------------------------------Предисловие
  
 \newpage
 {\large\textit{\textbf{Задание 2.1} Моделирование выбранных случайных величин}}
@@ -507,16 +509,61 @@ $$
 \normalsize{\textbf{Определение 5.}} Наряду с гистограммой, в качестве приближения для неизвестной теоретической плотности $ f(x)$ можно использовать кусочно-линейный график, называемый \textit{полигоном частот}, и который строится так: если построена гистограмма $\hat{f_n} (x)$, то ординаты, соответствующие серединам интервалов группировки, последовательно соединяют отрезками прямых. 
 
 
-\vspace{5mm}
-\text{\large{\textbf {2.4.1 Геометрическое распределение}}}\\
-\addcontentsline{toc}{section}{2.4.2 Геометрическое распределение}
-\vspace{5mm}
 
 
-\vspace{5mm}
-\text{\large{\textbf {2.4.2 Экспоненциальное распределение}}}\\
-\addcontentsline{toc}{section}{2.4.2 Экспоненциальное распределение}
-\vspace{5mm}
+\begin{figure}[h!]
+	\begin{center}
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/Gist/geom_gist_5.png}} a) \\
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/Gist/geom_gist_10.png}} \\b)
+		\end{minipage}
+		\vfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/Gist/geom_gist_100.png}} c) \\
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/Gist/geom_gist_1000.png}} d) \\
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/Gist/geom_gist_103.png}} e) \\
+			\vspace{10mm}
+		\end{minipage}
+	\end{center}
+\end{figure}
+
+
+\begin{figure}[h!]
+	\begin{center}
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/Poligon/geom_polig_5.png}} a) \\
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/Poligon/geom_polig_10.png}} \\b)
+		\end{minipage}
+		\vfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/Poligon/geom_polig_100.png}} c) \\
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/Poligon/geom_polig_1000.png}} d) \\
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/Poligon/geom_polig_103.png}} e) \\
+			\vspace{50mm}
+		\end{minipage}
+	\end{center}
+\end{figure}
+
+
+
 
 
 
