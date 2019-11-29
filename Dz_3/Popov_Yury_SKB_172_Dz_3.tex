@@ -126,7 +126,7 @@
 	
 	
 \begin{spacing}{0.99}          
-	\tableofcontents %Оглавление. Корректно создается за два прогона tex файла.               
+	\tableofcontents %Оглавление             
 \end{spacing}
 
 \newpage
@@ -138,14 +138,30 @@
 
 %-------------------------------------Предисловие
 
+Все графики, которые в дальнейшем будут вставлены в эту работу, были сконструированы с помощью различных библиотек, основные которые - это matplotlib  и numpy в Jupyter Notebook\\
 
+К работе приложены 2 основных файла: "Geom\_Dz\_3.ipynb" и "Expon\_Dz\_3.ipynb" , в которых указаны расчеты  соотвественно геометрического и  экспоненциального распределения\\
+
+Все фотографии, использованные в работе лежат в папке {\it fotos}\\
+
+Когда я начинал третье домашнее задание, обновленного файла с домашней работы еще не было( или я не знал о его существовании), поэтому номер 3.2 сделан из старого файла\\
+
+
+Большая часть определений, которые представлены в этой работы взять с лекций нашего курса. 
+\vspace{5mm}
+
+Также некоторые определения взяты из источника   Г.И. Ивченко, Ю.И. Медведев \\
+"Ведение в математическую статистику"
 
 %-------------------------------------Предисловие
 
-\newpage
-{\large\textit{\textbf{Задание 3.1} Нахождение выборочного среднего и выборочной дисперсии}}
+\setcounter{secnumdepth}{-1} % убираем нумерацию 
 
-\addcontentsline{toc}{chapter}{Задание 3.1 Нахождение выборочного среднего и выборочной дисперсии}
+
+
+\large\textit{\chapter{Задание 3.1 Нахождение выборочного среднего и выборочной дисперсии}}
+\vspace{5mm}
+
 
 \vspace{5mm}
 \large{\textbf{Выборочные моменты}}
@@ -173,12 +189,12 @@ S^2 = \hat{\mu}_2 = \frac{1}{n} \sum\limits_{i = 1}^n  (X_i - \bar{X})^2
 $$
 
 \vspace{5mm}
-\text{\large{\textbf {3.1 Геометрическое распределение}}}\\
-\addcontentsline{toc}{section}{2.4.2 Геометрическое распределение}
+\phantomsection
+\addcontentsline{toc}{section}{3.1.1 Геометрическое распределение}
+\textbf{\section*{\large{3.1.1 Геометрическое распределение}}}
 \vspace{5mm}
 
-
-Для каждой выборки из домашнего задания 2 объема 5 и 10 посчитаем выборочное среднее и выборочную дисперсию. Для наглядности выведем вариационный ряд и посчитанные оба параметра.
+Для каждой выборки из домашнего задания 2 посчитаем выборочное среднее и выборочную дисперсию. Для наглядности выведем вариационный ряд  для объема 5 и 10 и посчитанные оба параметра.
 
 \begin{figure}[h!]
 	\begin{center}
@@ -191,6 +207,36 @@ $$
 		\end{minipage}
 	\end{center}
 \end{figure}
+
+\begin{figure}[h!]
+	\begin{center}
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom_3,1_100.jpg}} n = 100 \\
+			\vspace{15mm}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom_3,1_1000.jpg}} n = 1000 \\
+			\vspace{5mm}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom_3,1_103.jpg}} n = 100000 \\
+			\vspace{5mm}
+		\end{minipage}	
+	\end{center}
+\end{figure}
+
+\newpage
+$$
+\\
+\\
+\\
+\\
+\\
+\\
+$$
+
 
 
 \newpage
@@ -214,30 +260,173 @@ $$
 \vspace{5mm}
 
 
-\newpage
-{\large\textit{\textbf{Задание 3.2} Построение доверительного интервала для выборочного среднего и выборочной дисперсии}}
-\addcontentsline{toc}{chapter}{Задание 3.2  Построение доверительного интервала для выборочного среднего и выборочной дисперсии}
-
-\newpage
-{\large\textit{\textbf{Задание 3.3} Нахождение оптимальности рассматриваемых оценок}}
-\addcontentsline{toc}{chapter}{Задание 3.3 Нахождение оптимальности рассматриваемых оценок}
-
-\newpage
-{\large\textit{\textbf{Задание 3.4} Нахождение параметров распределений событий, описываемых некоторыми распределениями}}
-\addcontentsline{toc}{chapter}{Задание 3.4 Нахождение параметров распределений событий, описываемых некоторыми распределениями}
-
-
-\newpage
 \vspace{5mm}
-\text{\large{\textbf {3.1 Геометрическое распределение}}}\\
-\addcontentsline{toc}{section}{2.4.2 Геометрическое распределение}
+\phantomsection
+\addcontentsline{toc}{section}{3.1.2 Экспоненциальное распределение}
+\textbf{\section*{\large{3.1.2 Экспоненциальное распределение}}}
 \vspace{5mm}
 
+Для каждой выборки из домашнего задания 2 посчитаем выборочное среднее и выборочную дисперсию. Для наглядности выведем вариационный ряд  для объема 5 и 10 и посчитанные оба параметра.
+
+\begin{figure}[h!]
+	\begin{center}
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/expon_3,1_5.jpg}} n = 5 \\
+			\vspace{15mm}
+		\end{minipage}
+		\hfill		
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/expon_3,1_10.jpg}} n = 10 \\
+			\vspace{15mm}
+		\end{minipage}	
+	\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+	\begin{center}
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/expon_3,1_100.jpg}} n = 100 \\
+			\vspace{15mm}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/expon_3,1_1000.jpg}} n = 1000 \\
+			\vspace{5mm}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/expon_3,1_103.jpg}} n = 100000 \\
+			\vspace{5mm}
+		\end{minipage}	
+	\end{center}
+\end{figure}
+
+
+\phantomsection
+\large{ \it \chapter{ Задание 3.2 Построение доверительного интервала для выборочного среднего и выборочной дисперсии}}
+\vspace{5mm}
+
+
 
 \vspace{5mm}
-\text{\large{\textbf {2.4.2 Экспоненциальное распределение}}}\\
-\addcontentsline{toc}{section}{2.4.2 Экспоненциальное распределение}
+\phantomsection
+\addcontentsline{toc}{section}{3.2.1 Геометрическое распределение}
+\textbf{\section*{\large{3.2.1 Геометрическое распределение}}}
 \vspace{5mm}
+
+Для всех выборок построим доверительные интервалы.
+
+\begin{figure}[h!]
+	\begin{center}
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom_dov_interval_5.jpg}} n = 5 \\
+			\vspace{15mm}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom_dov_interval_10.jpg}} n = 10 \\
+			\vspace{15mm}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom_dov_interval_100.jpg}} n = 100 \\
+			\vspace{15mm}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom_dov_interval_1000.jpg}} n = 1000  \\
+			\vspace{15mm}
+		\end{minipage}
+		\hfill	
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom_dov_interval_103.jpg}} n = 100000 \\
+		\end{minipage}
+	\end{center}
+\end{figure}
+
+
+
+
+\vspace{5mm}
+\phantomsection
+\addcontentsline{toc}{section}{3.2.2 Экспоненциальное распределение}
+\textbf{\section*{\large{3.2.2 Экспоненциальное распределение}}}
+\vspace{5mm}
+
+Для всех выборок построим доверительные интервалы.
+
+\begin{figure}[h!]
+	\begin{center}
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom_dov_interval_5.jpg}} n = 5 \\
+			\vspace{15mm}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom_dov_interval_10.jpg}} n = 10 \\
+			\vspace{15mm}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom_dov_interval_100.jpg}} n = 100 \\
+			\vspace{15mm}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom_dov_interval_1000.jpg}} n = 1000  \\
+			\vspace{15mm}
+		\end{minipage}
+		\hfill	
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom_dov_interval_103.jpg}} n = 100000 \\
+		\end{minipage}
+	\end{center}
+\end{figure}
+
+
+
+\phantomsection
+\large\textit{\chapter{Задание 3.3 Нахождение параметров распределений событий}}
+
+
+
+\vspace{5mm}
+\phantomsection
+\textbf{\section*{\large{3.3.1 Геометрическое распределение}}}
+\addcontentsline{toc}{section}{3.3.1 Геометрическое распределение}
+\vspace{5mm}
+
+
+\vspace{5mm}
+\phantomsection
+\textbf{\section*{\large{3.3.2 Экспоненциальное распределение}}}
+\addcontentsline{toc}{section}{3.3.2 Экспоненциальное распределение}
+\vspace{5mm}
+
+
+
+
+\phantomsection
+\large\textit{\chapter{Задание 3.4 Нахождение параметров распределений событий, описываемых некоторыми распределениями}}
+
+
+\vspace{5mm}
+\phantomsection
+\addcontentsline{toc}{section}{3.4.1 Геометрическое распределение}
+\textbf{\section*{\large{3.4.1 Геометрическое распределение}}}
+\vspace{5mm}
+
+
+\vspace{5mm}
+\phantomsection
+\addcontentsline{toc}{section}{3.4.2 Экспоненциальное распределение}
+\textbf{\section*{\large{3.4.2 Экспоненциальное распределение}}}
+\vspace{5mm}
+
+
+
+
+
 
 
 \begin{thebibliography}{99}

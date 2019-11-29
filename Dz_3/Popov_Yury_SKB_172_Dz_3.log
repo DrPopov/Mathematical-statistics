@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.14)  20 NOV 2019 12:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.14)  29 NOV 2019 03:15
 entering extended mode
 **./Popov_Yury_SKB_172_Dz_3.tex
 (Popov_Yury_SKB_172_Dz_3.tex
@@ -1326,62 +1326,191 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.132 \newpage
-               [1] [2]
+               [1]
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 177.
+ []
 
-<fotos/geom_3,1_5.jpg, id=52, 227.04825pt x 419.166pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+
+ []
+
+[2]
+<fotos/geom_3,1_5.jpg, id=88, 227.04825pt x 419.166pt>
 File: fotos/geom_3,1_5.jpg Graphic file (type jpg)
 <use fotos/geom_3,1_5.jpg>
-Package pdftex.def Info: fotos/geom_3,1_5.jpg  used on input line 186.
+Package pdftex.def Info: fotos/geom_3,1_5.jpg  used on input line 202.
 (pdftex.def)             Requested size: 227.3381pt x 419.70222pt.
-<fotos/geom_3,1_10.jpg, id=53, 230.66174pt x 418.56375pt>
+<fotos/geom_3,1_10.jpg, id=89, 230.66174pt x 418.56375pt>
 File: fotos/geom_3,1_10.jpg Graphic file (type jpg)
 <use fotos/geom_3,1_10.jpg>
-Package pdftex.def Info: fotos/geom_3,1_10.jpg  used on input line 190.
+Package pdftex.def Info: fotos/geom_3,1_10.jpg  used on input line 206.
 (pdftex.def)             Requested size: 227.3381pt x 412.54pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3]
-LaTeX Font Info:    Try loading font information for T2A+ftx on input line 201.
+<fotos/geom_3,1_100.jpg, id=90, 237.88875pt x 188.50426pt>
+File: fotos/geom_3,1_100.jpg Graphic file (type jpg)
+<use fotos/geom_3,1_100.jpg>
+Package pdftex.def Info: fotos/geom_3,1_100.jpg  used on input line 214.
+(pdftex.def)             Requested size: 227.3381pt x 180.15376pt.
+<fotos/geom_3,1_1000.jpg, id=91, 237.2865pt x 185.493pt>
+File: fotos/geom_3,1_1000.jpg Graphic file (type jpg)
+<use fotos/geom_3,1_1000.jpg>
+Package pdftex.def Info: fotos/geom_3,1_1000.jpg  used on input line 219.
+(pdftex.def)             Requested size: 227.3381pt x 177.71744pt.
+<fotos/geom_3,1_103.jpg, id=92, 255.95625pt x 234.27525pt>
+File: fotos/geom_3,1_103.jpg Graphic file (type jpg)
+<use fotos/geom_3,1_103.jpg>
+Package pdftex.def Info: fotos/geom_3,1_103.jpg  used on input line 224.
+(pdftex.def)             Requested size: 227.3381pt x 208.08249pt.
 
- (C:\Users\drpop\Programms\MiKTeX\tex/latex/pscyr\t2aftx.fd
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3
+
+] [4 <./fotos/geom_3,1_5.jpg> <./fotos/geom_3,1_10.jpg>]
+LaTeX Font Info:    Try loading font information for T2A+ftx on input line 247.
+
+
+(C:\Users\drpop\Programms\MiKTeX\tex/latex/pscyr\t2aftx.fd
 File: t2aftx.fd 2004/09/23 Fontinst v1.914 font definitions for T2A/ftx.
-) [4 <./fotos/geom_3,1_5.jpg> <./fotos/geom_3,1_10.jpg>] [5] [6] [7] [8]
+) [5 <./fotos/geom_3,1_100.jpg> <./fotos/geom_3,1_1000.jpg> <./fotos/geom_3,1_1
+03.jpg>]
+<fotos/expon_3,1_5.jpg, id=113, 227.04825pt x 422.7795pt>
+File: fotos/expon_3,1_5.jpg Graphic file (type jpg)
+<use fotos/expon_3,1_5.jpg>
+Package pdftex.def Info: fotos/expon_3,1_5.jpg  used on input line 274.
+(pdftex.def)             Requested size: 227.3381pt x 423.32034pt.
+<fotos/expon_3,1_10.jpg, id=114, 258.9675pt x 417.35925pt>
+File: fotos/expon_3,1_10.jpg Graphic file (type jpg)
+<use fotos/expon_3,1_10.jpg>
+Package pdftex.def Info: fotos/expon_3,1_10.jpg  used on input line 279.
+(pdftex.def)             Requested size: 227.3381pt x 366.39842pt.
 
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 233.
 
-[9] 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<fotos/expon_3,1_100.jpg, id=115, 224.037pt x 179.4705pt>
+File: fotos/expon_3,1_100.jpg Graphic file (type jpg)
+<use fotos/expon_3,1_100.jpg>
+Package pdftex.def Info: fotos/expon_3,1_100.jpg  used on input line 288.
+(pdftex.def)             Requested size: 227.3381pt x 182.11816pt.
+<fotos/expon_3,1_1000.jpg, id=116, 235.47975pt x 178.86826pt>
+File: fotos/expon_3,1_1000.jpg Graphic file (type jpg)
+<use fotos/expon_3,1_1000.jpg>
+Package pdftex.def Info: fotos/expon_3,1_1000.jpg  used on input line 293.
+(pdftex.def)             Requested size: 227.3381pt x 172.69139pt.
+<fotos/expon_3,1_103.jpg, id=117, 234.27525pt x 180.07275pt>
+File: fotos/expon_3,1_103.jpg Graphic file (type jpg)
+<use fotos/expon_3,1_103.jpg>
+Package pdftex.def Info: fotos/expon_3,1_103.jpg  used on input line 298.
+(pdftex.def)             Requested size: 227.3381pt x 174.74728pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6] [7 <./fotos/expon_3,1_5.jpg> <./fotos/expon_3,1_10.jpg>] [8 <./fotos/expon_
+3,1_100.jpg> <./fotos/expon_3,1_1000.jpg> <./fotos/expon_3,1_103.jpg>]
+<fotos/geom_dov_interval_5.jpg, id=132, 662.475pt x 131.2905pt>
+File: fotos/geom_dov_interval_5.jpg Graphic file (type jpg)
+<use fotos/geom_dov_interval_5.jpg>
+Package pdftex.def Info: fotos/geom_dov_interval_5.jpg  used on input line 322.
+
+(pdftex.def)             Requested size: 227.3381pt x 45.05286pt.
+<fotos/geom_dov_interval_10.jpg, id=133, 666.69075pt x 128.27925pt>
+File: fotos/geom_dov_interval_10.jpg Graphic file (type jpg)
+<use fotos/geom_dov_interval_10.jpg>
+Package pdftex.def Info: fotos/geom_dov_interval_10.jpg  used on input line 327
+.
+(pdftex.def)             Requested size: 227.3381pt x 43.7416pt.
+<fotos/geom_dov_interval_100.jpg, id=134, 685.96275pt x 130.086pt>
+File: fotos/geom_dov_interval_100.jpg Graphic file (type jpg)
+<use fotos/geom_dov_interval_100.jpg>
+Package pdftex.def Info: fotos/geom_dov_interval_100.jpg  used on input line 33
+2.
+(pdftex.def)             Requested size: 227.3381pt x 43.11111pt.
+<fotos/geom_dov_interval_1000.jpg, id=135, 704.03024pt x 132.495pt>
+File: fotos/geom_dov_interval_1000.jpg Graphic file (type jpg)
+<use fotos/geom_dov_interval_1000.jpg>
+Package pdftex.def Info: fotos/geom_dov_interval_1000.jpg  used on input line 3
+37.
+(pdftex.def)             Requested size: 227.3381pt x 42.78337pt.
+<fotos/geom_dov_interval_103.jpg, id=136, 716.07526pt x 133.09724pt>
+File: fotos/geom_dov_interval_103.jpg Graphic file (type jpg)
+<use fotos/geom_dov_interval_103.jpg>
+Package pdftex.def Info: fotos/geom_dov_interval_103.jpg  used on input line 34
+2.
+(pdftex.def)             Requested size: 227.3381pt x 42.25485pt.
+File: fotos/geom_dov_interval_5.jpg Graphic file (type jpg)
+<use fotos/geom_dov_interval_5.jpg>
+Package pdftex.def Info: fotos/geom_dov_interval_5.jpg  used on input line 361.
+
+(pdftex.def)             Requested size: 227.3381pt x 45.05286pt.
+File: fotos/geom_dov_interval_10.jpg Graphic file (type jpg)
+<use fotos/geom_dov_interval_10.jpg>
+Package pdftex.def Info: fotos/geom_dov_interval_10.jpg  used on input line 366
+.
+(pdftex.def)             Requested size: 227.3381pt x 43.7416pt.
+File: fotos/geom_dov_interval_100.jpg Graphic file (type jpg)
+<use fotos/geom_dov_interval_100.jpg>
+Package pdftex.def Info: fotos/geom_dov_interval_100.jpg  used on input line 37
+1.
+(pdftex.def)             Requested size: 227.3381pt x 43.11111pt.
+File: fotos/geom_dov_interval_1000.jpg Graphic file (type jpg)
+<use fotos/geom_dov_interval_1000.jpg>
+Package pdftex.def Info: fotos/geom_dov_interval_1000.jpg  used on input line 3
+76.
+(pdftex.def)             Requested size: 227.3381pt x 42.78337pt.
+File: fotos/geom_dov_interval_103.jpg Graphic file (type jpg)
+<use fotos/geom_dov_interval_103.jpg>
+Package pdftex.def Info: fotos/geom_dov_interval_103.jpg  used on input line 38
+1.
+(pdftex.def)             Requested size: 227.3381pt x 42.25485pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9
+
+ <./fotos/geom_dov_interval_5.jpg> <./fotos/geom_dov_interval_10.jpg> <./fotos/
+geom_dov_interval_100.jpg> <./fotos/geom_dov_interval_1000.jpg> <./fotos/geom_d
+ov_interval_103.jpg>] [10] [11
+
+] [12
+
+] 
 AED: lastpage setting LastPage
-[10
+[13
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 440.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 440.
  (Popov_Yury_SKB_172_Dz_3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
-
-
-Package rerunfilecheck Warning: File `Popov_Yury_SKB_172_Dz_3.out' has changed.
-
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Popov_Yury_SKB_172_Dz_3.out':
-(rerunfilecheck)             Before: 74B9D57C4FD0816636BAAD4BE4E64544;3295
-(rerunfilecheck)             After:  6527FB567247096E4C8AF2B6FAD50ED5;3611.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 251.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 440.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 440.
+Package rerunfilecheck Info: File `Popov_Yury_SKB_172_Dz_3.out' has not changed
+.
+(rerunfilecheck)             Checksum: B54CFB7691529FDEB00F5A512287A199;5207.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 440.
  ) 
 Here is how much of TeX's memory you used:
- 34971 strings out of 492946
- 754112 string characters out of 3133793
- 956811 words of memory out of 10000000
- 38189 multiletter control sequences out of 15000+200000
- 30982 words of font info for 77 fonts, out of 3000000 for 9000
+ 35074 strings out of 492946
+ 756392 string characters out of 3133793
+ 957844 words of memory out of 10000000
+ 38262 multiletter control sequences out of 15000+200000
+ 32285 words of font info for 78 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,8n,96p,3251b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/drpop/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/t2/t2a.enc}<C:/Use
@@ -1395,9 +1524,9 @@ fonts/cm/cmmi12.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmr10.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmr12.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/pscyr/textb19.pfb>
-Output written on Popov_Yury_SKB_172_Dz_3.pdf (11 pages, 232907 bytes).
+Output written on Popov_Yury_SKB_172_Dz_3.pdf (14 pages, 996418 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 215 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
+ 204 words of extra memory for PDF output out of 10000 (max. 10000000)
 
