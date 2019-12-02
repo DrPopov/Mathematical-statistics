@@ -53,6 +53,14 @@
 \def\IIInt{\iiint\limits}
 \DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
 
+%%% Дополнительная работа с математикой
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
+\usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
+
+%% Перенос знаков в формулах (по Львовскому)
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}
+{\hbox{$\mathsurround=0pt #1$}}{}}
+
 
 % Оглавление 
 \usepackage{setspace}
@@ -103,6 +111,13 @@
 \titlespacing*{\section}{\parindent}{*4}{*4}
 \titlespacing*{\subsection}{\parindent}{*4}{*4}
 
+%%% Заголовок
+\author{\LaTeX{} в Вышке}
+\title{1.2 Математика в \LaTeX}
+\date{\today}
+
+%\maketitle
+
 
 \begin{document} % начало документа	
 	\pagestyle{plain}
@@ -138,7 +153,9 @@
 	{\Huge{\bf{Предисловие}}}
 \end{center}
 
+$2,2$
 
+$2, 2$
 
 %---------------------------------------------------------------------------------Предисловие
 
