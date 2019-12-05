@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.14)  2 DEC 2019 09:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.14)  5 DEC 2019 06:11
 entering extended mode
 **./Popov_Yury_SKB_172_Dz_3.tex
 (Popov_Yury_SKB_172_Dz_3.tex
@@ -1347,12 +1347,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--148
  []
 
 [2]
-<fotos/geom_3,1_5.jpg, id=88, 227.04825pt x 419.166pt>
+<fotos/geom_3,1_5.jpg, id=72, 227.04825pt x 419.166pt>
 File: fotos/geom_3,1_5.jpg Graphic file (type jpg)
 <use fotos/geom_3,1_5.jpg>
 Package pdftex.def Info: fotos/geom_3,1_5.jpg  used on input line 201.
 (pdftex.def)             Requested size: 227.3381pt x 419.70222pt.
-<fotos/geom_3,1_10.jpg, id=89, 230.66174pt x 418.56375pt>
+<fotos/geom_3,1_10.jpg, id=73, 230.66174pt x 418.56375pt>
 File: fotos/geom_3,1_10.jpg Graphic file (type jpg)
 <use fotos/geom_3,1_10.jpg>
 Package pdftex.def Info: fotos/geom_3,1_10.jpg  used on input line 205.
@@ -1361,17 +1361,17 @@ Package pdftex.def Info: fotos/geom_3,1_10.jpg  used on input line 205.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fotos/geom_3,1_100.jpg, id=90, 237.88875pt x 188.50426pt>
+<fotos/geom_3,1_100.jpg, id=74, 237.88875pt x 188.50426pt>
 File: fotos/geom_3,1_100.jpg Graphic file (type jpg)
 <use fotos/geom_3,1_100.jpg>
 Package pdftex.def Info: fotos/geom_3,1_100.jpg  used on input line 213.
 (pdftex.def)             Requested size: 227.3381pt x 180.15376pt.
-<fotos/geom_3,1_1000.jpg, id=91, 237.2865pt x 185.493pt>
+<fotos/geom_3,1_1000.jpg, id=75, 237.2865pt x 185.493pt>
 File: fotos/geom_3,1_1000.jpg Graphic file (type jpg)
 <use fotos/geom_3,1_1000.jpg>
 Package pdftex.def Info: fotos/geom_3,1_1000.jpg  used on input line 218.
 (pdftex.def)             Requested size: 227.3381pt x 177.71744pt.
-<fotos/geom_3,1_103.jpg, id=92, 255.95625pt x 234.27525pt>
+<fotos/geom_3,1_103.jpg, id=76, 255.95625pt x 234.27525pt>
 File: fotos/geom_3,1_103.jpg Graphic file (type jpg)
 <use fotos/geom_3,1_103.jpg>
 Package pdftex.def Info: fotos/geom_3,1_103.jpg  used on input line 223.
@@ -1389,12 +1389,12 @@ LaTeX Font Info:    Try loading font information for T2A+ftx on input line 246.
 File: t2aftx.fd 2004/09/23 Fontinst v1.914 font definitions for T2A/ftx.
 ) [5 <./fotos/geom_3,1_100.jpg> <./fotos/geom_3,1_1000.jpg> <./fotos/geom_3,1_1
 03.jpg>]
-<fotos/expon_3,1_5.jpg, id=113, 227.04825pt x 422.7795pt>
+<fotos/expon_3,1_5.jpg, id=97, 227.04825pt x 422.7795pt>
 File: fotos/expon_3,1_5.jpg Graphic file (type jpg)
 <use fotos/expon_3,1_5.jpg>
 Package pdftex.def Info: fotos/expon_3,1_5.jpg  used on input line 273.
 (pdftex.def)             Requested size: 227.3381pt x 423.32034pt.
-<fotos/expon_3,1_10.jpg, id=114, 258.9675pt x 417.35925pt>
+<fotos/expon_3,1_10.jpg, id=98, 258.9675pt x 417.35925pt>
 File: fotos/expon_3,1_10.jpg Graphic file (type jpg)
 <use fotos/expon_3,1_10.jpg>
 Package pdftex.def Info: fotos/expon_3,1_10.jpg  used on input line 278.
@@ -1403,17 +1403,17 @@ Package pdftex.def Info: fotos/expon_3,1_10.jpg  used on input line 278.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fotos/expon_3,1_100.jpg, id=115, 224.037pt x 179.4705pt>
+<fotos/expon_3,1_100.jpg, id=99, 224.037pt x 179.4705pt>
 File: fotos/expon_3,1_100.jpg Graphic file (type jpg)
 <use fotos/expon_3,1_100.jpg>
 Package pdftex.def Info: fotos/expon_3,1_100.jpg  used on input line 287.
 (pdftex.def)             Requested size: 227.3381pt x 182.11816pt.
-<fotos/expon_3,1_1000.jpg, id=116, 235.47975pt x 178.86826pt>
+<fotos/expon_3,1_1000.jpg, id=100, 235.47975pt x 178.86826pt>
 File: fotos/expon_3,1_1000.jpg Graphic file (type jpg)
 <use fotos/expon_3,1_1000.jpg>
 Package pdftex.def Info: fotos/expon_3,1_1000.jpg  used on input line 292.
 (pdftex.def)             Requested size: 227.3381pt x 172.69139pt.
-<fotos/expon_3,1_103.jpg, id=117, 234.27525pt x 180.07275pt>
+<fotos/expon_3,1_103.jpg, id=101, 234.27525pt x 180.07275pt>
 File: fotos/expon_3,1_103.jpg Graphic file (type jpg)
 <use fotos/expon_3,1_103.jpg>
 Package pdftex.def Info: fotos/expon_3,1_103.jpg  used on input line 297.
@@ -1423,31 +1423,31 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [6] [7 <./fotos/expon_3,1_5.jpg> <./fotos/expon_3,1_10.jpg>] [8 <./fotos/expon_
 3,1_100.jpg> <./fotos/expon_3,1_1000.jpg> <./fotos/expon_3,1_103.jpg>]
-<fotos/geom_dov_interval_5.jpg, id=132, 662.475pt x 131.2905pt>
+<fotos/geom_dov_interval_5.jpg, id=116, 662.475pt x 131.2905pt>
 File: fotos/geom_dov_interval_5.jpg Graphic file (type jpg)
 <use fotos/geom_dov_interval_5.jpg>
 Package pdftex.def Info: fotos/geom_dov_interval_5.jpg  used on input line 320.
 
 (pdftex.def)             Requested size: 227.3381pt x 45.05286pt.
-<fotos/geom_dov_interval_10.jpg, id=133, 666.69075pt x 128.27925pt>
+<fotos/geom_dov_interval_10.jpg, id=117, 666.69075pt x 128.27925pt>
 File: fotos/geom_dov_interval_10.jpg Graphic file (type jpg)
 <use fotos/geom_dov_interval_10.jpg>
 Package pdftex.def Info: fotos/geom_dov_interval_10.jpg  used on input line 325
 .
 (pdftex.def)             Requested size: 227.3381pt x 43.7416pt.
-<fotos/geom_dov_interval_100.jpg, id=134, 685.96275pt x 130.086pt>
+<fotos/geom_dov_interval_100.jpg, id=118, 685.96275pt x 130.086pt>
 File: fotos/geom_dov_interval_100.jpg Graphic file (type jpg)
 <use fotos/geom_dov_interval_100.jpg>
 Package pdftex.def Info: fotos/geom_dov_interval_100.jpg  used on input line 33
 0.
 (pdftex.def)             Requested size: 227.3381pt x 43.11111pt.
-<fotos/geom_dov_interval_1000.jpg, id=135, 704.03024pt x 132.495pt>
+<fotos/geom_dov_interval_1000.jpg, id=119, 704.03024pt x 132.495pt>
 File: fotos/geom_dov_interval_1000.jpg Graphic file (type jpg)
 <use fotos/geom_dov_interval_1000.jpg>
 Package pdftex.def Info: fotos/geom_dov_interval_1000.jpg  used on input line 3
 35.
 (pdftex.def)             Requested size: 227.3381pt x 42.78337pt.
-<fotos/geom_dov_interval_103.jpg, id=136, 716.07526pt x 133.09724pt>
+<fotos/geom_dov_interval_103.jpg, id=120, 716.07526pt x 133.09724pt>
 File: fotos/geom_dov_interval_103.jpg Graphic file (type jpg)
 <use fotos/geom_dov_interval_103.jpg>
 Package pdftex.def Info: fotos/geom_dov_interval_103.jpg  used on input line 34
@@ -1488,31 +1488,38 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 geom_dov_interval_100.jpg> <./fotos/geom_dov_interval_1000.jpg> <./fotos/geom_d
 ov_interval_103.jpg>] [10] [11
 
-] [12
+]
+Overfull \hbox (75.26482pt too wide) detected at line 465
+\OML/cmm/m/it/14.4 D[] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 D [] \OT1/cmr/m/
+n/14.4 = \OML/cmm/m/it/14.4 D\OT1/cmr/m/n/14.4 ([]) + 0 = \OML/cmm/m/it/14.4 D\
+OT1/cmr/m/n/14.4 ([]) = []\OML/cmm/m/it/14.4 D [] \OT1/cmr/m/n/14.4 = [][] = []
+ \OMS/cmsy/m/n/14.4 ! \OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 ghbn \OMS/cmsy/m/n/
+14.4 ! 1
+ []
 
-] 
+[12] [13] [14] 
 AED: lastpage setting LastPage
-[13
+[15
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 434.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 434.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 549.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 549.
  (Popov_Yury_SKB_172_Dz_3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 434.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 434.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 549.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 549.
 Package rerunfilecheck Info: File `Popov_Yury_SKB_172_Dz_3.out' has not changed
 .
-(rerunfilecheck)             Checksum: B54CFB7691529FDEB00F5A512287A199;5207.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 434.
+(rerunfilecheck)             Checksum: F9876FA0D36087152A47B60F464FB3FA;3766.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 549.
  ) 
 Here is how much of TeX's memory you used:
- 35076 strings out of 492946
- 756422 string characters out of 3133793
- 957839 words of memory out of 10000000
- 38264 multiletter control sequences out of 15000+200000
- 32285 words of font info for 78 fonts, out of 3000000 for 9000
+ 35075 strings out of 492946
+ 756412 string characters out of 3133793
+ 957835 words of memory out of 10000000
+ 38263 multiletter control sequences out of 15000+200000
+ 35563 words of font info for 80 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,8n,96p,3251b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,10n,96p,3251b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/drpop/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/t2/t2a.enc}<C:/Use
 rs/drpop/Programms/MiKTeX/fonts/type1/public/pscyr/antiq4.pfb><C:/Users/drpop/P
 rogramms/MiKTeX/fonts/type1/public/pscyr/antiq5.pfb><C:/Users/drpop/Programms/M
@@ -1521,12 +1528,15 @@ s/type1/public/pscyr/antiq7.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmex10.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmmi10.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi12.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/pscyr/textb19.pfb>
-Output written on Popov_Yury_SKB_172_Dz_3.pdf (14 pages, 996446 bytes).
+s/cm/cmmi7.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr10.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><
+C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
+sers/drpop/Programms/MiKTeX/fonts/type1/public/pscyr/textb19.pfb><C:/Users/drpo
+p/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/wasy/wasy10.pfb>
+Output written on Popov_Yury_SKB_172_Dz_3.pdf (16 pages, 1030194 bytes).
 PDF statistics:
- 215 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 204 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 218 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 180 words of extra memory for PDF output out of 10000 (max. 10000000)
 

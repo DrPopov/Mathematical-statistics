@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt, oneside]{book}
+ \documentclass[a4paper,12pt, oneside]{book}
 
 %  Русский язык
 \usepackage{cmap}					% Улучшенный поиск русских слов
@@ -393,6 +393,41 @@ $$
 \textbf{\section{\large{3.3.1 Геометрическое распределение}}}
 \vspace{5mm}
 
+Найдем оценку для геометрического распределения
+$$
+P(X=k) = q^{k - 1} p 
+$$
+
+Найдём истинные первый и центральный второй моменты геометрического распределения:
+
+$$
+\overline{x} = M_1 = \sum_{k=1}^{\infty} p q^{k-1} k = p \sum_{k=1}^{\infty} q^{k-1} k = \dfrac{1}{p}
+$$
+
+$$
+D = M_c^2 = E(x - \overline{x})^2 = \sum_{k=1}^{\infty} q^{k-1} k^2 = \dfrac{q}{p^3} = M_1 \dfrac{q}{p^2}
+$$
+
+\textbf{Метод моментов}
+
+По методу моментов находим оценку параметра p: $ p = \dfrac{1}{x} $
+
+Точечной оценкой параметра p является $ \dfrac{1}{\overline{x}} $
+
+\textbf{Метод максимального правдоподобия}
+$$
+L(x_1, x_2, \cdots, x_n; \theta) = p^n q^{n(\theta - 1)}
+$$
+
+$$
+\ln(L) = n \ln(p) + n(\theta - 1)\ln(q)
+$$
+
+$$
+\dfrac{\partial \ln(L)}{\partial \theta} = n \ln q = 0
+$$
+
+Минимума или максимума нет. Т.е. метод максимального правдоподобия не работает в случае геометрического распределения
 
 \vspace{5mm}
 \phantomsection
@@ -401,26 +436,106 @@ $$
 
 
 
+\textbf{Оценка методом моментов}
 
-\phantomsection
-\large\textit{\chapter{Задание 3.4 Нахождение параметров распределений событий, описываемых некоторыми распределениями}}
+Математическое ожидание равно $ Ex = \theta + \dfrac{1}{\lambda} $
+
+Дисперсия равна $ Dx = \dfrac{1}{\lambda^2} $
+
+$$
+\bar{x} = \theta + \dfrac{1}{\lambda}
+$$
+
+Оценка: 
+
+$$
+\theta_\text{омм} = \bar x - \dfrac{1}{\lambda}
+$$
+
+Проверим, является ли данная оценка несмещенной
+
+$$
+E_\theta T = E\left( \bar X - \dfrac{1}{\lambda} \right) = E\bar{X} - \dfrac{1}{\lambda} = \theta + \dfrac{1}{\lambda} - \dfrac{1}{\lambda} = \theta
+$$
+
+Следовательно, оценка $ \theta_\text{омм} $ несмещенная оценка параметра $ \theta $
+
+$$
+D\theta_\text{омм} = D\left( \bar X - \dfrac{1}{\lambda} \right) = D(\bar{X}) + 0 =  D(\bar{X}) = \dfrac{1}{n^2} D\left( \sum_{i=1}^{n} x_i \right) = \dfrac{1}{n^2} \dfrac{1}{\lambda^2} = \dfrac{1}{n \lambda^2} \to 0 ghb n \to \infty
+$$
+
+Следовательно, $ \theta_\text{омм} $ состоятельная оценка параметра $ \theta $
+
+\textbf{Оценка максимальным правдоподобием}
+
+$$
+\theta_\text{омм} = argsup L(x; \theta)
+$$
+
+$$
+L(x;\theta) = \lambda^n e^{-\lambda \sum_{i=1}^n (x_i - \theta)}
+$$
+
+Воспользуемся тем, что экстремумы $ L(x; \theta) $ и $ \ln L(x; \theta) $ совпадают
+
+$$
+\ln L (x; \theta) = \ln \lambda^n e^{-\lambda \sum_{i=1}^n (x_i - \theta)} = n \ln \lambda - n \lambda \bar{X} + n \lambda \theta 
+$$
+
+$$
+\dfrac{\partial \ln L(x; \theta)}{\partial \theta} = n \lambda > 0
+$$
+
+Чтобы максимизировать функцию правдоподобия, возьмем максимальное $ \theta $
+
+$$
+\theta_\text{омм} = X_{(1)}
+$$
+
+Проверим несмещенность оценки
+
+$$
+F_{(1)} (x) = 1 - (1 - F(x))^n = 1-(1-1+e^{- \lambda (x - \theta)})^n = 1 - \left(  \dfrac{e^{\lambda n}}{e^{\lambda \theta}} \right)^n = 1 - \dfrac{e^{\lambda \theta n}}{e^{\lambda x n}}
+$$
+
+$$
+f_{(1)} (x) = F'_(1)(x) = \dfrac{e^{\lambda n} \lambda n}{e^{\lambda x n}} = \lambda n e^{-\lambda n (x- \theta)}
+$$
 
 
-\vspace{5mm}
-\phantomsection
-\textbf{\section{\large{3.4.1 Геометрическое распределение}}}
-\vspace{5mm}
+$$
+\begin{array}{rcl}
+	E_\theta x_{(1)} &=&\\
+	\\
+	\int_{0}^{\infty} x f_{(1)} (x; \theta) dx &=&\\
+	\\
+	\int_{0}^{\infty} x \lambda n e^{-\lambda n (x- \theta} &=&\\
+	\\
+	\lambda n e^{\lambda n \theta} \left( - \dfrac{x e^{- \lambda x n}}{\lambda n} + \dfrac{1}{\lambda n} \int_{0}^{\infty} e^{-\lambda n x}dx \right) &=& \\
+	\\
+	  -x e^{-\lambda n (x- \theta)}\mid_0^\infty - \dfrac{\lambda n e^{\lambda n (x - \theta)}}{\lambda^2 n^2}\mid_0^\infty &=&
+	  \\
+	   \theta + \dfrac{1}{\lambda n}
+\end{array}
+$$
 
+Таким образом, оценка максимальным правдоподобием смещена со смещением $ \frac{1}{\lambda n} $
 
-\vspace{5mm}
-\phantomsection
-\textbf{\section{\large{3.4.2 Экспоненциальное распределение}}}
-\vspace{5mm}
+$$
+\theta = X_{(1)} - \frac{1}{\lambda n}
+$$
 
+Найдем дисперсию несмещенной оценки:
 
+$$
+D\theta_\text{омп} = D\left( X_{(1) - \frac{1}{\lambda n}}\right) = EX_{(1)}^2 - (EX_{1})^2 = \theta^2 - \dfrac{2 \theta}{\lambda n} - \dfrac{2}{\lambda^2 n^2} - \left( \theta + \dfrac{1}{\lambda n}\right)^2 = \dfrac{1}{(\lambda n)^2}
+$$
 
+$D\theta_\text{омп} \to 0  $ при $ n \to \infty \to $ оценка состоятельна
 
+\textbf{Эффективная оценка}
 
+х зависит от параметра $\theta \to$ модель не регулярна $ \to $ не существует эффективной оценки 
 
 
 \begin{thebibliography}{99}
