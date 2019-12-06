@@ -436,7 +436,7 @@ $$
 
 
 
-\textbf{Оценка методом моментов}
+\subsection{Оценка методом моментов}
 
 Математическое ожидание равно $ Ex = \theta + \dfrac{1}{\lambda} $
 
@@ -465,8 +465,9 @@ D\theta_\text{омм} = D\left( \bar X - \dfrac{1}{\lambda} \right) = D(\bar{X})
 $$
 
 Следовательно, $ \theta_\text{омм} $ состоятельная оценка параметра $ \theta $
+\\
 
-\textbf{Оценка максимальным правдоподобием}
+\subsection{Оценка максимальным правдоподобием}
 
 $$
 \theta_\text{омм} = argsup L(x; \theta)
@@ -492,6 +493,8 @@ $$
 \theta_\text{омм} = X_{(1)}
 $$
 
+\subsection{Несмещенность оценки}
+
 Проверим несмещенность оценки
 
 $$
@@ -504,18 +507,18 @@ $$
 
 
 $$
-\begin{array}{rcl}
-	E_\theta x_{(1)} &=&\\
+\begin{array}{lcl}
+	E_\theta x_{(1)} &=\\
 	\\
-	\int_{0}^{\infty} x f_{(1)} (x; \theta) dx &=&\\
+	&=& \int\limits_{0}^{\infty} x f_{(1)} (x; \theta) dx \\
 	\\
-	\int_{0}^{\infty} x \lambda n e^{-\lambda n (x- \theta} &=&\\
+	&=&\int\limits_{0}^{\infty} x \lambda n e^{-\lambda n (x- \theta} \\
 	\\
-	\lambda n e^{\lambda n \theta} \left( - \dfrac{x e^{- \lambda x n}}{\lambda n} + \dfrac{1}{\lambda n} \int_{0}^{\infty} e^{-\lambda n x}dx \right) &=& \\
+	&=&\lambda n e^{\lambda n \theta} \left( - \dfrac{x e^{- \lambda x n}}{\lambda n} + \dfrac{1}{\lambda n} \int\limits_{0}^{\infty} e^{-\lambda n x}dx \right)  \\
 	\\
-	  -x e^{-\lambda n (x- \theta)}\mid_0^\infty - \dfrac{\lambda n e^{\lambda n (x - \theta)}}{\lambda^2 n^2}\mid_0^\infty &=&
-	  \\
-	   \theta + \dfrac{1}{\lambda n}
+	&=&-x e^{-\lambda n (x- \theta)}|_0^\infty - \dfrac{\lambda n e^{\lambda n (x - \theta)}}{\lambda^2 n^2}|_0^\infty\\
+	\\
+	&=&\theta + \dfrac{1}{\lambda n}
 \end{array}
 $$
 
@@ -524,6 +527,7 @@ $$
 $$
 \theta = X_{(1)} - \frac{1}{\lambda n}
 $$
+\\
 
 Найдем дисперсию несмещенной оценки:
 
@@ -533,10 +537,41 @@ $$
 
 $D\theta_\text{омп} \to 0  $ при $ n \to \infty \to $ оценка состоятельна
 
-\textbf{Эффективная оценка}
+\subsection{Эффективная оценка}
 
-х зависит от параметра $\theta \to$ модель не регулярна $ \to $ не существует эффективной оценки 
+$ x $ зависит от параметра $\theta \to$ модель не регулярна $ \to $ не существует эффективной оценки 
 
+\subsection{Оптимальная оценка}
+
+Согласно теореме Рао-Блекуэлла-Колмогорова, оптимальная оценка, если она существует, является
+функцией от полной достаточной статистики. Найдем достаточную статистику.
+\\
+
+Функция правдоподобия имеет вид:
+$$
+L(x;\theta) = \lambda^n e^{-\lambda \sum_{i=1}^n (x_i - \theta)} \nu (X_{(1)} - \theta) = \lambda^n e^{\lambda n \theta} e^{-\sum_{i=1}^{n} x_i} \nu(X_{(1)} - \theta) 
+$$
+
+Где $ \nu(x) = I(x \geq 0), x \in R $ - это функция Хэвисайда
+
+По критерию факторизации статистика $ X_{(1)} $является достаточной статистикой. 
+
+Установим ее полноту
+
+Пусть $ \varphi(t), t > 0 $ - произвольная функция. Найдем математическое ожидание случайной величины $ \varphi(X_{(1)}) $
+$$
+E_{\theta} \varphi(X_{(1)}) = \int\limits_{\theta}^{\infty} \varphi(x) f_{(1)}(x; \theta) dx = \int\limits_{\theta}^\infty \varphi(x) \lambda n e^{- \lambda n(x - \theta)} dx = \lambda n e^{- \lambda n \theta} \int\limits_{\theta}^{\infty} \varphi(x) e^{- \lambda n x} dx
+$$
+
+Из того $ E_\theta \varphi(X_{(1)}) = 0 $ для любого $\theta \in \Xi$ следует, что  $ \int\limits_{\theta}^{\infty} \varphi(x) e^{-\lambda n x} dx = 0$. Докажем, что $ \varphi(\theta)  = 0, t \geq 0$
+\\
+
+Продифференцируем полученный интеграл по параметру $ \theta $. Тогда 
+$$
+\left( \int\limits_{\theta}^\infty \varphi(x)  e^{- \lambda n x} dx \right)' = \varphi(\theta) e^{\lambda \theta n} = 0\text{   для любого  } \theta \in \Xi
+$$
+
+Указанное равенство верно для любого $ \theta \in \Xi $ только в случае $ \varphi(t) = 0 $, то есть $ X_{(1)} $- полная достаточная статистика. Поскольку $ E_\theta X_{(1)} = \theta + \dfrac{1}{\lambda n} $, то оптимальной оценкой для параметра $\theta$ является статистика $ T = X_{(1)} - \dfrac{1}{\lambda n} $
 
 \begin{thebibliography}{99}
 	\bibitem{rt1} 
