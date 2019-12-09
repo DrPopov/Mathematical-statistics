@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.14)  8 DEC 2019 22:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.14)  8 DEC 2019 21:54
 entering extended mode
-**./Popov_Yury__SKB_172_DZ_1.tex
-(Popov_Yury__SKB_172_DZ_1.tex
+**./Popov_SKB_172_DZ_4.tex
+(Popov_SKB_172_DZ_4.tex
 LaTeX2e <2018-12-01>
 (C:\Users\drpop\Programms\MiKTeX\tex/latex/base\book.cls
 Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
@@ -1207,15 +1207,8 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidthlast=\dimen288
 \titlewidthfirst=\dimen289
 )
-(Popov_Yury__SKB_172_DZ_1.aux
-
-LaTeX Warning: Label `ris:experimoriginal' multiply defined.
-
-
-LaTeX Warning: Label `ris:experimcoded' multiply defined.
-
-)
-\openout1 = `Popov_Yury__SKB_172_DZ_1.aux'.
+(Popov_SKB_172_DZ_4.aux)
+\openout1 = `Popov_SKB_172_DZ_4.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
 LaTeX Font Info:    ... okay on input line 107.
@@ -1237,7 +1230,8 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 107.
 LaTeX Font Info:    ... okay on input line 107.
 LaTeX Font Info:    Try loading font information for T2A+faq on input line 107.
 
- (C:\Users\drpop\Programms\MiKTeX\tex/latex/pscyr\t2afaq.fd
+
+(C:\Users\drpop\Programms\MiKTeX\tex/latex/pscyr\t2afaq.fd
 File: t2afaq.fd 2004/09/23 Fontinst v1.914 font definitions for T2A/faq.
 )
 Package lastpage Info: Please have a look at the pageslts package at
@@ -1288,18 +1282,16 @@ LaTeX Info: Redefining \ref on input line 107.
 LaTeX Info: Redefining \pageref on input line 107.
 LaTeX Info: Redefining \nameref on input line 107.
 
-(Popov_Yury__SKB_172_DZ_1.out) (Popov_Yury__SKB_172_DZ_1.out)
+(Popov_SKB_172_DZ_4.out) (Popov_SKB_172_DZ_4.out)
 \@outlinefile=\write6
-\openout6 = `Popov_Yury__SKB_172_DZ_1.out'.
+\openout6 = `Popov_SKB_172_DZ_4.out'.
 
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 LaTeX Font Info:    Try loading font information for U+msa on input line 107.
-
-(C:\Users\drpop\Programms\MiKTeX\tex/latex/amsfonts\umsa.fd
+ (C:\Users\drpop\Programms\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 107.
-
 (C:\Users\drpop\Programms\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -1318,410 +1310,52 @@ Package xypdf Info: Line width: 0.47998pt on input line 107.
 
 
 {C:/Users/drpop/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(Popov_Yury__SKB_172_DZ_1.toc
+(Popov_SKB_172_DZ_4.toc
 LaTeX Font Info:    Try loading font information for OT1+faq on input line 1.
 
 (C:\Users\drpop\Programms\MiKTeX\tex/latex/pscyr\ot1faq.fd
 File: ot1faq.fd 2001/12/09 Fontinst v1.914 font definitions for OT1/faq.
 ))
 \tf@toc=\write7
-\openout7 = `Popov_Yury__SKB_172_DZ_1.toc'.
+\openout7 = `Popov_SKB_172_DZ_4.toc'.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.133 \newpage
-               [1] [2]
+l.131 \newpage
+               [1] [2] [3
 
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 168.
+] [4
 
-<vibor_5.jpg, id=81, 186.6975pt x 91.542pt>
-File: vibor_5.jpg Graphic file (type jpg)
-<use vibor_5.jpg>
-Package pdftex.def Info: vibor_5.jpg  used on input line 179.
-(pdftex.def)             Requested size: 193.47577pt x 94.86899pt.
-<vibor_10.jpg, id=82, 249.93375pt x 98.16675pt>
-File: vibor_10.jpg Graphic file (type jpg)
-<use vibor_10.jpg>
-Package pdftex.def Info: vibor_10.jpg  used on input line 185.
-(pdftex.def)             Requested size: 193.47577pt x 75.99455pt.
-<vibor_ex_5.jpg, id=83, 394.47375pt x 98.16675pt>
-File: vibor_ex_5.jpg Graphic file (type jpg)
-<use vibor_ex_5.jpg>
-Package pdftex.def Info: vibor_ex_5.jpg  used on input line 206.
-(pdftex.def)             Requested size: 193.47577pt x 48.14705pt.
-<vibor_ex_10.jpg, id=84, 428.19975pt x 94.55325pt>
-File: vibor_ex_10.jpg Graphic file (type jpg)
-<use vibor_ex_10.jpg>
-Package pdftex.def Info: vibor_ex_10.jpg  used on input line 212.
-(pdftex.def)             Requested size: 193.47577pt x 42.72313pt.
-[3 <./vibor_5.jpg> <./vibor_10.jpg> <./vibor_ex_5.jpg> <./vibor_ex_10.jpg>]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 244.
-
-<efr_5.jpg, id=97, 384.83775pt x 255.354pt>
-File: efr_5.jpg Graphic file (type jpg)
-<use efr_5.jpg>
-Package pdftex.def Info: efr_5.jpg  used on input line 256.
-(pdftex.def)             Requested size: 227.3381pt x 150.84848pt.
-<efr_10.jpg, id=98, 390.258pt x 302.3295pt>
-File: efr_10.jpg Graphic file (type jpg)
-<use efr_10.jpg>
-Package pdftex.def Info: efr_10.jpg  used on input line 260.
-(pdftex.def)             Requested size: 227.3381pt x 176.117pt.
-<efr_100.jpg, id=99, 385.44pt x 282.45525pt>
-File: efr_100.jpg Graphic file (type jpg)
-<use efr_100.jpg>
-Package pdftex.def Info: efr_100.jpg  used on input line 264.
-(pdftex.def)             Requested size: 227.3381pt x 166.59541pt.
-<efr_1000.jpg, id=100, 377.61075pt x 284.86424pt>
-File: efr_1000.jpg Graphic file (type jpg)
-<use efr_1000.jpg>
-Package pdftex.def Info: efr_1000.jpg  used on input line 268.
-(pdftex.def)             Requested size: 227.3381pt x 171.49796pt.
-<efr_103.jpg, id=101, 382.42876pt x 280.6485pt>
-File: efr_103.jpg Graphic file (type jpg)
-<use efr_103.jpg>
-Package pdftex.def Info: efr_103.jpg  used on input line 272.
-(pdftex.def)             Requested size: 227.3381pt x 166.8359pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4] [5 <./efr_5.jpg> <./efr_10.jpg> <./efr_100.jpg> <./efr_1000.jpg> <./efr_103
-.jpg>]
-<up_lim_5.jpg, id=114, 283.65974pt x 115.632pt>
-File: up_lim_5.jpg Graphic file (type jpg)
-<use up_lim_5.jpg>
-Package pdftex.def Info: up_lim_5.jpg  used on input line 289.
-(pdftex.def)             Requested size: 227.3381pt x 92.67334pt.
-<up_lim_10.jpg, id=115, 295.70474pt x 114.4275pt>
-File: up_lim_10.jpg Graphic file (type jpg)
-<use up_lim_10.jpg>
-Package pdftex.def Info: up_lim_10.jpg  used on input line 293.
-(pdftex.def)             Requested size: 227.3381pt x 87.9715pt.
-<up_lim_100.jpg, id=116, 398.6895pt x 119.84775pt>
-File: up_lim_100.jpg Graphic file (type jpg)
-<use up_lim_100.jpg>
-Package pdftex.def Info: up_lim_100.jpg  used on input line 297.
-(pdftex.def)             Requested size: 227.3381pt x 68.33769pt.
-<up_lim_1000.jpg, id=117, 389.0535pt x 112.0185pt>
-File: up_lim_1000.jpg Graphic file (type jpg)
-<use up_lim_1000.jpg>
-Package pdftex.def Info: up_lim_1000.jpg  used on input line 301.
-(pdftex.def)             Requested size: 227.3381pt x 65.45619pt.
-<up_lim_103.jpg, id=118, 318.59026pt x 111.41624pt>
-File: up_lim_103.jpg Graphic file (type jpg)
-<use up_lim_103.jpg>
-Package pdftex.def Info: up_lim_103.jpg  used on input line 305.
-(pdftex.def)             Requested size: 227.3381pt x 79.5056pt.
- [6 <./up_lim_5.jpg> <./up_lim_10.jpg> <./up_lim_100.jpg> <./up_lim_1000.jpg> <
-./up_lim_103.jpg>]
-<efr_exp_5.jpg, id=124, 253.54726pt x 249.3315pt>
-File: efr_exp_5.jpg Graphic file (type jpg)
-<use efr_exp_5.jpg>
-Package pdftex.def Info: efr_exp_5.jpg  used on input line 323.
-(pdftex.def)             Requested size: 227.3381pt x 223.57068pt.
-<efr_exp_10.jpg, id=125, 255.95625pt x 248.127pt>
-File: efr_exp_10.jpg Graphic file (type jpg)
-<use efr_exp_10.jpg>
-Package pdftex.def Info: efr_exp_10.jpg  used on input line 327.
-(pdftex.def)             Requested size: 227.3381pt x 220.38556pt.
-<efr_exp_100.jpg, id=126, 250.536pt x 246.9225pt>
-File: efr_exp_100.jpg Graphic file (type jpg)
-<use efr_exp_100.jpg>
-Package pdftex.def Info: efr_exp_100.jpg  used on input line 331.
-(pdftex.def)             Requested size: 227.3381pt x 224.0593pt.
-<efr_exp_1000.jpg, id=127, 243.91125pt x 241.50224pt>
-File: efr_exp_1000.jpg Graphic file (type jpg)
-<use efr_exp_1000.jpg>
-Package pdftex.def Info: efr_exp_1000.jpg  used on input line 335.
-(pdftex.def)             Requested size: 227.3381pt x 225.0959pt.
-<efr_exp_103.jpg, id=128, 266.1945pt x 243.91125pt>
-File: efr_exp_103.jpg Graphic file (type jpg)
-<use efr_exp_103.jpg>
-Package pdftex.def Info: efr_exp_103.jpg  used on input line 339.
-(pdftex.def)             Requested size: 227.3381pt x 208.3118pt.
-
-
-LaTeX Warning: Float too large for page by 82.61734pt on input line 342.
-
-<up_exp_5.jpg, id=129, 243.91125pt x 82.50826pt>
-File: up_exp_5.jpg Graphic file (type jpg)
-<use up_exp_5.jpg>
-Package pdftex.def Info: up_exp_5.jpg  used on input line 356.
-(pdftex.def)             Requested size: 227.3381pt x 76.90309pt.
-<up_exp_10.jpg, id=130, 234.27525pt x 77.69025pt>
-File: up_exp_10.jpg Graphic file (type jpg)
-<use up_exp_10.jpg>
-Package pdftex.def Info: up_exp_10.jpg  used on input line 360.
-(pdftex.def)             Requested size: 227.3381pt x 75.39261pt.
-<up_exp_100.jpg, id=131, 242.1045pt x 78.2925pt>
-File: up_exp_100.jpg Graphic file (type jpg)
-<use up_exp_100.jpg>
-Package pdftex.def Info: up_exp_100.jpg  used on input line 364.
-(pdftex.def)             Requested size: 227.3381pt x 73.51968pt.
-<up_exp_1000.jpg, id=132, 248.72925pt x 79.497pt>
-File: up_exp_1000.jpg Graphic file (type jpg)
-<use up_exp_1000.jpg>
-Package pdftex.def Info: up_exp_1000.jpg  used on input line 368.
-(pdftex.def)             Requested size: 227.3381pt x 72.66261pt.
-<up_exp_103.jpg, id=133, 274.626pt x 78.89474pt>
-File: up_exp_103.jpg Graphic file (type jpg)
-<use up_exp_103.jpg>
-Package pdftex.def Info: up_exp_103.jpg  used on input line 372.
-(pdftex.def)             Requested size: 227.3381pt x 65.30925pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[7] [8 <./efr_exp_5.jpg> <./efr_exp_10.jpg> <./efr_exp_100.jpg> <./efr_exp_1000
-.jpg> <./efr_exp_103.jpg>] [9 <./up_exp_5.jpg> <./up_exp_10.jpg> <./up_exp_100.
-jpg> <./up_exp_1000.jpg> <./up_exp_103.jpg>]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 412.
-
-<var_ser_5.jpg, id=146, 336.0555pt x 384.2355pt>
-File: var_ser_5.jpg Graphic file (type jpg)
-<use var_ser_5.jpg>
-Package pdftex.def Info: var_ser_5.jpg  used on input line 422.
-(pdftex.def)             Requested size: 193.47577pt x 221.21512pt.
-<var_ser_10.jpg, id=147, 498.663pt x 387.849pt>
-File: var_ser_10.jpg Graphic file (type jpg)
-<use var_ser_10.jpg>
-Package pdftex.def Info: var_ser_10.jpg  used on input line 427.
-(pdftex.def)             Requested size: 193.47577pt x 150.47931pt.
-[10 <./var_ser_5.jpg> <./var_ser_10.jpg>]
-Overfull \hbox (17.25009pt too wide) in paragraph at lines 449--450
-[]\T2A/faq/m/n/12 Будем ис-кать вы-бо-роч-ную кван-тиль гра-фи-че-ским спо-со-б
-ом: про-ве-дем пря-мую $\OML/cmm/m/it/12 y \OT1/cmr/m/n/12 =$\T2A/faq/m/n/12 (у
-ровень
- []
-
-<quantile01.jpg, id=153, 304.7385pt x 213.79875pt>
-File: quantile01.jpg Graphic file (type jpg)
-<use quantile01.jpg>
-Package pdftex.def Info: quantile01.jpg  used on input line 456.
-(pdftex.def)             Requested size: 227.3381pt x 159.4972pt.
-<quantile05.jpg, id=154, 324.0105pt x 217.41225pt>
-File: quantile05.jpg Graphic file (type jpg)
-<use quantile05.jpg>
-Package pdftex.def Info: quantile05.jpg  used on input line 460.
-(pdftex.def)             Requested size: 227.3381pt x 152.54912pt.
-<quantile07.jpg, id=155, 294.50024pt x 214.401pt>
-File: quantile07.jpg Graphic file (type jpg)
-<use quantile07.jpg>
-Package pdftex.def Info: quantile07.jpg  used on input line 464.
-(pdftex.def)             Requested size: 227.3381pt x 165.51129pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[11]
-<var_ser_exp_5.jpg, id=160, 265.59225pt x 310.15875pt>
-File: var_ser_exp_5.jpg Graphic file (type jpg)
-<use var_ser_exp_5.jpg>
-Package pdftex.def Info: var_ser_exp_5.jpg  used on input line 482.
-(pdftex.def)             Requested size: 193.47577pt x 225.9502pt.
-<var_ser_exp_10.jpg, id=161, 420.97275pt x 319.1925pt>
-File: var_ser_exp_10.jpg Graphic file (type jpg)
-<use var_ser_exp_10.jpg>
-Package pdftex.def Info: var_ser_exp_10.jpg  used on input line 487.
-(pdftex.def)             Requested size: 193.47577pt x 146.69882pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[12 <./quantile01.jpg> <./quantile05.jpg> <./quantile07.jpg>]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 513.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 517--518
-
- []
-
-<fotos/Geom/Gist/g5.png, id=167, 373.395pt x 248.93pt>
-File: fotos/Geom/Gist/g5.png Graphic file (type png)
-<use fotos/Geom/Gist/g5.png>
-Package pdftex.def Info: fotos/Geom/Gist/g5.png  used on input line 522.
-(pdftex.def)             Requested size: 227.3381pt x 151.5584pt.
-<fotos/Geom/Gist/g10.png, id=169, 385.44pt x 252.945pt>
-File: fotos/Geom/Gist/g10.png Graphic file (type png)
-<use fotos/Geom/Gist/g10.png>
-Package pdftex.def Info: fotos/Geom/Gist/g10.png  used on input line 526.
-(pdftex.def)             Requested size: 227.3381pt x 149.18994pt.
-<fotos/Geom/Gist/g100.png, id=170, 379.4175pt x 248.93pt>
-File: fotos/Geom/Gist/g100.png Graphic file (type png)
-<use fotos/Geom/Gist/g100.png>
-Package pdftex.def Info: fotos/Geom/Gist/g100.png  used on input line 530.
-(pdftex.def)             Requested size: 227.3381pt x 149.15402pt.
-<fotos/Geom/Gist/g1000.png, id=171, 379.4175pt x 248.93pt>
-File: fotos/Geom/Gist/g1000.png Graphic file (type png)
-<use fotos/Geom/Gist/g1000.png>
-Package pdftex.def Info: fotos/Geom/Gist/g1000.png  used on input line 534.
-(pdftex.def)             Requested size: 227.3381pt x 149.15402pt.
-<fotos/Geom/Gist/g103.png, id=172, 386.44376pt x 248.93pt>
-File: fotos/Geom/Gist/g103.png Graphic file (type png)
-<use fotos/Geom/Gist/g103.png>
-Package pdftex.def Info: fotos/Geom/Gist/g103.png  used on input line 538.
-(pdftex.def)             Requested size: 227.3381pt x 146.442pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<fotos/Geom/Polig/pol5.png, id=173, 393.47pt x 262.9825pt>
-File: fotos/Geom/Polig/pol5.png Graphic file (type png)
-<use fotos/Geom/Polig/pol5.png>
-Package pdftex.def Info: fotos/Geom/Polig/pol5.png  used on input line 548.
-(pdftex.def)             Requested size: 227.3381pt x 151.94408pt.
-<fotos/Geom/Polig/pol10.png, id=174, 397.485pt x 262.9825pt>
-File: fotos/Geom/Polig/pol10.png Graphic file (type png)
-<use fotos/Geom/Polig/pol10.png>
-Package pdftex.def Info: fotos/Geom/Polig/pol10.png  used on input line 552.
-(pdftex.def)             Requested size: 227.3381pt x 150.4152pt.
-<fotos/Geom/Polig/pol100.png, id=175, 393.47pt x 262.9825pt>
-File: fotos/Geom/Polig/pol100.png Graphic file (type png)
-<use fotos/Geom/Polig/pol100.png>
-Package pdftex.def Info: fotos/Geom/Polig/pol100.png  used on input line 556.
-(pdftex.def)             Requested size: 227.3381pt x 151.94408pt.
-<fotos/Geom/Polig/pol1000.png, id=176, 396.48125pt x 262.9825pt>
-File: fotos/Geom/Polig/pol1000.png Graphic file (type png)
-<use fotos/Geom/Polig/pol1000.png>
-Package pdftex.def Info: fotos/Geom/Polig/pol1000.png  used on input line 560.
-(pdftex.def)             Requested size: 227.3381pt x 150.7924pt.
-<fotos/Geom/Polig/pol103.png, id=177, 393.47pt x 262.9825pt>
-File: fotos/Geom/Polig/pol103.png Graphic file (type png)
-<use fotos/Geom/Polig/pol103.png>
-Package pdftex.def Info: fotos/Geom/Polig/pol103.png  used on input line 564.
-(pdftex.def)             Requested size: 227.3381pt x 151.94408pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[13 <./var_ser_exp_5.jpg> <./var_ser_exp_10.jpg>] [14 <./fotos/Geom/Gist/g5.png
-> <./fotos/Geom/Gist/g10.png> <./fotos/Geom/Gist/g100.png> <./fotos/Geom/Gist/g
-1000.png> <./fotos/Geom/Gist/g103.png>] [15 <./fotos/Geom/Polig/pol5.png> <./fo
-tos/Geom/Polig/pol10.png> <./fotos/Geom/Polig/pol100.png> <./fotos/Geom/Polig/p
-ol1000.png> <./fotos/Geom/Polig/pol103.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 584--585
-
- []
-
-<fotos/Expon/Gist/g5.png, id=201, 373.395pt x 248.93pt>
-File: fotos/Expon/Gist/g5.png Graphic file (type png)
-<use fotos/Expon/Gist/g5.png>
-Package pdftex.def Info: fotos/Expon/Gist/g5.png  used on input line 589.
-(pdftex.def)             Requested size: 227.3381pt x 151.5584pt.
-<fotos/Expon/Gist/g10.png, id=202, 379.4175pt x 248.93pt>
-File: fotos/Expon/Gist/g10.png Graphic file (type png)
-<use fotos/Expon/Gist/g10.png>
-Package pdftex.def Info: fotos/Expon/Gist/g10.png  used on input line 593.
-(pdftex.def)             Requested size: 227.3381pt x 149.15402pt.
-<fotos/Expon/Gist/g100.png, id=203, 373.395pt x 248.93pt>
-File: fotos/Expon/Gist/g100.png Graphic file (type png)
-<use fotos/Expon/Gist/g100.png>
-Package pdftex.def Info: fotos/Expon/Gist/g100.png  used on input line 597.
-(pdftex.def)             Requested size: 227.3381pt x 151.5584pt.
-<fotos/Expon/Gist/g1000.png, id=204, 373.395pt x 248.93pt>
-File: fotos/Expon/Gist/g1000.png Graphic file (type png)
-<use fotos/Expon/Gist/g1000.png>
-Package pdftex.def Info: fotos/Expon/Gist/g1000.png  used on input line 601.
-(pdftex.def)             Requested size: 227.3381pt x 151.5584pt.
-<fotos/Expon/Gist/g103.png, id=205, 373.395pt x 248.93pt>
-File: fotos/Expon/Gist/g103.png Graphic file (type png)
-<use fotos/Expon/Gist/g103.png>
-Package pdftex.def Info: fotos/Expon/Gist/g103.png  used on input line 605.
-(pdftex.def)             Requested size: 227.3381pt x 151.5584pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 612--613
-
- []
-
-<fotos/Expon/Poligon/pol5.png, id=210, 399.4925pt x 262.9825pt>
-File: fotos/Expon/Poligon/pol5.png Graphic file (type png)
-<use fotos/Expon/Poligon/pol5.png>
-Package pdftex.def Info: fotos/Expon/Poligon/pol5.png  used on input line 617.
-(pdftex.def)             Requested size: 227.3381pt x 149.65678pt.
-<fotos/Expon/Poligon/pol10.png, id=211, 393.47pt x 262.9825pt>
-File: fotos/Expon/Poligon/pol10.png Graphic file (type png)
-<use fotos/Expon/Poligon/pol10.png>
-Package pdftex.def Info: fotos/Expon/Poligon/pol10.png  used on input line 621.
-
-(pdftex.def)             Requested size: 227.3381pt x 151.94408pt.
-<fotos/Expon/Poligon/pol100.png, id=212, 410.53375pt x 262.9825pt>
-File: fotos/Expon/Poligon/pol100.png Graphic file (type png)
-<use fotos/Expon/Poligon/pol100.png>
-Package pdftex.def Info: fotos/Expon/Poligon/pol100.png  used on input line 625
-.
-(pdftex.def)             Requested size: 227.3381pt x 145.62796pt.
-<fotos/Expon/Poligon/pol1000.png, id=213, 399.4925pt x 262.9825pt>
-File: fotos/Expon/Poligon/pol1000.png Graphic file (type png)
-<use fotos/Expon/Poligon/pol1000.png>
-Package pdftex.def Info: fotos/Expon/Poligon/pol1000.png  used on input line 62
-9.
-(pdftex.def)             Requested size: 227.3381pt x 149.65678pt.
-<fotos/Expon/Poligon/pol103.png, id=214, 413.545pt x 262.9825pt>
-File: fotos/Expon/Poligon/pol103.png Graphic file (type png)
-<use fotos/Expon/Poligon/pol103.png>
-Package pdftex.def Info: fotos/Expon/Poligon/pol103.png  used on input line 633
-.
-(pdftex.def)             Requested size: 227.3381pt x 144.57259pt.
-
-LaTeX Warning: Float too large for page by 14.07619pt on input line 637.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[17 <./fotos/Expon/Gist/g5.png> <./fotos/Expon/Gist/g10.png> <./fotos/Expon/Gis
-t/g100.png> <./fotos/Expon/Gist/g1000.png> <./fotos/Expon/Gist/g103.png>]
-[18 <./fotos/Expon/Poligon/pol5.png> <./fotos/Expon/Poligon/pol10.png> <./fotos
-/Expon/Poligon/pol100.png> <./fotos/Expon/Poligon/pol1000.png> <./fotos/Expon/P
-oligon/pol103.png>] 
+] 
 AED: lastpage setting LastPage
-[19
+[5
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 648.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 648.
- (Popov_Yury__SKB_172_DZ_1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 648.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 648.
-Package rerunfilecheck Info: File `Popov_Yury__SKB_172_DZ_1.out' has not change
-d.
-(rerunfilecheck)             Checksum: 6CCB935315AE1A5C8B5825C45CA706A2;4384.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 648.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
+ (Popov_SKB_172_DZ_4.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
+Package rerunfilecheck Info: File `Popov_SKB_172_DZ_4.out' has not changed.
+(rerunfilecheck)             Checksum: 928D0987F67F8DCA084EF730E400A20C;600.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
  ) 
 Here is how much of TeX's memory you used:
- 35190 strings out of 492946
- 758801 string characters out of 3133793
- 957219 words of memory out of 10000000
- 38365 multiletter control sequences out of 15000+200000
- 26970 words of font info for 59 fonts, out of 3000000 for 9000
+ 34882 strings out of 492946
+ 752704 string characters out of 3133793
+ 952107 words of memory out of 10000000
+ 38135 multiletter control sequences out of 15000+200000
+ 20324 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,9n,96p,3252b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,5n,96p,3246b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/drpop/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/t2/t2a.enc}<C:/Use
-rs/drpop/Programms/MiKTeX/fonts/type1/public/pscyr/antiq4.pfb><C:/Users/drpop/P
-rogramms/MiKTeX/fonts/type1/public/pscyr/antiq5.pfb><C:/Users/drpop/Programms/M
-iKTeX/fonts/type1/public/pscyr/antiq6.pfb><C:/Users/drpop/Programms/MiKTeX/font
-s/type1/public/pscyr/antiq7.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmex10.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmmi12.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi6.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmmi8.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mr12.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.p
-fb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Popov_Yury__SKB_172_DZ_1.pdf (20 pages, 1445062 bytes).
+rs/drpop/Programms/MiKTeX/fonts/type1/public/pscyr/antiq6.pfb><C:/Users/drpop/P
+rogramms/MiKTeX/fonts/type1/public/pscyr/antiq7.pfb>
+Output written on Popov_SKB_172_DZ_4.pdf (6 pages, 37890 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
- 384 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
