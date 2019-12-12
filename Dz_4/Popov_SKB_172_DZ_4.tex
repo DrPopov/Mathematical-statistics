@@ -135,19 +135,105 @@
 
 
 %-------------------------------------Предислов
-ие
+
 \setcounter{secnumdepth}{-1} % убираем нумерацию 
 
 
 %-------------------------------------Предисловие
+\newpage
 
+\begin{center}
+	\textbf{\Large Немного теории}
+\end{center}
+
+\normalsize{\textbf{Определение 1}} \textit{ Статистическая гипотеза } - это некоторое предположение о виде или параметрах распределений\\
+
+\normalsize{\textbf{Определение 2}} \textit{ Статистический критерий  } - это правило, по которому каждой реализации выборки ставится в соответствие решение: принимаем гипотезу $ H_0 $ или отвергаем ее( то есть принимаем гипотезу $ H_1 $)\\
+
+\normalsize{\textbf{Определение 3}} \textit{ Уровень значимости статистического теста } - допустимая для данной задачи вероятность ошибки первого рода, то есть вероятность отклонить нулевую гипотезу, когда на самом деле она верна\\
+
+\normalsize{\textbf{Определение 4}} В случае, когда $ H_0 $ и $ H_1 $ - простые гипотезы, $ P(x \in \mathcal{X} | H_0)) = \lambda $ - {\it ошибка 1 рода}
+
+$ \beta = P(H_0 | H_1) $ - \textit{ошибка второго рода}\\
+
+\normalsize{\textbf{Определение 5}} Если $ H_0 $ состоит из одного определения, то говорят, что $ H_0 $ - \textit{простая гипотеза}, иначе $ H_0 $  \textit{сложная гипотеза}\\
+
+\normalsize{\textbf{Определение 6}} Если $ H_1 $ состоит из одного определения, то говорят, что $ H_1 $ - \textit{простая гипотеза}, иначе $ H_1 $  \textit{сложная гипотеза}\\
 
 \newpage
+\begin{center}
+	\textbf{\Large Перейдем к практике}
+\end{center}
+
 \chapter{4.1 Геометрическое распределение}
+
+В качестве критерия я взял критерий Пирсона. Этот метод позволяет оценить статистическую значимость различий двух или нескольких относительных показателей. Это наиболее часто употребляемый критерий для проверки гипотезы о принадлежности наблюдаемой выборки некоторому теоретическому закону распределения.
+
+Этот критерий универсальный
+
+Для каждой выборки составим расчетную таблицу:
+
+\begin{figure}[h!]
+	\begin{center}
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom/r1}} \\
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom/r1_2}}\\
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom/r2}}\\
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom/r2_2}}\\
+		\end{minipage}
+		\hfill	
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom/r3}}\\
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom/r3_3}}\\
+		\end{minipage}
+	\end{center}
+\end{figure}
+
+		
+\begin{figure}[h!]
+	\begin{center}
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom/r4}}\\
+		\end{minipage}
+		\hfill	
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom/r4_4}}\\
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom/r5}}\\
+		\end{minipage}
+		\hfill
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1\linewidth]{fotos/geom/r5_5}}\\
+		\end{minipage}
+	\end{center}
+\end{figure}
+
+
+Выдвинем гипотезу $ H_0 $: распределение генеральной совокупности $ X $ подчинено геометрическому закону с параметром p Проверим эту гипотезу по критерию Пирсона при уровне значимости $ \lambda  = 0.05 $
+
+
+
+
 
 
 \newpage
 \chapter{4.2 Экспоненциальное распределение}
+
+
 
 
 \begin{thebibliography}{99}
