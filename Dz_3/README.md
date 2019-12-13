@@ -1,11 +1,11 @@
 # Mathematical-statistics
-## HSE 3 kurs
+# HSE 3 kurs
 
-## Домашнее задание 3
+# Домашнее задание 3
 
-## Оценки
+# Оценки
 
-# New Features!
+## New Features!
 
 -  05.12.2019
 
