@@ -1,12 +1,9 @@
 # Mathematical-statistics
-HSE 3 kurs
-
-Домашнее задание 2
-
-Основные понятия математической статистики
+# HSE 3 kurs
 
 
-# New Features!
+
+## New Features!
 
 - Когда-то  очень давно
   Добавлено первое дз
