@@ -432,7 +432,7 @@ $$
 
 Найдем оценку для геометрического распределения
 $$
-P(X=k) = q^{k - 1} p 
+P(X=k) = p (1 - p)^{x - 1}, x \in N, p - \text{оцениваемый параметр} 
 $$
 
 $$
@@ -443,192 +443,86 @@ $$
 D(X) = \frac{1-p}{p^2}
 $$
 
+Функция правдоподобия:\\
 
-\subsection{Оценка методом моментов}
-
-По методу моментов находим оценку параметра p: $ p = \dfrac{1}{x} $
-
-Точечной оценкой параметра p является $ \dfrac{1}{\overline{x}} $
-
-\subsection{Оценка методом максимального правдоподобия}
 $$
-L(x_1, x_2, \cdots, x_n; \theta) = p^n q^{n(\theta - 1)}
+L_\theta = \theta^n (1 - \theta)^{n \overline{x}}
 $$
 
 $$
-\ln(L) = n \ln(p) + n(\theta - 1)\ln(q)
+\ln(L_\theta) = n \ln(\theta) + n \overline{x}\ln(1 - \theta)
+$$
+
+Уравнение правдоподобия имеет вид:\\
+
+$$
+\dfrac{\partial \ln(L_\theta)}{\partial \theta} = 0
+$$
+
+Продифференцировав, получаем:\\
+$$
+\dfrac{n}{\theta} + \dfrac{n\overline{x}}{1 - \theta} = 0
 $$
 
 $$
-\dfrac{\partial \ln(L)}{\partial \theta} = n \ln q = 0
+\dfrac{\theta \overline{x}}{\theta - 1} = 1
 $$
 
-Минимума или максимума нет. Т.е. метод максимального правдоподобия не работает в случае геометрического распределения
+Получаем оценку максимального правдоподобия для $ \theta:  \hat{\theta} = \dfrac{1}{\overline{x}}$\\
 
-Для данного распределения предположим оценку $ \hat{\theta} = \dfrac{n - 1}{n} \sum\limits_{i = 1}^n x_i $
-
-\subsection{Достаточная статистика}
-
-Найдем достаточную статистику:
-
-$$
-f_n(x; \theta) = \prod\limits_{i = 1}^ n f(x_i; \theta) = \prod\limits_{i= 1}^n  \theta (1- \theta)^{x_i - 1} = \theta^n (1-\theta)^{-n} (1-\theta)^{\sum_{i=0}^n x_i} = g(T(x), \theta) h(x)
-$$
-
-Получаем, что $ T(x) = \sum\limits_{i=1}^n x_i $ - достаточная оценка, т.к выполняется критерий факторизации. В данном случае $ h(x) = 1 $
+Так как оценка получена методом максимального правдоподобия, то она является состоятельной, асимптотически нормальной и эффективной
 
 
-
-\subsection{Полная достаточная статистика}
-
-
-Эта статистика является полной достаточной статистикой\\
 
 \vspace{5mm}
 \phantomsection
 \textbf{\section{\large{3.3.2 Экспоненциальное распределение}}}
 \vspace{5mm}
 
-Рассмотри "сдвинутое" экспоненциальное распределение с плотность распределения $ f(x) = \theta e^{-\theta(x - \theta)}, x \geq 0, \theta \ge 0 $
-\\
+Данное распределение тоже относится к экспоненциальному семейству.\\
 
-
-\subsection{Оценка методом моментов}
-
-Математическое ожидание равно $ Ex = \theta + \dfrac{1}{\lambda} $
-
-Дисперсия равна $ Dx = \dfrac{1}{\lambda^2} $
+Плотность вероятности:\\
 
 $$
-\bar{x} = \theta + \dfrac{1}{\lambda}
+f(x, \theta) = e^{-\theta x + \ln\theta}
 $$
 
-Оценка: 
+Найдем все коэффициенты:
 
 $$
-\theta_\text{омм} = \bar x - \dfrac{1}{\lambda}
-$$
-
-Проверим, является ли данная оценка несмещенной
-
-$$
-E_\theta T = E\left( \bar X - \dfrac{1}{\lambda} \right) = E\bar{X} - \dfrac{1}{\lambda} = \theta + \dfrac{1}{\lambda} - \dfrac{1}{\lambda} = \theta
-$$
-
-Следовательно, оценка $ \theta_\text{омм} $ несмещенная оценка параметра $ \theta $
-
-$$
-D\theta_\text{омм} = D\left( \bar X - \dfrac{1}{\lambda} \right) = D(\bar{X}) + 0 =  D(\bar{X}) = \dfrac{1}{n^2} D\left( \sum_{i=1}^{n} x_i \right) = \dfrac{1}{n^2} \dfrac{1}{\lambda^2} = \dfrac{1}{n \lambda^2} \to 0 ghb n \to \infty
-$$
-
-Следовательно, $ \theta_\text{омм} $ состоятельная оценка параметра $ \theta $
-\\
-
-\subsection{Оценка максимальным правдоподобием}
-
-$$
-\theta_\text{омм} = argsup L(x; \theta)
+A(\theta) = - \theta\\
 $$
 
 $$
-L(x;\theta) = \lambda^n e^{-\lambda \sum_{i=1}^n (x_i - \theta)}
-$$
-
-Воспользуемся тем, что экстремумы $ L(x; \theta) $ и $ \ln L(x; \theta) $ совпадают
-
-$$
-\ln L (x; \theta) = \ln \lambda^n e^{-\lambda \sum_{i=1}^n (x_i - \theta)} = n \ln \lambda - n \lambda \bar{X} + n \lambda \theta 
+B(x) = x\\
 $$
 
 $$
-\dfrac{\partial \ln L(x; \theta)}{\partial \theta} = n \lambda > 0
-$$
-
-Чтобы максимизировать функцию правдоподобия, возьмем максимальное $ \theta $
-
-$$
-\theta_\text{омм} = X_{(1)}
-$$
-
-\subsection{Несмещенность оценки}
-
-Проверим несмещенность оценки
-
-$$
-F_{(1)} (x) = 1 - (1 - F(x))^n = 1-(1-1+e^{- \lambda (x - \theta)})^n = 1 - \left(  \dfrac{e^{\lambda n}}{e^{\lambda \theta}} \right)^n = 1 - \dfrac{e^{\lambda \theta n}}{e^{\lambda x n}}
+C(\theta) = \ln\theta\\
 $$
 
 $$
-f_{(1)} (x) = F'_(1)(x) = \dfrac{e^{\lambda n} \lambda n}{e^{\lambda x n}} = \lambda n e^{-\lambda n (x- \theta)}
-$$
+D(x) = 0\\
+$$ 
 
 
 $$
-\begin{array}{lcl}
-	E_\theta x_{(1)} &=\\
-	\\
-	&=& \int\limits_{0}^{\infty} x f_{(1)} (x; \theta) dx \\
-	\\
-	&=&\int\limits_{0}^{\infty} x \lambda n e^{-\lambda n (x- \theta} \\
-	\\
-	&=&\lambda n e^{\lambda n \theta} \left( - \dfrac{x e^{- \lambda x n}}{\lambda n} + \dfrac{1}{\lambda n} \int\limits_{0}^{\infty} e^{-\lambda n x}dx \right)  \\
-	\\
-	&=&-x e^{-\lambda n (x- \theta)}|_0^\infty - \dfrac{\lambda n e^{\lambda n (x - \theta)}}{\lambda^2 n^2}|_0^\infty\\
-	\\
-	&=&\theta + \dfrac{1}{\lambda n}
-\end{array}
+T^* = T^*(X) = \frac{1}{n} \sum\limits_{i = 1}^n B(X_i) = \overline{X}
 $$
 
-Таким образом, оценка максимальным правдоподобием смещена со смещением $ \frac{1}{\lambda n} $
-
 $$
-\theta = X_{(1)} - \frac{1}{\lambda n}
-$$
-\\
-
-Найдем дисперсию несмещенной оценки:
-
-$$
-D\theta_\text{омп} = D\left( X_{(1) - \frac{1}{\lambda n}}\right) = EX_{(1)}^2 - (EX_{1})^2 = \theta^2 - \dfrac{2 \theta}{\lambda n} - \dfrac{2}{\lambda^2 n^2} - \left( \theta + \dfrac{1}{\lambda n}\right)^2 = \dfrac{1}{(\lambda n)^2}
+\tau(\theta) = - \dfrac{C'(\theta)}{A'(\theta )}  = -\dfrac{(\ln\theta)'}{(-\theta)'} = \dfrac{1}{\theta}
 $$
 
-$D\theta_\text{омп} \to 0  $ при $ n \to \infty \to $ оценка состоятельна
-
-\subsection{Эффективная оценка}
-
-$ x $ зависит от параметра $\theta \to$ модель не регулярна $ \to $ не существует эффективной оценки 
-
-\subsection{Оптимальная оценка}
-
-Согласно теореме Рао-Блекуэлла-Колмогорова, оптимальная оценка, если она существует, является
-функцией от полной достаточной статистики. Найдем достаточную статистику.
-\\
-
-Функция правдоподобия имеет вид:
+И наконец получаем оценку параметра $ \theta $:\\
 $$
-L(x;\theta) = \lambda^n e^{-\lambda \sum_{i=1}^n (x_i - \theta)} \nu (X_{(1)} - \theta) = \lambda^n e^{\lambda n \theta} e^{-\sum_{i=1}^{n} x_i} \nu(X_{(1)} - \theta) 
+\hat{\theta} = \dfrac{n}{\overline{X}} = \dfrac{n}{\sum\limits_{i = 1}^n X_i}
 $$
 
-Где $ \nu(x) = I(x \geq 0), x \in R $ - это функция Хэвисайда
 
-По критерию факторизации статистика $ X_{(1)} $является достаточной статистикой. 
 
-Установим ее полноту
 
-Пусть $ \varphi(t), t > 0 $ - произвольная функция. Найдем математическое ожидание случайной величины $ \varphi(X_{(1)}) $
-$$
-E_{\theta} \varphi(X_{(1)}) = \int\limits_{\theta}^{\infty} \varphi(x) f_{(1)}(x; \theta) dx = \int\limits_{\theta}^\infty \varphi(x) \lambda n e^{- \lambda n(x - \theta)} dx = \lambda n e^{- \lambda n \theta} \int\limits_{\theta}^{\infty} \varphi(x) e^{- \lambda n x} dx
-$$
 
-Из того $ E_\theta \varphi(X_{(1)}) = 0 $ для любого $\theta \in \Xi$ следует, что  $ \int\limits_{\theta}^{\infty} \varphi(x) e^{-\lambda n x} dx = 0$. Докажем, что $ \varphi(\theta)  = 0, t \geq 0$
-\\
-
-Продифференцируем полученный интеграл по параметру $ \theta $. Тогда 
-$$
-\left( \int\limits_{\theta}^\infty \varphi(x)  e^{- \lambda n x} dx \right)' = \varphi(\theta) e^{\lambda \theta n} = 0\text{   для любого  } \theta \in \Xi
-$$
-
-Указанное равенство верно для любого $ \theta \in \Xi $ только в случае $ \varphi(t) = 0 $, то есть $ X_{(1)} $- полная достаточная статистика. Поскольку $ E_\theta X_{(1)} = \theta + \dfrac{1}{\lambda n} $, то оптимальной оценкой для параметра $\theta$ является статистика $ T = X_{(1)} - \dfrac{1}{\lambda n} $
 
 
 \phantomsection
