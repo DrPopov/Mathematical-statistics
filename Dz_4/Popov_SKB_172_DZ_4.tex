@@ -425,13 +425,49 @@ D_n = D_n(x) = \underset{x \in \mathop{R}}{\sup } |\hat{F}_n(x) - F(x) |
 $\hat{F}_n$ - оптимальная несмещенная состоятельная оценка для $F(x)$
 \\
 
+Будем использовать вместо статистики $ D_n $ статистику с поправкой Большева:
+$$
+s = \dfrac{6 n D_n}{6 \sqrt{n}}
+$$
+
+которая также имеет распределение Колмогорова, но сходится к нему быстрее, что позволяет использовать ее при меньших объемах данных
+
+Воспользуемся этой статистикой. Получим вот такие результаты:
+
+\begin{figure}[h!]
+	\begin{center}
+		\begin{minipage}[h]{0.47\linewidth}
+			\center{\includegraphics[width=1.5\linewidth]{fotos/kolmogor/wer.jpg}}\\
+		\end{minipage}
+	\end{center}
+\end{figure}
+
+\newpage
 \subsection{Критерий согласия Колмогорова - Смирнова для сложной гипотезы}
 
+\begin{figure}[h!]
+	\begin{center}
+		\begin{minipage}[h]{0.47\linewidth}
+			{\includegraphics[width=1.5\linewidth]{fotos/kolmogor/wre}}\\
+		\end{minipage}
+	\end{center}
+\end{figure}
+
+В обоих случаях у нас основания опровергнуть гипотезу $ H_0 $
 
 
+\subsection{Критерий согласия Колмогорова - Смирнова для сложной гипотезы}
 
+Также я сделал проверку гипотезы для двух выборок. Результаты приведены ниже в таблице. 
+\begin{figure}[h!]
+	\begin{center}
+		\begin{minipage}[h]{0.47\linewidth}
+			{\includegraphics[width=1.5\linewidth]{fotos/kolmogor/tr}}\\
+		\end{minipage}
+	\end{center}
+\end{figure}
 
-
+В данном случае гипотезу $ H_0 $ опровергаем, так как значения критерия попадает в критическую область. То есть две выборки принадлежат разным распределениям.
 
 \chapter{4.2 Задание для рассматриваемых распределений}
 

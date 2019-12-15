@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.14)  15 DEC 2019 03:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.14)  16 DEC 2019 02:29
 entering extended mode
 **./Popov_SKB_172_DZ_4.tex
 (Popov_SKB_172_DZ_4.tex
@@ -1419,7 +1419,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
-<fotos/geom/Pirson_prost.jpg, id=104, 167.4255pt x 314.3745pt>
+<fotos/geom/Pirson_prost.jpg, id=108, 167.4255pt x 314.3745pt>
 File: fotos/geom/Pirson_prost.jpg Graphic file (type jpg)
 <use fotos/geom/Pirson_prost.jpg>
 Package pdftex.def Info: fotos/geom/Pirson_prost.jpg  used on input line 230.
@@ -1452,7 +1452,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 262--263
 
  []
 
-<fotos/geom/Pirson_slog.jpg, id=120, 158.39175pt x 321.6015pt>
+<fotos/geom/Pirson_slog.jpg, id=124, 158.39175pt x 321.6015pt>
 File: fotos/geom/Pirson_slog.jpg Graphic file (type jpg)
 <use fotos/geom/Pirson_slog.jpg>
 Package pdftex.def Info: fotos/geom/Pirson_slog.jpg  used on input line 277.
@@ -1495,7 +1495,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
  []
 
-<fotos/expon/Pirson_prost.jpg, id=133, 213.79875pt x 378.81525pt>
+<fotos/expon/Pirson_prost.jpg, id=137, 213.79875pt x 378.81525pt>
 File: fotos/expon/Pirson_prost.jpg Graphic file (type jpg)
 <use fotos/expon/Pirson_prost.jpg>
 Package pdftex.def Info: fotos/expon/Pirson_prost.jpg  used on input line 333.
@@ -1538,7 +1538,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 367--368
 
  []
 
-<fotos/expon/Pirson_sloq.jpg, id=145, 222.23026pt x 382.42876pt>
+<fotos/expon/Pirson_sloq.jpg, id=149, 222.23026pt x 382.42876pt>
 File: fotos/expon/Pirson_sloq.jpg Graphic file (type jpg)
 <use fotos/expon/Pirson_sloq.jpg>
 Package pdftex.def Info: fotos/expon/Pirson_sloq.jpg  used on input line 382.
@@ -1571,39 +1571,87 @@ Underfull \hbox (badness 10000) in paragraph at lines 422--427
 
  []
 
+<fotos/kolmogor/wer.jpg, id=158, 554.67226pt x 213.79875pt>
+File: fotos/kolmogor/wer.jpg Graphic file (type jpg)
+<use fotos/kolmogor/wer.jpg>
+Package pdftex.def Info: fotos/kolmogor/wer.jpg  used on input line 440.
+(pdftex.def)             Requested size: 341.00716pt x 131.44466pt.
+
+Overfull \hbox (113.66905pt too wide) in paragraph at lines 440--440
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [16]
+<fotos/kolmogor/wre.jpg, id=164, 608.2725pt x 290.2845pt>
+File: fotos/kolmogor/wre.jpg Graphic file (type jpg)
+<use fotos/kolmogor/wre.jpg>
+Package pdftex.def Info: fotos/kolmogor/wre.jpg  used on input line 451.
+(pdftex.def)             Requested size: 341.00716pt x 162.7398pt.
+
+Overfull \hbox (113.66905pt too wide) in paragraph at lines 451--452
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
+
+ []
+
+<fotos/kolmogor/tr.jpg, id=165, 360.1455pt x 242.1045pt>
+File: fotos/kolmogor/tr.jpg Graphic file (type jpg)
+<use fotos/kolmogor/tr.jpg>
+Package pdftex.def Info: fotos/kolmogor/tr.jpg  used on input line 465.
+(pdftex.def)             Requested size: 341.00716pt x 229.24805pt.
+
+Overfull \hbox (113.66905pt too wide) in paragraph at lines 465--466
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--466
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17 <./fotos/kolmogor/wer.jpg> <./fotos/kolmogor/wre.jpg>] [18 <./fotos/kolmogo
+r/tr.jpg>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 438.
+(hyperref)                be the same. Added a new anchor on input line 474.
 
-[17
+[19
 
 ] 
 AED: lastpage setting LastPage
-[18
+[20
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 456.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 456.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 492.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 492.
  (Popov_SKB_172_DZ_4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 456.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 456.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 492.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 492.
 Package rerunfilecheck Info: File `Popov_SKB_172_DZ_4.out' has not changed.
-(rerunfilecheck)             Checksum: AAA4B5D3DD6C75D37E5977982FA50B1D;5544.
+(rerunfilecheck)             Checksum: 8E5A4816CDD312AB5D9E166EE2449985;6085.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 456.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 492.
  ) 
 Here is how much of TeX's memory you used:
- 34975 strings out of 492946
- 754364 string characters out of 3133793
+ 34993 strings out of 492946
+ 754730 string characters out of 3133793
  957202 words of memory out of 10000000
- 38186 multiletter control sequences out of 15000+200000
+ 38198 multiletter control sequences out of 15000+200000
  28570 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,8n,96p,3246b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,9n,96p,3246b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/drpop/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/t2/t2a.enc}<C:/Use
 rs/drpop/Programms/MiKTeX/fonts/type1/public/pscyr/antiq5.pfb><C:/Users/drpop/P
 rogramms/MiKTeX/fonts/type1/public/pscyr/antiq6.pfb><C:/Users/drpop/Programms/M
@@ -1616,9 +1664,9 @@ onts/cm/cmr6.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmr8.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pf
 b><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on Popov_SKB_172_DZ_4.pdf (19 pages, 361064 bytes).
+Output written on Popov_SKB_172_DZ_4.pdf (21 pages, 611266 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 241 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 188 words of extra memory for PDF output out of 10000 (max. 10000000)
 
