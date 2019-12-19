@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.14)  15 DEC 2019 00:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.14)  19 DEC 2019 07:14
 entering extended mode
 **./Popov_Yury_SKB_172_Dz_3.tex
 (Popov_Yury_SKB_172_Dz_3.tex
@@ -1357,175 +1357,191 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
-[2]
-<fotos/geom_3,1_5.jpg, id=87, 212.59425pt x 387.849pt>
-File: fotos/geom_3,1_5.jpg Graphic file (type jpg)
-<use fotos/geom_3,1_5.jpg>
-Package pdftex.def Info: fotos/geom_3,1_5.jpg  used on input line 203.
-(pdftex.def)             Requested size: 227.3381pt x 414.77534pt.
-<fotos/geom_3,1_10.jpg, id=88, 199.947pt x 390.86024pt>
-File: fotos/geom_3,1_10.jpg Graphic file (type jpg)
-<use fotos/geom_3,1_10.jpg>
-Package pdftex.def Info: fotos/geom_3,1_10.jpg  used on input line 207.
-(pdftex.def)             Requested size: 227.3381pt x 444.42232pt.
+[2] [3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
-<fotos/geom_3,1_100.jpg, id=89, 202.95825pt x 125.268pt>
-File: fotos/geom_3,1_100.jpg Graphic file (type jpg)
-<use fotos/geom_3,1_100.jpg>
-Package pdftex.def Info: fotos/geom_3,1_100.jpg  used on input line 215.
-(pdftex.def)             Requested size: 227.3381pt x 140.3183pt.
-<fotos/geom_3,1_1000.jpg, id=90, 198.7425pt x 128.27925pt>
-File: fotos/geom_3,1_1000.jpg Graphic file (type jpg)
-<use fotos/geom_3,1_1000.jpg>
-Package pdftex.def Info: fotos/geom_3,1_1000.jpg  used on input line 220.
-(pdftex.def)             Requested size: 227.3381pt x 146.74094pt.
-<fotos/geom_3,1_103.jpg, id=91, 199.34476pt x 129.48375pt>
-File: fotos/geom_3,1_103.jpg Graphic file (type jpg)
-<use fotos/geom_3,1_103.jpg>
-Package pdftex.def Info: fotos/geom_3,1_103.jpg  used on input line 225.
-(pdftex.def)             Requested size: 227.3381pt x 147.66632pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[3
-
-] [4 <./fotos/geom_3,1_5.jpg> <./fotos/geom_3,1_10.jpg>]
-LaTeX Font Info:    Try loading font information for T2A+ftx on input line 248.
+ []
 
 
-(C:\Users\drpop\Programms\MiKTeX\tex/latex/pscyr\t2aftx.fd
-File: t2aftx.fd 2004/09/23 Fontinst v1.914 font definitions for T2A/ftx.
-) [5 <./fotos/geom_3,1_100.jpg> <./fotos/geom_3,1_1000.jpg> <./fotos/geom_3,1_1
-03.jpg>]
-<fotos/expon_3,1_5.jpg, id=112, 208.3785pt x 392.667pt>
-File: fotos/expon_3,1_5.jpg Graphic file (type jpg)
-<use fotos/expon_3,1_5.jpg>
-Package pdftex.def Info: fotos/expon_3,1_5.jpg  used on input line 275.
-(pdftex.def)             Requested size: 227.3381pt x 428.4pt.
-<fotos/expon_3,1_10.jpg, id=113, 244.5135pt x 391.4625pt>
-File: fotos/expon_3,1_10.jpg Graphic file (type jpg)
-<use fotos/expon_3,1_10.jpg>
-Package pdftex.def Info: fotos/expon_3,1_10.jpg  used on input line 280.
-(pdftex.def)             Requested size: 227.3381pt x 363.9787pt.
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+
+ []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
 
-<fotos/expon_3,1_100.jpg, id=114, 210.18526pt x 130.68825pt>
-File: fotos/expon_3,1_100.jpg Graphic file (type jpg)
-<use fotos/expon_3,1_100.jpg>
-Package pdftex.def Info: fotos/expon_3,1_100.jpg  used on input line 289.
-(pdftex.def)             Requested size: 227.3381pt x 141.36053pt.
-<fotos/expon_3,1_1000.jpg, id=115, 213.1965pt x 124.0635pt>
-File: fotos/expon_3,1_1000.jpg Graphic file (type jpg)
-<use fotos/expon_3,1_1000.jpg>
-Package pdftex.def Info: fotos/expon_3,1_1000.jpg  used on input line 294.
-(pdftex.def)             Requested size: 227.3381pt x 132.29796pt.
-<fotos/expon_3,1_103.jpg, id=116, 210.18526pt x 128.8815pt>
-File: fotos/expon_3,1_103.jpg Graphic file (type jpg)
-<use fotos/expon_3,1_103.jpg>
-Package pdftex.def Info: fotos/expon_3,1_103.jpg  used on input line 299.
-(pdftex.def)             Requested size: 227.3381pt x 139.40627pt.
+ []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6] [7 <./fotos/expon_3,1_5.jpg> <./fotos/expon_3,1_10.jpg>] [8 <./fotos/expon_
-3,1_100.jpg> <./fotos/expon_3,1_1000.jpg> <./fotos/expon_3,1_103.jpg>]
-<fotos/geom_dov_interval_5.jpg, id=131, 345.08925pt x 49.98676pt>
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+
+Overfull \hbox (24.82692pt too wide) in paragraph at lines 278--279
+[]\T2A/faq/m/n/14.4 На ос-но-ва-нии нера-вен-ства Че-бы-ше-ва сле-ду-ет, что дл
+я лю-бо-го $\OML/cmm/m/it/14.4 " > \OT1/cmr/m/n/14.4 0[]\OML/cmm/m/it/14.4 n \O
+MS/cmsy/m/n/14.4 !
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+
+ []
+
+[7]
+<fotos/geom_dov_interval_5.jpg, id=116, 345.08925pt x 49.98676pt>
 File: fotos/geom_dov_interval_5.jpg Graphic file (type jpg)
 <use fotos/geom_dov_interval_5.jpg>
-Package pdftex.def Info: fotos/geom_dov_interval_5.jpg  used on input line 322.
+Package pdftex.def Info: fotos/geom_dov_interval_5.jpg  used on input line 385.
 
 (pdftex.def)             Requested size: 227.3381pt x 32.93109pt.
-<fotos/geom_dov_interval_10.jpg, id=132, 354.123pt x 48.78226pt>
+<fotos/geom_dov_interval_10.jpg, id=117, 354.123pt x 48.78226pt>
 File: fotos/geom_dov_interval_10.jpg Graphic file (type jpg)
 <use fotos/geom_dov_interval_10.jpg>
-Package pdftex.def Info: fotos/geom_dov_interval_10.jpg  used on input line 327
+Package pdftex.def Info: fotos/geom_dov_interval_10.jpg  used on input line 390
 .
 (pdftex.def)             Requested size: 227.3381pt x 31.31802pt.
-<fotos/geom_dov_interval_100.jpg, id=133, 352.31625pt x 48.18pt>
+<fotos/geom_dov_interval_100.jpg, id=118, 352.31625pt x 48.18pt>
 File: fotos/geom_dov_interval_100.jpg Graphic file (type jpg)
 <use fotos/geom_dov_interval_100.jpg>
-Package pdftex.def Info: fotos/geom_dov_interval_100.jpg  used on input line 33
-2.
+Package pdftex.def Info: fotos/geom_dov_interval_100.jpg  used on input line 39
+5.
 (pdftex.def)             Requested size: 227.3381pt x 31.0887pt.
-<fotos/geom_dov_interval_1000.jpg, id=134, 352.31625pt x 47.57774pt>
+<fotos/geom_dov_interval_1000.jpg, id=119, 352.31625pt x 47.57774pt>
 File: fotos/geom_dov_interval_1000.jpg Graphic file (type jpg)
 <use fotos/geom_dov_interval_1000.jpg>
-Package pdftex.def Info: fotos/geom_dov_interval_1000.jpg  used on input line 3
-37.
+Package pdftex.def Info: fotos/geom_dov_interval_1000.jpg  used on input line 4
+00.
 (pdftex.def)             Requested size: 227.3381pt x 30.70009pt.
-<fotos/geom_dov_interval_103.jpg, id=135, 358.33875pt x 48.78226pt>
+<fotos/geom_dov_interval_103.jpg, id=120, 358.33875pt x 48.78226pt>
 File: fotos/geom_dov_interval_103.jpg Graphic file (type jpg)
 <use fotos/geom_dov_interval_103.jpg>
-Package pdftex.def Info: fotos/geom_dov_interval_103.jpg  used on input line 34
-2.
+Package pdftex.def Info: fotos/geom_dov_interval_103.jpg  used on input line 40
+5.
 (pdftex.def)             Requested size: 227.3381pt x 30.94882pt.
 File: fotos/geom_dov_interval_5.jpg Graphic file (type jpg)
 <use fotos/geom_dov_interval_5.jpg>
-Package pdftex.def Info: fotos/geom_dov_interval_5.jpg  used on input line 360.
+Package pdftex.def Info: fotos/geom_dov_interval_5.jpg  used on input line 423.
 
 (pdftex.def)             Requested size: 227.3381pt x 32.93109pt.
 File: fotos/geom_dov_interval_10.jpg Graphic file (type jpg)
 <use fotos/geom_dov_interval_10.jpg>
-Package pdftex.def Info: fotos/geom_dov_interval_10.jpg  used on input line 365
+Package pdftex.def Info: fotos/geom_dov_interval_10.jpg  used on input line 428
 .
 (pdftex.def)             Requested size: 227.3381pt x 31.31802pt.
 File: fotos/geom_dov_interval_100.jpg Graphic file (type jpg)
 <use fotos/geom_dov_interval_100.jpg>
-Package pdftex.def Info: fotos/geom_dov_interval_100.jpg  used on input line 37
-0.
+Package pdftex.def Info: fotos/geom_dov_interval_100.jpg  used on input line 43
+3.
 (pdftex.def)             Requested size: 227.3381pt x 31.0887pt.
 File: fotos/geom_dov_interval_1000.jpg Graphic file (type jpg)
 <use fotos/geom_dov_interval_1000.jpg>
-Package pdftex.def Info: fotos/geom_dov_interval_1000.jpg  used on input line 3
-75.
+Package pdftex.def Info: fotos/geom_dov_interval_1000.jpg  used on input line 4
+38.
 (pdftex.def)             Requested size: 227.3381pt x 30.70009pt.
 File: fotos/geom_dov_interval_103.jpg Graphic file (type jpg)
 <use fotos/geom_dov_interval_103.jpg>
-Package pdftex.def Info: fotos/geom_dov_interval_103.jpg  used on input line 38
-0.
+Package pdftex.def Info: fotos/geom_dov_interval_103.jpg  used on input line 44
+3.
 (pdftex.def)             Requested size: 227.3381pt x 30.94882pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9
+[8
 
  <./fotos/geom_dov_interval_5.jpg> <./fotos/geom_dov_interval_10.jpg> <./fotos/
 geom_dov_interval_100.jpg> <./fotos/geom_dov_interval_1000.jpg> <./fotos/geom_d
-ov_interval_103.jpg>] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 397--398
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--400
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 405--406
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 410--411
-
- []
-
-[11
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 446--447
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 456--457
+ov_interval_103.jpg>] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
 
  []
 
@@ -1535,143 +1551,189 @@ Underfull \hbox (badness 10000) in paragraph at lines 462--463
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--472
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--483
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
+
+ []
+
+[10
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--526
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--535
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 545--546
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 547--548
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 484--485
+
+LaTeX Warning: Command \CYRG invalid in math mode on input line 611.
+
+
+LaTeX Warning: Command \CYRG invalid in math mode on input line 611.
+
+Missing character: There is no Г in font cmr12!
+Missing character: There is no Г in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--518
+Underfull \hbox (badness 10000) in paragraph at lines 629--630
 
  []
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 537--538
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 540--541
+[13] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 646--647
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--543
+Underfull \hbox (badness 10000) in paragraph at lines 649--650
 
  []
 
-<fotos/database/Geom/hist.png, id=160, 379.4175pt x 248.93pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 651--652
+
+ []
+
+<fotos/database/Geom/hist.png, id=154, 379.4175pt x 248.93pt>
 File: fotos/database/Geom/hist.png Graphic file (type png)
 <use fotos/database/Geom/hist.png>
-Package pdftex.def Info: fotos/database/Geom/hist.png  used on input line 547.
+Package pdftex.def Info: fotos/database/Geom/hist.png  used on input line 656.
 (pdftex.def)             Requested size: 379.41656pt x 248.92938pt.
 
-Overfull \hbox (152.07846pt too wide) in paragraph at lines 547--547
+Overfull \hbox (152.07846pt too wide) in paragraph at lines 656--656
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fotos/database/Geom/1.jpg, id=162, 192.72pt x 30.1125pt>
+<fotos/database/Geom/1.jpg, id=156, 192.72pt x 30.1125pt>
 File: fotos/database/Geom/1.jpg Graphic file (type jpg)
 <use fotos/database/Geom/1.jpg>
-Package pdftex.def Info: fotos/database/Geom/1.jpg  used on input line 558.
+Package pdftex.def Info: fotos/database/Geom/1.jpg  used on input line 667.
 (pdftex.def)             Requested size: 227.3381pt x 35.5214pt.
-<fotos/database/Geom/2.jpg, id=163, 158.39175pt x 25.2945pt>
+<fotos/database/Geom/2.jpg, id=157, 158.39175pt x 25.2945pt>
 File: fotos/database/Geom/2.jpg Graphic file (type jpg)
 <use fotos/database/Geom/2.jpg>
-Package pdftex.def Info: fotos/database/Geom/2.jpg  used on input line 563.
+Package pdftex.def Info: fotos/database/Geom/2.jpg  used on input line 672.
 (pdftex.def)             Requested size: 227.3381pt x 36.30475pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14
+[15
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 575--576
+Underfull \hbox (badness 10000) in paragraph at lines 684--685
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 577--578
+Underfull \hbox (badness 10000) in paragraph at lines 686--687
 
  []
 
-[15 <./fotos/database/Geom/hist.png> <./fotos/database/Geom/1.jpg> <./fotos/dat
+[16 <./fotos/database/Geom/hist.png> <./fotos/database/Geom/1.jpg> <./fotos/dat
 abase/Geom/2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 579--580
+Underfull \hbox (badness 10000) in paragraph at lines 688--689
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--582
+Underfull \hbox (badness 10000) in paragraph at lines 690--691
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 583--584
+Underfull \hbox (badness 10000) in paragraph at lines 692--693
 
  []
 
-<fotos/database/Expon/hist.png, id=174, 381.425pt x 248.93pt>
+<fotos/database/Expon/hist.png, id=168, 381.425pt x 248.93pt>
 File: fotos/database/Expon/hist.png Graphic file (type png)
 <use fotos/database/Expon/hist.png>
-Package pdftex.def Info: fotos/database/Expon/hist.png  used on input line 591.
+Package pdftex.def Info: fotos/database/Expon/hist.png  used on input line 700.
 
 (pdftex.def)             Requested size: 305.1404pt x 199.14426pt.
 
-Overfull \hbox (77.80229pt too wide) in paragraph at lines 591--591
+Overfull \hbox (77.80229pt too wide) in paragraph at lines 700--700
  [] 
  []
 
-<fotos/database/Expon/1.jpg, id=175, 196.93575pt x 34.32825pt>
+<fotos/database/Expon/1.jpg, id=169, 196.93575pt x 34.32825pt>
 File: fotos/database/Expon/1.jpg Graphic file (type jpg)
 <use fotos/database/Expon/1.jpg>
-Package pdftex.def Info: fotos/database/Expon/1.jpg  used on input line 602.
+Package pdftex.def Info: fotos/database/Expon/1.jpg  used on input line 711.
 (pdftex.def)             Requested size: 227.3381pt x 39.6301pt.
-<fotos/database/Expon/2.jpg, id=176, 153.57375pt x 22.28325pt>
+<fotos/database/Expon/2.jpg, id=170, 153.57375pt x 22.28325pt>
 File: fotos/database/Expon/2.jpg Graphic file (type jpg)
 <use fotos/database/Expon/2.jpg>
-Package pdftex.def Info: fotos/database/Expon/2.jpg  used on input line 607.
+Package pdftex.def Info: fotos/database/Expon/2.jpg  used on input line 716.
 (pdftex.def)             Requested size: 227.3381pt x 32.98851pt.
-[16 <./fotos/database/Expon/hist.png>] [17 <./fotos/database/Expon/1.jpg> <./fo
+[17 <./fotos/database/Expon/hist.png>] [18 <./fotos/database/Expon/1.jpg> <./fo
 tos/database/Expon/2.jpg>]
-Underfull \hbox (badness 4242) in paragraph at lines 615--616
+Underfull \hbox (badness 4242) in paragraph at lines 724--725
 [][][]\T2A/faq/m/n/14.4 Ссылка на ба-зу дан-ных для экс-по-нен-ци-аль-но-го рас
 -пре-де-ле-
  []
 
 
 AED: lastpage setting LastPage
-[18
+[19
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 621.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 621.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 730.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 730.
  (Popov_Yury_SKB_172_Dz_3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 621.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 621.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 730.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 730.
 Package rerunfilecheck Info: File `Popov_Yury_SKB_172_Dz_3.out' has not changed
 .
-(rerunfilecheck)             Checksum: 8017ADD0F097CA740C02A5B598534B36;4674.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 621.
+(rerunfilecheck)             Checksum: 1EF9165E86A10317E4481FAC87E5D53F;4674.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 730.
  ) 
 Here is how much of TeX's memory you used:
- 35116 strings out of 492946
- 757356 string characters out of 3133793
- 957837 words of memory out of 10000000
- 38291 multiletter control sequences out of 15000+200000
- 35563 words of font info for 80 fonts, out of 3000000 for 9000
+ 35038 strings out of 492946
+ 755699 string characters out of 3133793
+ 957838 words of memory out of 10000000
+ 38227 multiletter control sequences out of 15000+200000
+ 34653 words of font info for 79 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,9n,96p,3251b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/drpop/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/t2/t2a.enc}<C:/Use
@@ -1682,12 +1744,13 @@ s/type1/public/pscyr/antiq7.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmex10.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmmi10.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi12.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/pscyr/textb19.pfb>
-Output written on Popov_Yury_SKB_172_Dz_3.pdf (19 pages, 807595 bytes).
+s/cm/cmmi7.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr10.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><C:/Users/drpop/Programms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+>
+Output written on Popov_Yury_SKB_172_Dz_3.pdf (20 pages, 400825 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 234 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 244 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 184 words of extra memory for PDF output out of 10000 (max. 10000000)
 

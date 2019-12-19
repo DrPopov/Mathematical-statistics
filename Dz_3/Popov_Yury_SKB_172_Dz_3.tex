@@ -190,117 +190,180 @@ $$
 S^2 = \hat{\mu}_2 = \frac{1}{n} \sum\limits_{i = 1}^n  (X_i - \bar{X})^2
 $$
 
-\vspace{5mm}
-\phantomsection
-\textbf{\section{\large{3.1.1 Геометрическое распределение}}}
-\vspace{5mm}
-
-Для каждой выборки из домашнего задания 2 посчитаем выборочное среднее и выборочную дисперсию. Для наглядности выведем вариационный ряд  для объема 5 и 10 и посчитанные оба параметра.
-
-\begin{figure}[h!]
-	\begin{center}
-		\begin{minipage}[h]{0.47\linewidth}
-			\center{\includegraphics[width=1\linewidth]{fotos/geom_3,1_5.jpg}} n = 5 \\
-		\end{minipage}
-		\hfill		
-		\begin{minipage}[h]{0.47\linewidth}
- 			\center{\includegraphics[width=1\linewidth]{fotos/geom_3,1_10.jpg}} n = 10 \\
-		\end{minipage}
-	\end{center}
-\end{figure}
-
-\begin{figure}[h!]
-	\begin{center}
-		\begin{minipage}[h]{0.47\linewidth}
-			\center{\includegraphics[width=1\linewidth]{fotos/geom_3,1_100.jpg}} n = 100 \\
-			\vspace{15mm}
-		\end{minipage}
-		\hfill
-		\begin{minipage}[h]{0.47\linewidth}
-			\center{\includegraphics[width=1\linewidth]{fotos/geom_3,1_1000.jpg}} n = 1000 \\
-			\vspace{5mm}
-		\end{minipage}
-		\hfill
-		\begin{minipage}[h]{0.47\linewidth}
-			\center{\includegraphics[width=1\linewidth]{fotos/geom_3,1_103.jpg}} n = 100000 \\
-			\vspace{5mm}
-		\end{minipage}	
-	\end{center}
-\end{figure}
-
-\newpage
-$$
-\\
-\\
-\\
-\\
-\\
-\\
-$$
-
-
-
-\newpage
-\textbf{Свойства выборочного среднего}
-
-
-\vspace{5mm}
-{\sf$\bullet$ Выборочное среднее — несмещённая оценка теоретического среднего:}
-\vspace{5mm}
-
-\vspace{5mm}
-{\sf$\bullet$ Выборочное среднее — сильно состоятельная оценка теоретического среднего:}
-\vspace{5mm}
-
-\vspace{5mm}
-{\sf$\bullet$ Выборочное среднее — асимптотически нормальная оценка.}
-\vspace{5mm}
-
-\vspace{5mm}
-{\sf$\bullet$ Выборочное среднее из нормальной выборки — эффективная оценка её среднего.}
-\vspace{5mm}
-
 
 \vspace{5mm}
 \phantomsection
-\section{3.1.2 Экспоненциальное распределение}
+\section{\large{3.1.1 Экспоненциальное распределение}}
 \vspace{5mm}
 
+Посчитаем теоритические значения выборочного среднего и выборочной дисперсии. Расчеты будут проводится для $ \lambda = 0.8 $.
 
-Для каждой выборки из домашнего задания 2 посчитаем выборочное среднее и выборочную дисперсию. Для наглядности выведем вариационный ряд  для объема 5 и 10 и посчитанные оба параметра.
+\textit{Выборочное среднее:}
+$$
+MX = \dfrac{1}{\lambda} = \dfrac{1}{0.8} = 1,25
+$$
 
-\begin{figure}[h!]
-	\begin{center}
-		\begin{minipage}[h]{0.47\linewidth}
-			\center{\includegraphics[width=1\linewidth]{fotos/expon_3,1_5.jpg}} n = 5 \\
-			\vspace{15mm}
-		\end{minipage}
-		\hfill		
-		\begin{minipage}[h]{0.47\linewidth}
-			\center{\includegraphics[width=1\linewidth]{fotos/expon_3,1_10.jpg}} n = 10 \\
-			\vspace{15mm}
-		\end{minipage}	
-	\end{center}
-\end{figure}
+$n = 5 $
 
-\begin{figure}[h!]
-	\begin{center}
-		\begin{minipage}[h]{0.47\linewidth}
-			\center{\includegraphics[width=1\linewidth]{fotos/expon_3,1_100.jpg}} n = 100 \\
-			\vspace{15mm}
-		\end{minipage}
-		\hfill
-		\begin{minipage}[h]{0.47\linewidth}
-			\center{\includegraphics[width=1\linewidth]{fotos/expon_3,1_1000.jpg}} n = 1000 \\
-			\vspace{5mm}
-		\end{minipage}
-		\hfill
-		\begin{minipage}[h]{0.47\linewidth}
-			\center{\includegraphics[width=1\linewidth]{fotos/expon_3,1_103.jpg}} n = 100000 \\
-			\vspace{5mm}
-		\end{minipage}	
-	\end{center}
-\end{figure}
+$\overline{X} = 1,36$
+
+$\Delta = |MX - \overline X | = 0,11$\\
+
+$n = 10 $
+
+$\overline{X} = 1,85$
+
+$\Delta = |MX - \overline X | = 0,6$\\
+
+$n = 100 $
+
+$\overline{X} = 1,21$
+
+$\Delta = |MX - \overline X | = 0,08$\\
+
+$n = 1000 $
+
+$\overline{X} = 1,33$
+
+$\Delta = |MX - \overline X | = 0,04$\\
+
+$n = 10^5 $
+
+$\overline{X} = 1,248$
+
+$\Delta = |MX - \overline X | = 0,002$\\
+
+\textit{Выборочная дисперсия:}
+
+$$
+DX = \dfrac{1}{\lambda^2} = \dfrac{1}{0.8^2} = 1,5625
+$$
+
+$n = 5 $
+
+$\hat{\sigma^2} = 0,7$
+
+$\Delta = |DX - \hat{\sigma^2}| = 0,8624$\\
+
+$n = 10 $
+
+$\hat{\sigma^2} = 1,035$
+
+$\Delta = |DX - \hat{\sigma^2}| = 0,5275$\\
+
+$n = 100 $
+
+$\hat{\sigma^2} = 1,153$
+
+$\Delta = |DX - \hat{\sigma^2}| = 0,4$\\
+
+
+$n = 1000 $
+
+$\hat{\sigma^2} = 1,515$
+
+$\Delta = |DX - \hat{\sigma^2}| = 0,0475$\\
+
+$n = 10^5 $
+
+$\hat{\sigma^2} = 1,563$
+
+$\Delta = |DX - \hat{\sigma^2}| = 0,0005$\\
+
+Из приведенных данных прекрасно видно, что при увлечении объема выборки, то есть при увеличении количества рассматриваемых величин, разница между истинными значениями параметров и значениями их параметров стремится к 0.\\
+
+
+Это еще раз доказало свойство выборочных моментов - \textit{асимптотическое поведение при неограниченном возрастании объема выборки}. \\
+
+На основании неравенства Чебышева следует, что для любого  $\varepsilon > 0\text{ при } n \rightarrow \infty   $ 
+$$
+P\{|\hat{\alpha_{nk}} - \alpha_k| < \varepsilon\} \rightarrow 1
+$$
+
+
+\vspace{5mm}
+\phantomsection
+\textbf{\section{\large{3.1.2 Геометрическое распределение}}}
+\vspace{5mm}
+
+Посчитаем теоритические значения выборочного среднего и выборочной дисперсии. Расчеты будут проводится для $ p  = 0.2 $.
+
+\textit{Выборочное среднее:}
+$$
+MX = \dfrac{1}{p} = \dfrac{1}{0.25} = 4
+$$
+
+$n = 5 $
+
+$\overline{X} = 1,4$
+
+$\Delta = |MX - \overline X | = 2,6$\\
+
+$n = 10 $
+
+$\overline{X} = 2,8$
+
+$\Delta = |MX - \overline X | = 1,2$\\
+
+$n = 100 $
+
+$\overline{X} = 3,64$
+
+$\Delta = |MX - \overline X | = 0,36$\\
+
+$n = 1000 $
+
+$\overline{X} = 3,893$
+
+$\Delta = |MX - \overline X | = 0,107$\\
+
+$n = 10^5 $
+
+$\overline{X} = 3,979$
+
+$\Delta = |MX - \overline X | = 0,021$\\
+
+\textit{Выборочная дисперсия:}
+
+$$
+DX = \dfrac{1}{p^2} = \dfrac{1}{0.25^2} = 16
+$$
+
+$n = 5 $
+
+$\hat{\sigma^2} = 5,04$
+
+$\Delta = |DX - \hat{\sigma^2}| = 10.96$\\
+
+$n = 10 $
+
+$\hat{\sigma^2} = 8,29$
+
+$\Delta = |DX - \hat{\sigma^2}| = 7,71$\\
+
+
+$n = 100 $
+
+$\hat{\sigma^2} = 12,248$
+
+$\Delta = |DX - \hat{\sigma^2}| = 3,752$\\
+
+$n = 1000 $
+
+$\hat{\sigma^2} = 15,297$
+
+$\Delta = |DX - \hat{\sigma^2}| = 0,703$\\
+
+$n = 10^5 $
+
+$\hat{\sigma^2} = 15,989$
+
+$\Delta = |DX - \hat{\sigma^2}| = 0,011$\\
+
+Объяснение такое же (написано выше)
+
+
+
 
 
 \phantomsection
@@ -519,11 +582,57 @@ $$
 \hat{\theta} = \dfrac{n}{\overline{X}} = \dfrac{n}{\sum\limits_{i = 1}^n X_i}
 $$
 
+\textbf{Проверим несмещенность:}
+$$
+M\hat{\Theta} = M \dfrac{n}{\sum_{i= 1}^{n} X_i} = n M \dfrac{1}{\sum_{i = 1}^{n} X_i}
+$$
 
+Воспользуемся связью между распределениями, и так как $ X_i $ распределена экспоненциально, то сумма $ X_i $ будет иметь распределение Эрланга с параметрами $ n  $ и $ \theta $. Получаем:
+$$
+M\hat{\theta} = \dfrac{n \theta}{n - 1}
+$$
 
+Итог: оценка является смещенной.
 
+Если оценка смещенная, то она не является эффективной. Построим несмещенную оценку $ \theta $:
+$$
+\hat{\theta} = \dfrac{n - 1}{n} \dfrac{n}{\sum_{i = 1}^{n} X_i} = \dfrac{n-1}{\sum_{i = 1}^{n} X_i}
+$$
 
+$$
+M\tilde{\theta} = \theta 
+$$
 
+\textbf{Проверим состоятельность:}
+$$
+D \tilde{\theta} = M\tilde{\theta ^2}  - (M \tilde{\theta})^2 
+$$
+$$
+M\tilde{\theta ^2} =  (n - 1)^2 M(\dfrac{1}{\sum_{i = 1}^{n}X_i})^2 = (n-1)^2 \dfrac{Г(n - 2)}{Г(n)} \theta^2 = \dfrac{n - 1}{n -2 }\theta^2
+$$
+$$
+D \tilde{\theta} = M\tilde{\theta ^2}  - (M \tilde{\theta})^2  = \dfrac{n - 1}{n -2}\theta^2 - \theta^2 = \dfrac{\theta^2}{(n - 2)}
+$$
+
+Итог: так как $ D\tilde{\theta} \rightarrow 0 \text{ при }  \infty$, то оценка будет состоятельной.
+
+Так как распределение принадлежит экспоненциальному семейству, то достаточная статистика для параметра является полной\\
+
+\textbf{Проверим на достаточную статистику}
+
+Докажем, что  $ \overline(X) $ является достаточной статистикой для $ \theta $
+
+$$
+L(x , \theta) = \ln (\prod\limits_{i = 1}^n \theta e^{-\theta x_i}) = \theta^n \ln(\prod\limits_{i = 1}^n \theta e^{-\theta n \overline{X}}) = n \ln\theta - \theta n \overline{X} = n(\ln \theta - \theta \overline{X} )
+$$
+
+Соотвественно, так как выполняется критерий факторизации, то $ T(X) = \overline{X} $ является достаточной статистикой и значит полной статистикой.\\
+
+\textbf{Проверим на оптимальность}
+
+По теореме Рао-Блэкулла-Колмагорова - оптимальная оценка, если существует является функцией от достаточной статистики. Если статистика полная, то можно сделать и обратное утверждение. Функция от полной и достаточной статистики является оптимальной.
+
+Оценка $ T(\dfrac{n -1 }{\sum_{i =1}^{n } X_i}) = \dfrac{1 - 1/n}{\overline{X}} $  является функцией от достаточной полной статистики, а значит по теореме является оптимальной.
 
 \phantomsection
 \vspace{5mm}
