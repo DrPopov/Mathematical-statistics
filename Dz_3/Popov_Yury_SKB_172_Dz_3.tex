@@ -634,6 +634,23 @@ $$
 
 Оценка $ T(\dfrac{n -1 }{\sum_{i =1}^{n } X_i}) = \dfrac{1 - 1/n}{\overline{X}} $  является функцией от достаточной полной статистики, а значит по теореме является оптимальной.
 
+
+\chapter{ Регулярность }
+
+Статистическая модель называется \textit{регулярной} (по Рао-Крамеру), если выполнены следующие условия, которые в дальнейшем будем называть условиями регулярности:
+
+
+\begin{enumerate}
+	\item $L(\bar{x}; \theta) > 0$ и дифференцируема по $\theta, \; \forall \theta \in \Theta$ ( $\Theta$ --- параметрическое множество).
+	\item Случайная величина $V(x; \theta)$, называемая функцией вклада выборки и определенная равенством
+	\[V(x; \theta) = \frac{\partial \ln (L(\bar{x}; \theta))}{\partial \theta} = \sum \limits_{i = 1}^{\infty} \frac{\partial \ln(f_i(x_i;\theta))}{\partial \theta},\] имеет ограниченную дисперсию:
+	\[0 < E V^2(X; \theta) < \infty. \] При этом значение $\cfrac{\partial \ln(f_i(x_i;\theta))}{\partial \theta}$  будем называть вкладом выборки.
+	\item $\forall \theta \in \Theta$ $\forall$ статистики $T(X)$ верно равенство:
+	\[
+	\frac{\partial}{\partial \theta} \int T(x) L(\bar{x}; \theta) dx = \int T(x) \frac{\partial L(\bar{x}; \theta)}{\partial \theta} dx.
+	\]
+\end{enumerate}
+
 \phantomsection
 \vspace{5mm}
 \large\textit{\chapter{Задание 3.4 Работа с данными}}
